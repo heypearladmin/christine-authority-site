@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Christine Andreasen",
@@ -38,7 +39,7 @@ export default function ContactPage() {
             Quiet conversations welcome.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink/75 md:text-lg">
-            Whether you're months away from a decision or already preparing a
+            Whether you&rsquo;re months away from a decision or already preparing a
             home for market, the earliest conversations are often the most
             valuable. There is no pressure and no obligation.
           </p>
@@ -58,131 +59,7 @@ export default function ContactPage() {
               one business day.
             </p>
 
-            <form
-              action="mailto:christine@candco.me"
-              method="post"
-              encType="text/plain"
-              className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2"
-            >
-              <div className="md:col-span-1">
-                <label
-                  htmlFor="firstName"
-                  className="block text-xs uppercase tracking-editorial text-ink/60"
-                >
-                  First name
-                </label>
-                <input
-                  id="firstName"
-                  name="firstName"
-                  type="text"
-                  required
-                  className="mt-2 w-full border-b border-ink/30 bg-transparent py-3 text-ink placeholder:text-ink/40 focus:border-gold focus:outline-none"
-                  placeholder="Your first name"
-                />
-              </div>
-              <div className="md:col-span-1">
-                <label
-                  htmlFor="lastName"
-                  className="block text-xs uppercase tracking-editorial text-ink/60"
-                >
-                  Last name
-                </label>
-                <input
-                  id="lastName"
-                  name="lastName"
-                  type="text"
-                  required
-                  className="mt-2 w-full border-b border-ink/30 bg-transparent py-3 text-ink placeholder:text-ink/40 focus:border-gold focus:outline-none"
-                  placeholder="Your last name"
-                />
-              </div>
-              <div className="md:col-span-1">
-                <label
-                  htmlFor="email"
-                  className="block text-xs uppercase tracking-editorial text-ink/60"
-                >
-                  Email
-                </label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  className="mt-2 w-full border-b border-ink/30 bg-transparent py-3 text-ink placeholder:text-ink/40 focus:border-gold focus:outline-none"
-                  placeholder="you@example.com"
-                />
-              </div>
-              <div className="md:col-span-1">
-                <label
-                  htmlFor="phone"
-                  className="block text-xs uppercase tracking-editorial text-ink/60"
-                >
-                  Phone (optional)
-                </label>
-                <input
-                  id="phone"
-                  name="phone"
-                  type="tel"
-                  className="mt-2 w-full border-b border-ink/30 bg-transparent py-3 text-ink placeholder:text-ink/40 focus:border-gold focus:outline-none"
-                  placeholder="(206) 555-0100"
-                />
-              </div>
-              <div className="md:col-span-2">
-                <label
-                  htmlFor="interest"
-                  className="block text-xs uppercase tracking-editorial text-ink/60"
-                >
-                  I'm interested in
-                </label>
-                <select
-                  id="interest"
-                  name="interest"
-                  className="mt-2 w-full border-b border-ink/30 bg-transparent py-3 text-ink focus:border-gold focus:outline-none"
-                  defaultValue=""
-                >
-                  <option value="" disabled>
-                    Select one
-                  </option>
-                  <option>Selling a home</option>
-                  <option>Buying a home</option>
-                  <option>Valuation / advisory</option>
-                  <option>Just exploring</option>
-                </select>
-              </div>
-              <div className="md:col-span-2">
-                <label
-                  htmlFor="message"
-                  className="block text-xs uppercase tracking-editorial text-ink/60"
-                >
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                  className="mt-2 w-full border-b border-ink/30 bg-transparent py-3 text-ink placeholder:text-ink/40 focus:border-gold focus:outline-none"
-                  placeholder="Tell Christine a little about your timing and goals."
-                />
-              </div>
-              <div className="md:col-span-2">
-                <button
-                  type="submit"
-                  className="inline-flex items-center bg-ink px-6 py-3 text-xs uppercase tracking-editorial text-cream transition-colors duration-300 hover:bg-gold"
-                >
-                  Send Message
-                </button>
-                <p className="mt-4 text-xs text-ink/50">
-                  Or email directly:{" "}
-                  <a
-                    href="mailto:christine@candco.me"
-                    className="text-ink underline decoration-gold underline-offset-4"
-                  >
-                    christine@candco.me
-                  </a>
-                </p>
-              </div>
-            </form>
+            <ContactForm />
           </div>
 
           {/* Details column */}

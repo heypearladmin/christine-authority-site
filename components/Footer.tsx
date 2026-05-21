@@ -25,6 +25,8 @@ const NAV = [
   { href: "/blog", label: "Journal" },
   { href: "/schedule", label: "Schedule" },
   { href: "/contact", label: "Contact" },
+  { href: "/terms", label: "Terms" },
+  { href: "/policies", label: "Privacy" },
 ];
 
 export default function Footer() {
