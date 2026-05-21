@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { serviceSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Schedule a Consultation",
   description:
     "Book a private, no-pressure consultation with Christine Andreasen. A focused 30-minute conversation about your timing, your property, and the right next step in Seattle real estate.",
+  openGraph: { images: [{ url: "/og-default.jpg", width: 1200, height: 630 }] },
+  twitter: { images: ["/og-default.jpg"] },
 };
 
 const STEPS = [
@@ -30,6 +34,21 @@ const STEPS = [
 export default function SchedulePage() {
   return (
     <>
+      <JsonLd
+        schema={[
+          serviceSchema({
+            name: "Real Estate Consultation with Christine Andreasen",
+            url: `${SITE.url}/schedule`,
+            description:
+              "Book a private, no-pressure consultation with Christine Andreasen — a focused conversation about your timing, property, and the right next step in Seattle real estate.",
+            category: "Real Estate Consultation",
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: SITE.url },
+            { name: "Schedule a Consultation", url: `${SITE.url}/schedule` },
+          ]),
+        ]}
+      />
       {/* Header */}
       <section className="bg-cream">
         <div className="mx-auto max-w-7xl px-6 py-20 md:px-10 md:py-28">

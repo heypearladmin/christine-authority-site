@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { personSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "About Christine Andreasen",
   description:
     "Nearly three decades guiding Seattle's most discerning buyers and sellers. Christine Andreasen is the founder of Christine & Company, a luxury real estate practice powered by eXp Realty.",
+  openGraph: { images: [{ url: "/og-default.jpg", width: 1200, height: 630 }] },
+  twitter: { images: ["/og-default.jpg"] },
 };
 
 const PILLARS = [
@@ -30,6 +34,15 @@ const PILLARS = [
 export default function AboutPage() {
   return (
     <>
+      <JsonLd
+        schema={[
+          personSchema(),
+          breadcrumbSchema([
+            { name: "Home", url: SITE.url },
+            { name: "About Christine", url: `${SITE.url}/about` },
+          ]),
+        ]}
+      />
       {/* Intro */}
       <section className="bg-cream">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-20 md:px-10 md:py-28 lg:grid-cols-12 lg:gap-16">

@@ -4,6 +4,8 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts, getAllSlugs, getPostBySlug } from "@/lib/blogs";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { blogPostingSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
 
 type Params = { slug: string };
 
@@ -60,29 +62,26 @@ export default function BlogPostPage({ params }: { params: Params }) {
 
   const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: post.title,
-    description: post.excerpt,
-    image: [post.image],
-    datePublished: post.date,
-    author: {
-      "@type": "Person",
-      name: "Christine Andreasen",
-      url: "https://christineandreasen.com/about",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Christine & Company | eXp Realty",
-    },
-  };
+  const pageUrl = `${SITE.url}/blog/${post.slug}`;
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      <JsonLd
+        schema={[
+          blogPostingSchema({
+            title: post.title,
+            description: post.excerpt,
+            url: pageUrl,
+            image: post.image,
+            datePublished: post.date,
+            keywords: [post.category, "Seattle real estate", "Christine Andreasen"],
+          }),
+          breadcrumbSchema([
+            { name: "Home", url: SITE.url },
+            { name: "The Journal", url: `${SITE.url}/blog` },
+            { name: post.title, url: pageUrl },
+          ]),
+        ]}
       />
 
       {/* Article header */}

@@ -4,6 +4,8 @@ import Image from "next/image";
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts } from "@/lib/blogs";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { serviceSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Seattle Luxury Real Estate Advisor",
@@ -16,6 +18,18 @@ export default function HomePage() {
 
   return (
     <>
+      <JsonLd
+        schema={[
+          serviceSchema({
+            name: "Seattle Luxury Real Estate Advisory",
+            url: SITE.url,
+            description:
+              "Christine Andreasen provides strategic guidance for buyers and sellers across Seattle and surrounding waterfront communities. Editorial presentation, luxury standards, and nearly three decades of local expertise.",
+            category: "Luxury Real Estate Services",
+          }),
+          breadcrumbSchema([{ name: "Home", url: SITE.url }]),
+        ]}
+      />
       <Hero
         eyebrow="Seattle Real Estate Advisor"
         title={

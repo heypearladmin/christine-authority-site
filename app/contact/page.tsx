@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { localBusinessSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Contact Christine Andreasen",
   description:
     "Schedule a quiet, no-pressure consultation with Christine Andreasen. Christine & Company | eXp Realty — serving Seattle and surrounding waterfront communities.",
+  openGraph: { images: [{ url: "/og-default.jpg", width: 1200, height: 630 }] },
+  twitter: { images: ["/og-default.jpg"] },
 };
 
 const SOCIAL = [
@@ -30,6 +34,15 @@ const SOCIAL = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd
+        schema={[
+          localBusinessSchema(),
+          breadcrumbSchema([
+            { name: "Home", url: SITE.url },
+            { name: "Contact", url: `${SITE.url}/contact` },
+          ]),
+        ]}
+      />
       {/* Header */}
       <section className="bg-cream">
         <div className="mx-auto max-w-7xl px-6 py-20 md:px-10 md:py-28">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { realEstateAgentSchema, webSiteSchema, personSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://christineandreasen.com"),
@@ -56,6 +57,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              realEstateAgentSchema(),
+              webSiteSchema(),
+              personSchema(),
+            ]),
+          }}
+        />
+      </head>
       <body className="bg-cream text-ink antialiased">
         <Navbar />
         <main className="min-h-screen">{children}</main>
