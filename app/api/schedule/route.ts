@@ -1,12 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
-  const webhookUrl = process.env.GHL_SCHEDULE_WEBHOOK_URL;
-
-  if (!webhookUrl) {
-    console.error("GHL_SCHEDULE_WEBHOOK_URL is not set");
-    return NextResponse.json({ error: "Service unavailable" }, { status: 503 });
-  }
+  const webhookUrl = process.env.GHL_SCHEDULE_WEBHOOK_URL || "https://services.leadconnectorhq.com/hooks/4EYbwDOzwoNL4tXkkbQi/webhook-trigger/M6aKJQtMJkz6GusYIHmP";
 
   let body: Record<string, string>;
   try {
