@@ -16,6 +16,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
   }
 
+  const notesSummary = [
+    `Purpose: ${purpose}`,
+    format ? `Format: ${format}` : "",
+    timeframe ? `Timing: ${timeframe}` : "",
+    property ? `Property: ${property}` : "",
+    notes ? `Notes: ${notes}` : "",
+  ].filter(Boolean).join("\n");
+
   const payload = {
     first_name: firstName,
     last_name: lastName,
@@ -23,14 +31,7 @@ export async function POST(req: NextRequest) {
     email,
     phone: phone || "",
     source: "Schedule Page",
-    tags: ["schedule-form", "consultation-request"],
-    customField: {
-      purpose_of_consultation: purpose,
-      preferred_format: format || "",
-      timing: timeframe || "",
-      property_address: property || "",
-      notes: notes || "",
-    },
+    notes: notesSummary,
   };
 
   try {
