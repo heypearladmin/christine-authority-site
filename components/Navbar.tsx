@@ -53,7 +53,7 @@ export default function Navbar() {
             className="text-sm tracking-wide text-ink/60 hover:text-ink transition-colors duration-300"
             aria-label="Client Portal"
           >
-            Client Login
+            Client Portal
           </a>
           <Link
             href="/schedule"
@@ -99,7 +99,7 @@ export default function Navbar() {
               className="mt-2 inline-flex items-center justify-center py-3 text-xs tracking-wide text-ink/60 hover:text-ink"
               onClick={() => setOpen(false)}
             >
-              Client Login
+              Client Portal
             </a>
           </nav>
         </div>
