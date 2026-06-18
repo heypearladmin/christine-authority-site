@@ -10,7 +10,6 @@ const NAV = [
   { href: "/contact", label: "Contact" },
 ];
 
-const CLIENT_PORTAL_URL = "https://app.gohighlevel.com"; // TODO: replace with your GHL client portal URL
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -48,13 +47,6 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
-          <a
-            href={CLIENT_PORTAL_URL}
-            className="text-sm tracking-wide text-ink/60 hover:text-ink transition-colors duration-300"
-            aria-label="Client Portal"
-          >
-            Client Portal
-          </a>
           <Link
             href="/schedule"
             className="ml-2 inline-flex items-center border border-ink px-5 py-2.5 text-xs uppercase tracking-editorial text-ink transition-colors duration-300 hover:bg-ink hover:text-cream"
@@ -94,13 +86,6 @@ export default function Navbar() {
             >
               Schedule a Consultation
             </Link>
-            <a
-              href={CLIENT_PORTAL_URL}
-              className="mt-2 inline-flex items-center justify-center py-3 text-xs tracking-wide text-ink/60 hover:text-ink"
-              onClick={() => setOpen(false)}
-            >
-              Client Portal
-            </a>
           </nav>
         </div>
       )}
