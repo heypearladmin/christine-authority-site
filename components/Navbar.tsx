@@ -48,7 +48,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/schedule"
+            href="/contact"
             className="ml-2 inline-flex items-center border border-ink px-5 py-2.5 text-xs uppercase tracking-editorial text-ink transition-colors duration-300 hover:bg-ink hover:text-cream"
           >
             Schedule a Consultation
@@ -80,7 +80,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/schedule"
+              href="/contact"
               className="mt-4 inline-flex items-center justify-center border border-ink px-5 py-3 text-xs uppercase tracking-editorial text-ink"
               onClick={() => setOpen(false)}
             >
