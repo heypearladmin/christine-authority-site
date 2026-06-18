@@ -10,11 +10,19 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 
-  const { firstName, lastName, email, phone } = body;
+  const { firstName, lastName, email, phone, purpose, format, timeframe, property, notes } = body;
 
-  if (!firstName || !lastName || !email) {
+  if (!firstName || !lastName || !email || !purpose) {
     return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
   }
+
+  const notesSummary = [
+    `Purpose: ${purpose}`,
+    format ? `Format: ${format}` : "",
+    timeframe ? `Timing: ${timeframe}` : "",
+    property ? `Property: ${property}` : "",
+    notes ? `Notes: ${notes}` : "",
+  ].filter(Boolean).join("\n");
 
   const payload = {
     first_name: firstName,
@@ -23,6 +31,7 @@ export async function POST(req: NextRequest) {
     email,
     phone: phone || "",
     source: "Schedule Page",
+    notes: notesSummary,
   };
 
   try {
