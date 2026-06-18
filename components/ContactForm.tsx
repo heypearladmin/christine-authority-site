@@ -9,7 +9,6 @@ const CONTACT_EMAIL = "christine@candco.me";
 
 export default function ContactForm() {
   const router = useRouter();
-  const [consented, setConsented] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
 
@@ -133,53 +132,38 @@ export default function ContactForm() {
         />
       </div>
 
-      {/* AI consent disclosure (above checkbox, per A2P 10DLC / GHL requirement) */}
+      {/* Non-marketing consent (optional) */}
       <div className="md:col-span-2">
-        <p className="text-xs leading-relaxed text-ink/60">
-          By providing your phone number, you consent to receive calls and text
-          messages, including automated calls and AI-assisted communications,
-          from {COMPANY}.
-        </p>
+        <label htmlFor="consentService" className="flex cursor-pointer items-start gap-3">
+          <input
+            id="consentService"
+            name="consentService"
+            type="checkbox"
+            className="mt-1 h-4 w-4 shrink-0 cursor-pointer accent-ink focus:outline-none focus:ring-1 focus:ring-gold"
+          />
+          <span className="text-xs leading-relaxed text-ink/70">
+            I consent to receive non-marketing text messages from <strong>{COMPANY}</strong> regarding
+            appointment confirmations, consultation follow-ups, and service updates.
+            Message frequency varies, message &amp; data rates may apply. Reply HELP for
+            assistance, reply STOP to opt out.
+          </span>
+        </label>
       </div>
 
-      {/* Required consent checkbox */}
+      {/* Marketing consent (optional) */}
       <div className="md:col-span-2">
-        <label
-          htmlFor="consent"
-          className="flex cursor-pointer items-start gap-3"
-        >
+        <label htmlFor="consentMarketing" className="flex cursor-pointer items-start gap-3">
           <input
-            id="consent"
-            name="consent"
+            id="consentMarketing"
+            name="consentMarketing"
             type="checkbox"
-            required
-            checked={consented}
-            onChange={(e) => setConsented(e.target.checked)}
-            aria-describedby="consent-text"
-            className="mt-1 h-4 w-4 shrink-0 cursor-pointer border-ink/40 text-ink accent-ink focus:outline-none focus:ring-1 focus:ring-gold"
+            className="mt-1 h-4 w-4 shrink-0 cursor-pointer accent-ink focus:outline-none focus:ring-1 focus:ring-gold"
           />
-          <span
-            id="consent-text"
-            className="text-xs leading-relaxed text-ink/70"
-          >
-            I agree to receive text messages and phone calls from {COMPANY} at
-            the phone number provided. Message frequency varies. Message &amp;
-            data rates may apply. Reply STOP to unsubscribe. Reply HELP for
-            help. By submitting this form, you agree to our{" "}
-            <Link
-              href="/terms"
-              className="underline decoration-gold underline-offset-4 hover:text-ink"
-            >
-              Terms &amp; Conditions
-            </Link>{" "}
-            and{" "}
-            <Link
-              href="/policies"
-              className="underline decoration-gold underline-offset-4 hover:text-ink"
-            >
-              Privacy Policy
-            </Link>
-            .
+          <span className="text-xs leading-relaxed text-ink/70">
+            I consent to receive marketing text messages from <strong>{COMPANY}</strong> regarding
+            new listings, open houses, and Seattle real estate market updates.
+            Message frequency varies, message &amp; data rates may apply. Reply HELP for
+            assistance, reply STOP to opt out.
           </span>
         </label>
       </div>
@@ -193,18 +177,19 @@ export default function ContactForm() {
       <div className="md:col-span-2">
         <button
           type="submit"
-          disabled={!consented || submitting}
-          aria-disabled={!consented || submitting}
-          className="inline-flex items-center bg-ink px-6 py-3 text-xs uppercase tracking-editorial text-cream transition-colors duration-300 hover:bg-gold disabled:cursor-not-allowed disabled:bg-ink/40 disabled:hover:bg-ink/40"
+          disabled={submitting}
+          className="inline-flex items-center bg-ink px-6 py-3 text-xs uppercase tracking-editorial text-cream transition-colors duration-300 hover:bg-gold disabled:opacity-50"
         >
           {submitting ? "Sending…" : "Send Message"}
         </button>
         <p className="mt-4 text-xs text-ink/50">
+          <Link href="/policies" className="text-ink underline decoration-gold underline-offset-4 hover:text-gold">Privacy Policy</Link>
+          {" | "}
+          <Link href="/terms" className="text-ink underline decoration-gold underline-offset-4 hover:text-gold">Terms &amp; Conditions</Link>
+        </p>
+        <p className="mt-3 text-xs text-ink/50">
           Or email directly:{" "}
-          <a
-            href={`mailto:${CONTACT_EMAIL}`}
-            className="text-ink underline decoration-gold underline-offset-4"
-          >
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-ink underline decoration-gold underline-offset-4">
             {CONTACT_EMAIL}
           </a>
         </p>
