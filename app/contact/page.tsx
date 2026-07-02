@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { localBusinessSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
+import { localBusinessSchema, breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Contact Christine Andreasen",
@@ -41,6 +41,12 @@ export default function ContactPage() {
             { name: "Home", url: SITE.url },
             { name: "Contact", url: `${SITE.url}/contact` },
           ]),
+          webPageSchema({
+            name: "Contact Christine Andreasen | Seattle Real Estate",
+            url: `${SITE.url}/contact`,
+            description:
+              "Get in touch with Christine Andreasen — Christine & Company | eXp Realty. Call, email, or follow along on social media.",
+          }),
         ]}
       />
 

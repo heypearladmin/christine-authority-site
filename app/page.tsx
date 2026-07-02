@@ -5,12 +5,12 @@ import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts } from "@/lib/blogs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { serviceSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
+import { serviceSchema, breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Seattle Luxury Real Estate Advisor",
   description:
-    "Christine Andreasen — Seattle's editorial real estate advisor. Strategic guidance, confident decisions, exceptional outcomes for buyers and sellers across Seattle and surrounding waterfront communities.",
+    "Seattle luxury real estate advisor with 30+ years of experience. Strategic guidance for buyers and sellers across Seattle, Mercer Island, and Bellevue. Christine Andreasen | eXp Realty.",
 };
 
 export default function HomePage() {
@@ -28,6 +28,12 @@ export default function HomePage() {
             category: "Luxury Real Estate Services",
           }),
           breadcrumbSchema([{ name: "Home", url: SITE.url }]),
+          webPageSchema({
+            name: "Christine Andreasen | Seattle Luxury Real Estate Advisor",
+            url: SITE.url,
+            description:
+              "Seattle luxury real estate advisor with 30+ years of experience. Strategic guidance for buyers and sellers across Seattle, Mercer Island, and Bellevue.",
+          }),
         ]}
       />
       <Hero
@@ -66,6 +72,37 @@ export default function HomePage() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Agent identity — headshot + intro */}
+      <section className="bg-cream">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-6 py-20 md:grid-cols-12 md:px-10 md:py-24">
+          <div className="relative h-80 overflow-hidden md:col-span-4 md:h-[480px]">
+            <Image
+              src="/headshot.jpg"
+              alt="Christine Andreasen, Seattle luxury real estate advisor"
+              fill
+              sizes="(min-width: 768px) 33vw, 100vw"
+              className="object-cover object-top"
+            />
+          </div>
+          <div className="md:col-span-7 md:col-start-6">
+            <p className="eyebrow">Christine Andreasen</p>
+            <span className="gold-rule mt-4" />
+            <h2 className="mt-6 font-serif text-4xl leading-[1.1] text-ink md:text-5xl">
+              Nearly three decades in Seattle's most discerning market.
+            </h2>
+            <p className="mt-6 text-base leading-relaxed text-ink/80 md:text-lg">
+              Christine Andreasen is the founder of Christine & Company, a luxury real estate practice powered by eXp Realty. She specializes in strategic guidance for buyers, sellers, and owners across Seattle, Mercer Island, and the surrounding waterfront communities — with an approach that is editorial in presentation and decisive in outcome.
+            </p>
+            <Link
+              href="/about"
+              className="editorial-link mt-6 inline-flex items-center gap-2 text-xs uppercase tracking-editorial text-ink"
+            >
+              More about Christine <span aria-hidden>&rarr;</span>
+            </Link>
+          </div>
         </div>
       </section>
 

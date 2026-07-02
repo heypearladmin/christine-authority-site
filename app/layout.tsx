@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Christine Andreasen",
   },
   description:
-    "Christine Andreasen is a Seattle-based luxury real estate advisor with nearly three decades of experience. Strategic guidance, confident decisions, exceptional outcomes.",
+    "Seattle luxury real estate advisor with 30 years of experience. Strategic guidance for buyers and sellers. Christine Andreasen | Christine & Company | eXp Realty.",
   keywords: [
     "Seattle real estate",
     "luxury homes Seattle",

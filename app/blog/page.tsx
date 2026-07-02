@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts } from "@/lib/blogs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { breadcrumbSchema, SITE } from "@/lib/seo/schema";
+import { breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "The Journal | Seattle Real Estate Insights",
   description:
-    "Editorial insights on Seattle's luxury real estate market — staging, neighborhoods, valuations, and strategy from Christine Andreasen of Christine & Company | eXp Realty.",
+    "Seattle real estate insights from Christine Andreasen — staging, neighborhoods, market strategy, and buyer/seller guides. Christine & Company | eXp Realty.",
   openGraph: {
     title: "The Journal | Seattle Real Estate Insights",
     description:
@@ -24,10 +24,18 @@ export default function BlogIndexPage() {
   return (
     <>
       <JsonLd
-        schema={breadcrumbSchema([
-          { name: "Home", url: SITE.url },
-          { name: "The Journal", url: `${SITE.url}/blog` },
-        ])}
+        schema={[
+          breadcrumbSchema([
+            { name: "Home", url: SITE.url },
+            { name: "The Journal", url: `${SITE.url}/blog` },
+          ]),
+          webPageSchema({
+            name: "The Journal | Seattle Real Estate Insights",
+            url: `${SITE.url}/blog`,
+            description:
+              "Seattle real estate insights from Christine Andreasen — staging, neighborhoods, market strategy, and buyer/seller guides. Christine & Company | eXp Realty.",
+          }),
+        ]}
       />
       {/* Header */}
       <section className="bg-cream">

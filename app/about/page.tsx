@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { personSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
+import { personSchema, breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "About Christine Andreasen",
   description:
-    "Nearly three decades guiding Seattle's most discerning buyers and sellers. Christine Andreasen is the founder of Christine & Company, a luxury real estate practice powered by eXp Realty.",
+    "Meet Christine Andreasen — Seattle luxury real estate advisor, founder of Christine & Company, powered by eXp Realty. 30 years serving Seattle buyers and sellers.",
   openGraph: { images: [{ url: "/og-default.jpg", width: 1200, height: 630 }] },
   twitter: { images: ["/og-default.jpg"] },
 };
@@ -41,6 +41,12 @@ export default function AboutPage() {
             { name: "Home", url: SITE.url },
             { name: "About Christine", url: `${SITE.url}/about` },
           ]),
+          webPageSchema({
+            name: "About Christine Andreasen | Seattle Luxury Real Estate",
+            url: `${SITE.url}/about`,
+            description:
+              "Meet Christine Andreasen — Seattle luxury real estate advisor, founder of Christine & Company, powered by eXp Realty. 30 years serving Seattle buyers and sellers.",
+          }),
         ]}
       />
       {/* Intro */}

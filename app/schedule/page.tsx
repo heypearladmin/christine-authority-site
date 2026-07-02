@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { serviceSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
+import { serviceSchema, breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
 import ScheduleForm from "./ScheduleForm";
 
 export const metadata: Metadata = {
   title: "Schedule a Consultation",
   description:
-    "Book a private, no-pressure consultation with Christine Andreasen. A focused 30-minute conversation about your timing, your property, and the right next step in Seattle real estate.",
+    "Book a private consultation with Christine Andreasen, Seattle luxury real estate advisor. No pressure — just a focused conversation about your timing and next step.",
   openGraph: { images: [{ url: "/og-default.jpg", width: 1200, height: 630 }] },
   twitter: { images: ["/og-default.jpg"] },
 };
@@ -48,6 +48,12 @@ export default function SchedulePage() {
             { name: "Home", url: SITE.url },
             { name: "Schedule a Consultation", url: `${SITE.url}/schedule` },
           ]),
+          webPageSchema({
+            name: "Schedule a Consultation | Christine Andreasen Seattle Real Estate",
+            url: `${SITE.url}/schedule`,
+            description:
+              "Book a private consultation with Christine Andreasen, Seattle luxury real estate advisor. No pressure — just a focused conversation about your timing and next step.",
+          }),
         ]}
       />
       {/* Header */}

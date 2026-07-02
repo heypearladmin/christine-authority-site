@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts, getAllSlugs, getPostBySlug } from "@/lib/blogs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { blogPostingSchema, breadcrumbSchema, SITE } from "@/lib/seo/schema";
+import { blogPostingSchema, breadcrumbSchema, faqPageSchema, SITE } from "@/lib/seo/schema";
 
 type Params = { slug: string };
 
@@ -57,6 +57,21 @@ function formatDate(d: string) {
   });
 }
 
+function extractFaqs(post: ReturnType<typeof getPostBySlug>) {
+  if (!post) return [];
+  const faqSection = post.sections.find((s) =>
+    s.heading.toLowerCase().includes("frequently asked")
+  );
+  if (!faqSection) return [];
+  const faqs: { question: string; answer: string }[] = [];
+  for (let i = 0; i + 1 < faqSection.body.length; i += 2) {
+    const q = faqSection.body[i];
+    const a = faqSection.body[i + 1];
+    if (q && a) faqs.push({ question: q, answer: a });
+  }
+  return faqs;
+}
+
 export default function BlogPostPage({ params }: { params: Params }) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
@@ -64,6 +79,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
   const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
 
   const pageUrl = `${SITE.url}/blog/${post.slug}`;
+  const faqs = extractFaqs(post);
 
   return (
     <>
@@ -82,6 +98,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
             { name: "The Journal", url: `${SITE.url}/blog` },
             { name: post.title, url: pageUrl },
           ]),
+          ...(faqs.length > 0 ? [faqPageSchema(faqs)] : []),
         ]}
       />
 
