@@ -13,7 +13,8 @@ export type BlogCardProps = {
 };
 
 function formatDate(d: string) {
-  return new Date(d).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  const [year, month, day] = d.split("-").map(Number);
+  return new Date(year, month - 1, day).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
 }
 
 export default function BlogCard({
