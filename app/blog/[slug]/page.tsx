@@ -163,13 +163,17 @@ export default function BlogPostPage({ params }: { params: Params }) {
             {post.sections.map((section) => (
               <section key={section.heading} className="scroll-mt-24">
                 <h2>{section.heading}</h2>
-                {section.body.map((para, i) =>
-                  para.trimEnd().endsWith("?") ? (
-                    <p key={i} className="font-semibold">{para}</p>
-                  ) : (
-                    <p key={i}>{para}</p>
-                  )
-                )}
+                {section.body.map((para, i) => {
+                  const qMatch = para.match(/^(.+\?)\s+([\s\S]+)$/);
+                  if (qMatch) {
+                    return (
+                      <p key={i}>
+                        <strong>{qMatch[1]}</strong>{" "}{qMatch[2]}
+                      </p>
+                    );
+                  }
+                  return <p key={i}>{para}</p>;
+                })}
               </section>
             ))}
 
