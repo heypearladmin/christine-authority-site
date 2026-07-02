@@ -65,8 +65,11 @@ export default function BlogIndexPage() {
               </a>
             </div>
             <div className="flex flex-col justify-center lg:col-span-5">
-              <div className="text-xs uppercase tracking-editorial text-gold">
-                Featured &middot; {feature.category}
+              <div className="flex items-center gap-3 text-xs uppercase tracking-editorial text-gold">
+                <span>Featured &middot; {feature.category}</span>
+                {feature.isNew && (
+                  <span className="bg-gold px-2.5 py-1 text-[10px] tracking-widest text-ink font-medium">New</span>
+                )}
               </div>
               <h2 className="mt-4 font-serif text-3xl leading-tight text-ink md:text-4xl">
                 <a href={`/blog/${feature.slug}`} className="editorial-link">
@@ -108,6 +111,8 @@ export default function BlogIndexPage() {
                 image={p.image}
                 category={p.category}
                 readingTime={p.readingTime}
+                date={p.date}
+                isNew={p.isNew}
               />
             ))}
           </div>
