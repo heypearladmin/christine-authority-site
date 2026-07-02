@@ -27,7 +27,7 @@ export const blogPosts: BlogPost[] = [
     category: "Financial Strategy",
     date: "2026-07-02",
     readingTime: "7 min read",
-    image: "/blog-capital-gains.jpg",
+    image: "/website-blog-capital-gains.png",
     imageAlt: "Seattle home exterior at dusk with warm interior lighting",
     isNew: true,
     excerpt:
@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
     category: "Buyer Decision",
     date: "2026-06-25",
     readingTime: "6 min read",
-    image: "/blog-new-construction.jpg",
+    image: "/website-blog-new-construction.png",
     imageAlt: "Modern new construction home next to a classic Seattle craftsman",
     isNew: true,
     excerpt:
@@ -180,7 +180,7 @@ export const blogPosts: BlogPost[] = [
     category: "Neighborhood Guide",
     date: "2026-06-18",
     readingTime: "6 min read",
-    image: "/blog-queen-anne.jpg",
+    image: "/website-blog-queen-anne.png",
     imageAlt: "Queen Anne Hill Seattle with Space Needle in the foreground",
     isNew: true,
     excerpt:
@@ -249,7 +249,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Strategy",
     date: "2026-06-11",
     readingTime: "7 min read",
-    image: "/blog-seller-prep.jpg",
+    image: "/website-blog-seller-prep.png",
     imageAlt: "Beautifully prepared Seattle home entry with fresh flowers and clean sightlines",
     excerpt:
       "The 30 days before listing are when outcomes are made or missed. A disciplined, room-by-room preparation process is what separates homes that sell at premium prices from homes that sit.",
@@ -324,7 +324,7 @@ export const blogPosts: BlogPost[] = [
     category: "Buying Strategy",
     date: "2026-06-04",
     readingTime: "6 min read",
-    image: "/blog-off-market.jpg",
+    image: "/website-blog-off-market.png",
     imageAlt: "Quiet Seattle residential street with mature trees and well-maintained homes",
     excerpt:
       "Some of Seattle's best properties never reach the MLS. Understanding how off-market real estate works — and how to access it — gives serious buyers a meaningful edge in a competitive market.",
@@ -392,7 +392,7 @@ export const blogPosts: BlogPost[] = [
     category: "Financial Guide",
     date: "2026-05-28",
     readingTime: "6 min read",
-    image: "/blog-closing-costs.jpg",
+    image: "/website-blog-closing-costs.png",
     imageAlt: "Seattle real estate closing documents on a clean desk with city view",
     excerpt:
       "Closing costs are one of the most misunderstood parts of a real estate transaction. In Seattle, both buyers and sellers face real costs at closing — understanding them upfront prevents surprises and enables smarter negotiating.",
@@ -460,7 +460,7 @@ export const blogPosts: BlogPost[] = [
     category: "Buyer Education",
     date: "2026-05-21",
     readingTime: "6 min read",
-    image: "/blog-school-districts.jpg",
+    image: "/website-blog-school-districts.png",
     imageAlt: "Tree-lined Seattle street in a family neighborhood near a top-rated school",
     excerpt:
       "School district boundaries don't just determine where children go to school — they draw the invisible lines that separate premium-priced neighborhoods from comparable homes priced significantly lower just blocks away.",
@@ -528,7 +528,7 @@ export const blogPosts: BlogPost[] = [
     category: "Buyer Education",
     date: "2026-05-14",
     readingTime: "6 min read",
-    image: "/blog-condo-vs-house.jpg",
+    image: "/website-blog-condo-vs-house.png",
     imageAlt: "Seattle urban condo building alongside a classic craftsman home on a residential street",
     excerpt:
       "Condo or house — it's one of the most common decisions Seattle buyers face. Each involves different financial obligations, lifestyle trade-offs, and long-term considerations. Here is how to think through it clearly.",
@@ -596,7 +596,7 @@ export const blogPosts: BlogPost[] = [
     category: "Life Stage",
     date: "2026-05-07",
     readingTime: "6 min read",
-    image: "/blog-downsizing.jpg",
+    image: "/website-blog-downsizing.png",
     imageAlt: "Elegant smaller Seattle home interior with floor-to-ceiling windows and city views",
     excerpt:
       "Downsizing in Seattle isn't about giving something up — it's about optimizing for the life you actually want to live. The right process makes the transition financially rewarding and surprisingly liberating.",
@@ -664,7 +664,7 @@ export const blogPosts: BlogPost[] = [
     category: "Property Guide",
     date: "2026-04-30",
     readingTime: "7 min read",
-    image: "/blog-waterfront.jpg",
+    image: "/website-blog-waterfront.png",
     imageAlt: "Seattle lakefront home at sunset with dock and calm water reflections",
     excerpt:
       "Waterfront property in Seattle carries some of the most durable premiums in the Pacific Northwest. Understanding what drives value, what to inspect, and where to buy is essential before entering this category.",
@@ -732,7 +732,7 @@ export const blogPosts: BlogPost[] = [
     category: "Relocation",
     date: "2026-04-23",
     readingTime: "7 min read",
-    image: "/blog-relocation.jpg",
+    image: "/website-blog-relocation.png",
     imageAlt: "Seattle skyline with Mount Rainier visible behind on a clear day",
     excerpt:
       "Moving to Seattle from outside the Pacific Northwest requires a different orientation than a local move. The neighborhoods, the market dynamics, and even the climate operate by their own rules — and the buyers who do best are the ones who do the work before they arrive.",
@@ -800,7 +800,7 @@ export const blogPosts: BlogPost[] = [
     category: "Selling Strategy",
     date: "2026-04-16",
     readingTime: "6 min read",
-    image: "/blog-pricing-strategy.jpg",
+    image: "/website-blog-pricing-strategy.png",
     imageAlt: "Seattle home with sold sign and confident presentation in a residential street",
     excerpt:
       "Pricing a home in Seattle is not a formula — it is a strategy. The sellers who achieve the strongest outcomes are the ones who price with precision, not optimism. Here is how the process works when it is done right.",
@@ -868,7 +868,7 @@ export const blogPosts: BlogPost[] = [
     category: "Neighborhood Guide",
     date: "2026-04-09",
     readingTime: "7 min read",
-    image: "/blog-mercer-island.jpg",
+    image: "/website-blog-mercer-island.png",
     imageAlt: "Aerial view of Mercer Island surrounded by Lake Washington with Seattle skyline beyond",
     excerpt:
       "Mercer Island occupies a singular position in the Seattle metro: an island community with one of the state's best school districts, deep community identity, extraordinary lake access, and a price tier that reflects all of it. Here is what buyers need to know.",
@@ -936,7 +936,7 @@ export const blogPosts: BlogPost[] = [
     category: "Market Timing",
     date: "2026-04-02",
     readingTime: "6 min read",
-    image: "/blog-market-timing.jpg",
+    image: "/website-blog-market-timing.png",
     imageAlt: "Seattle residential street in spring with cherry blossoms and for-sale sign",
     excerpt:
       "Seattle's real estate market follows seasonal rhythms that are distinct from the rest of the country. Knowing when to act — and why — is a genuine competitive advantage for both buyers and sellers.",
@@ -1004,7 +1004,7 @@ export const blogPosts: BlogPost[] = [
     category: "Buying Guide",
     date: "2026-03-26",
     readingTime: "8 min read",
-    image: "/blog-buyer-guide.jpg",
+    image: "/website-blog-buyer-guide.png",
     imageAlt: "Couple reviewing documents in a bright Seattle home with large windows",
     excerpt:
       "Buying a home in Seattle involves more steps — and more nuance — than most first-time buyers anticipate. This complete guide walks through every stage of the process so you can move with confidence, not uncertainty.",
