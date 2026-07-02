@@ -163,17 +163,13 @@ export default function BlogPostPage({ params }: { params: Params }) {
             {post.sections.map((section) => (
               <section key={section.heading} className="scroll-mt-24">
                 <h2>{section.heading}</h2>
-                {section.heading.toLowerCase().includes("frequently asked")
-                  ? section.body.map((para, i) =>
-                      i % 2 === 0 ? (
-                        <p key={i} className="font-semibold">{para}</p>
-                      ) : (
-                        <p key={i}>{para}</p>
-                      )
-                    )
-                  : section.body.map((para, i) => (
-                      <p key={i}>{para}</p>
-                    ))}
+                {section.body.map((para, i) =>
+                  para.trimEnd().endsWith("?") ? (
+                    <p key={i} className="font-semibold">{para}</p>
+                  ) : (
+                    <p key={i}>{para}</p>
+                  )
+                )}
               </section>
             ))}
 
