@@ -174,6 +174,52 @@ export function breadcrumbSchema(
   });
 }
 
+export function organizationSchema(): SchemaObject {
+  return withContext({
+    "@type": "Organization",
+    "@id": `${SITE.url}/#organization`,
+    name: SITE.brand,
+    url: SITE.url,
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE.url}${SITE.logoSrc}`,
+    },
+    telephone: SITE.phone,
+    email: SITE.email,
+    description:
+      "Christine & Company is a Seattle-based luxury real estate practice founded by Christine Andreasen, powered by eXp Realty. Specializing in strategic representation for buyers, sellers, and owners across Seattle and surrounding waterfront communities.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Seattle",
+      addressRegion: "WA",
+      addressCountry: "US",
+    },
+    areaServed: [
+      { "@type": "City", name: "Seattle", containedInPlace: "Washington" },
+      { "@type": "City", name: "Bellevue", containedInPlace: "Washington" },
+      { "@type": "City", name: "Mercer Island", containedInPlace: "Washington" },
+      { "@type": "City", name: "Kirkland", containedInPlace: "Washington" },
+      { "@type": "City", name: "Medina", containedInPlace: "Washington" },
+    ],
+    founder: {
+      "@id": `${SITE.url}/#person`,
+    },
+    member: {
+      "@id": `${SITE.url}/#person`,
+    },
+    parentOrganization: {
+      "@type": "Organization",
+      name: "eXp Realty",
+    },
+    sameAs: [
+      SITE.social.facebook,
+      SITE.social.instagram,
+      SITE.social.linkedin,
+      SITE.social.youtube,
+    ],
+  });
+}
+
 export function webPageSchema(params: {
   name: string;
   url: string;
