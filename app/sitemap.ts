@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blogs";
+import { neighborhoods } from "@/lib/neighborhoods";
+import { services } from "@/lib/services";
 
 const SITE_URL = "https://christineandreasen.com";
 const now = new Date();
@@ -22,5 +24,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...staticRoutes, ...blogRoutes];
+  const neighborhoodRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/neighborhoods`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    ...neighborhoods.map((n) => ({
+      url: `${SITE_URL}/neighborhoods/${n.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
+  const serviceRoutes: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/services`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    ...services.map((s) => ({
+      url: `${SITE_URL}/services/${s.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
+  return [...staticRoutes, ...blogRoutes, ...neighborhoodRoutes, ...serviceRoutes];
 }
