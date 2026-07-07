@@ -98,14 +98,34 @@ export default function AboutPage() {
             </h2>
             <div className="mt-8 space-y-5 text-base leading-relaxed text-ink/80 md:text-lg">
               <p>
-                Christine Andreasen has spent nearly three decades guiding buyers and sellers through Seattle&rsquo;s most consequential transactions. Her practice — Christine &amp; Company, powered by eXp Realty — was built on a simple conviction: that real estate should feel considered, calm, and decisively in the client&rsquo;s favor.
+                Christine Andreasen is the founder of Christine &amp; Company and one of the most recognized real estate professionals in the Seattle area. She pledges to exceed expectations — delivering superior service and remarkable results in every transaction, for every client.
               </p>
               <p>
-                She works at the intersection of editorial presentation and rigorous strategy. Listings are prepared with the care of a magazine shoot. Pricing is built on data and judgment, not guesswork. And every engagement begins where it should — with lifestyle and outcome, not transaction mechanics.
+                Voted Best of Seattle for 14 consecutive years, recognized among the Top 100 influential agents, featured multiple times in Seattle Magazine, and listed in Forbes&rsquo; Top 500 twice — Christine&rsquo;s reputation is built on a career of exceptional outcomes. She works closely with each client to understand their goals and craft the most effective strategy to achieve them.
               </p>
               <p>
-                Her footprint is Seattle and the surrounding waterfront communities: Magnolia, Queen Anne, Mercer Island, Bellevue, West Seattle, Ballard, and beyond.
+                Based in Seattle and serving Washington State comprehensively, Christine also brings global reach through exceptional partners across the world.
               </p>
+            </div>
+            <div className="mt-8 grid grid-cols-1 gap-6 border-t border-ink/10 pt-8 sm:grid-cols-2">
+              <div>
+                <p className="text-xs uppercase tracking-editorial text-gold mb-3">Accolades</p>
+                <ul className="space-y-2 text-sm leading-relaxed text-ink/70">
+                  <li>Voted Best of Seattle — 14 consecutive years</li>
+                  <li>Top 100 Influential Agents</li>
+                  <li>Featured in Seattle Magazine</li>
+                  <li>Forbes Top 500 — recognized twice</li>
+                </ul>
+              </div>
+              <div>
+                <p className="text-xs uppercase tracking-editorial text-gold mb-3">Specialties</p>
+                <ul className="space-y-2 text-sm leading-relaxed text-ink/70">
+                  <li>Keynote Speaker — 20 years</li>
+                  <li>Best-selling Author</li>
+                  <li>National Real Estate Coach</li>
+                  <li>Investment Strategy Expert</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
