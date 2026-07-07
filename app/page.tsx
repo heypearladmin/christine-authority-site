@@ -128,8 +128,8 @@ export default function HomePage() {
           <div className="lg:col-span-6 lg:col-start-7">
             <div className="relative h-64 w-full overflow-hidden image-fallback md:h-80 lg:h-[420px]">
               <Image
-                src="/travis-headshot.jpg"
-                alt="Travis Foxx, Strategic Real Estate Advisor at Christine & Company"
+                src="/christine-travis-together.png"
+                alt="Christine Andreasen and Travis Foxx, Christine & Company"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 className="object-cover object-top"

@@ -144,7 +144,7 @@ export default function AboutPage() {
           <div className="order-1 lg:order-2 lg:col-span-5 lg:col-start-8">
             <div className="relative aspect-[4/5] w-full image-fallback">
               <Image
-                src="/travis-headshot.jpg"
+                src="/travis-headshot.png"
                 alt="Portrait of Travis Foxx, Strategic Real Estate Advisor"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
