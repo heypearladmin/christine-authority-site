@@ -136,7 +136,7 @@ export default function HomePage() {
               />
             </div>
             <p className="mt-4 text-xs uppercase tracking-editorial text-cream/50">
-              Travis Foxx &middot; Strategic Real Estate Advisor
+              Christine Andreasen &amp; Travis Foxx &middot; Christine &amp; Company
             </p>
           </div>
         </div>
