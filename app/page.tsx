@@ -106,6 +106,42 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Partnership */}
+      <section className="bg-ink text-cream">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-20 md:px-10 md:py-24 lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-5 lg:flex lg:flex-col lg:justify-center">
+            <p className="eyebrow text-gold">The Partnership</p>
+            <span className="mt-4 inline-block h-px w-14 bg-gold" />
+            <h2 className="mt-6 font-serif text-4xl leading-[1.1] md:text-5xl">
+              Christine Andreasen &amp; Travis Foxx.
+            </h2>
+            <p className="mt-6 text-base leading-relaxed text-cream/80 md:text-lg">
+              Christine brings nearly three decades of residential luxury expertise — editorial presentation, Seattle market depth, and off-market relationships. Travis brings 30+ years across residential, investment, commercial, multi-family, and complex property strategy. Together they provide the most comprehensive advisory capability in the Seattle luxury market.
+            </p>
+            <Link
+              href="/about"
+              className="mt-8 inline-flex items-center gap-2 text-xs uppercase tracking-editorial text-gold transition-colors hover:text-cream"
+            >
+              Meet the team <span aria-hidden>&rarr;</span>
+            </Link>
+          </div>
+          <div className="lg:col-span-6 lg:col-start-7">
+            <div className="relative h-64 w-full overflow-hidden image-fallback md:h-80 lg:h-[420px]">
+              <Image
+                src="/travis-headshot.jpg"
+                alt="Travis Foxx, Strategic Real Estate Advisor at Christine & Company"
+                fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover object-top"
+              />
+            </div>
+            <p className="mt-4 text-xs uppercase tracking-editorial text-cream/50">
+              Travis Foxx &middot; Strategic Real Estate Advisor
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Philosophy */}
       <section className="bg-cream">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-24 md:px-10 lg:grid-cols-12 lg:gap-16">

@@ -253,6 +253,19 @@ export function faqPageSchema(
   });
 }
 
+export function travisPersonSchema(): SchemaObject {
+  return withContext({
+    "@type": "Person",
+    "@id": `${SITE.url}/#travis`,
+    name: "Travis Foxx",
+    url: SITE.url,
+    jobTitle: "Luxury Real Estate Advisor",
+    description:
+      "Travis Foxx brings more than 30 years of experience across residential, investment, commercial, multi-family, and complex property strategy. He partners with Christine Andreasen at Christine & Company, powered by eXp Realty.",
+    worksFor: { "@id": `${SITE.url}/#agent` },
+  });
+}
+
 export function blogPostingSchema(params: {
   title: string;
   description: string;

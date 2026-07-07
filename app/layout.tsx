@@ -3,7 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { realEstateAgentSchema, webSiteSchema, personSchema, organizationSchema } from "@/lib/seo/schema";
+import { realEstateAgentSchema, webSiteSchema, personSchema, organizationSchema, travisPersonSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://christineandreasen.com"),
@@ -67,6 +67,7 @@ export default function RootLayout({
               webSiteSchema(),
               personSchema(),
               organizationSchema(),
+              travisPersonSchema(),
             ]),
           }}
         />
