@@ -122,7 +122,7 @@ export default function HomePage() {
               href="/about"
               className="mt-8 inline-flex items-center gap-2 text-xs uppercase tracking-editorial text-gold transition-colors hover:text-cream"
             >
-              Meet the team <span aria-hidden>&rarr;</span>
+              More about Christine &amp; Travis <span aria-hidden>&rarr;</span>
             </Link>
           </div>
           <div className="lg:col-span-6 lg:col-start-7">
