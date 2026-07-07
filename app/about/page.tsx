@@ -122,14 +122,22 @@ export default function AboutPage() {
             </h2>
             <div className="mt-8 space-y-5 text-base leading-relaxed text-ink/80 md:text-lg">
               <p>
-                Travis Foxx brings more than 30 years of experience that spans residential, investment, commercial, multi-family, and complex property strategy. Where most real estate practices evaluate a home through a single lens, Travis evaluates every property the way a disciplined investor does — through long-term value, financial structure, risk, and resale strength.
+                Travis Foxx is a veteran real estate professional with over 30 years of experience across residential, investment, commercial, and multi-family properties. He started his first real estate company in Portland in 1996, helping business finance clients with the acquisition, management, and sale of commercial properties — before expanding into multi-family, residential investments, and complex receivership transactions.
               </p>
               <p>
-                His partnership with Christine allows Christine &amp; Company to serve clients whose decisions go beyond a single home purchase — relocation executives weighing multi-property portfolios, investors assessing residential and commercial crossover opportunities, and sellers seeking to understand their property&rsquo;s position in a broader wealth strategy.
+                Travis was instrumental in the SEC Receivership of Dargey Development, overseeing the sale of multiple related properties including a personal residence at $2.41M and Potala Village in Shoreline, sold to Trammel Crow for $11.5 million. That experience — evaluating assets under complexity and pressure — informs how he approaches every property decision today.
               </p>
               <p>
-                Travis is based in the greater Seattle area and brings specific expertise across the North Coast, Eastside, and surrounding waterfront-adjacent communities.
+                He focuses on Seattle&rsquo;s North Coast — the corridor from Magnolia to Mukilteo — with deep specialization in the 98107, 98117, and 98177 zip codes and the Edmonds area, where he has lived for more than a decade. Travis is Christine&rsquo;s life partner and Corporate Controller at Christine &amp; Company.
               </p>
+            </div>
+            <div className="mt-8 flex flex-wrap gap-6 text-sm text-ink/70">
+              <a href="tel:+12069920066" className="hover:text-gold transition-colors">
+                (206) 992-0066
+              </a>
+              <a href="mailto:travis.foxx@exprealty.com" className="hover:text-gold transition-colors">
+                travis.foxx@exprealty.com
+              </a>
             </div>
           </div>
 

@@ -116,7 +116,7 @@ export default function HomePage() {
               Christine Andreasen &amp; Travis Foxx.
             </h2>
             <p className="mt-6 text-base leading-relaxed text-cream/80 md:text-lg">
-              Christine brings nearly three decades of residential luxury expertise — editorial presentation, Seattle market depth, and off-market relationships. Travis brings 30+ years across residential, investment, commercial, multi-family, and complex property strategy. Together they provide the most comprehensive advisory capability in the Seattle luxury market.
+              Christine brings nearly three decades of residential luxury expertise — editorial presentation, Seattle market depth, and off-market relationships. Travis brings 30+ years across residential, investment, commercial, and multi-family properties, with deep roots in Seattle&rsquo;s North Coast from Magnolia to Mukilteo. Together they provide the most comprehensive advisory capability in the Seattle luxury market.
             </p>
             <Link
               href="/about"
