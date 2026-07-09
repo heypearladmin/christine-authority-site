@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: "Contact Christine Andreasen",
   description:
     "Get in touch with Christine Andreasen — Christine & Company | eXp Realty. Call, email, or follow along on social media.",
-  openGraph: { images: [{ url: "/og-default.jpg", width: 1200, height: 630 }] },
-  twitter: { images: ["/og-default.jpg"] },
+  openGraph: { images: [{ url: "/headshot.jpg", width: 1200, height: 630 }] },
+  twitter: { images: ["/headshot.jpg"] },
 };
 
 const SOCIAL = [

@@ -14,8 +14,8 @@ const SITE = {
   state: "WA",
   country: "US",
   portraitSrc: "/christine-portrait.jpg",
-  logoSrc: "/og-default.jpg",
-  ogImage: "/og-default.jpg",
+  logoSrc: "/companylogo.png",
+  ogImage: "/headshot.jpg",
   social: {
     facebook: "https://www.facebook.com/christine.andreasen.robertson",
     instagram: "https://www.instagram.com/christineandcompany",

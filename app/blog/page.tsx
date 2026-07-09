@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     description:
       "Editorial insights on Seattle's luxury real estate market from Christine Andreasen.",
     type: "website",
-    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/headshot.jpg", width: 1200, height: 630 }],
   },
-  twitter: { images: ["/og-default.jpg"] },
+  twitter: { images: ["/headshot.jpg"] },
 };
 
 export default function BlogIndexPage() {

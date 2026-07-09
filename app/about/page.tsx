@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "About Christine Andreasen & Travis Foxx",
   description:
     "Meet Christine Andreasen and Travis Foxx — a strategic luxury real estate partnership with 60+ combined years across Seattle residential, investment, and complex property decisions.",
-  openGraph: { images: [{ url: "/og-default.jpg", width: 1200, height: 630 }] },
-  twitter: { images: ["/og-default.jpg"] },
+  openGraph: { images: [{ url: "/headshot.jpg", width: 800, height: 1000 }] },
+  twitter: { images: ["/headshot.jpg"] },
 };
 
 const PILLARS = [

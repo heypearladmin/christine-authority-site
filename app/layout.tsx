@@ -29,21 +29,12 @@ export const metadata: Metadata = {
     title: "Christine Andreasen | Seattle Luxury Real Estate Advisor",
     description:
       "Strategic guidance. Confident decisions. Exceptional outcomes. Christine & Company | eXp Realty.",
-    images: [
-      {
-        url: "/og-default.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Christine Andreasen — Seattle Real Estate Advisor",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Christine Andreasen | Seattle Luxury Real Estate Advisor",
     description:
       "Strategic guidance. Confident decisions. Exceptional outcomes.",
-    images: ["/og-default.jpg"],
   },
   robots: {
     index: true,
