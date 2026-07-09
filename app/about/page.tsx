@@ -66,7 +66,7 @@ export default function AboutPage() {
             Strategic luxury representation — residential, investment, and beyond.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink/75 md:text-lg">
-            Christine Andreasen and Travis Foxx bring together more than 60 years of combined experience — covering Seattle luxury residential, investment property, commercial assets, and complex high-value transactions.
+            Together, Christine and Travis offer a rare caliber of representation for the luxury seller: the union of visionary marketing, refined brand positioning, deep financial intelligence, and seasoned negotiation. For sellers who expect more than service — for those who expect stewardship, strategy, and standout results — their partnership is both distinctive and exceptionally effective.
           </p>
         </div>
       </section>
@@ -94,36 +94,27 @@ export default function AboutPage() {
             <p className="eyebrow">Christine Andreasen</p>
             <span className="gold-rule mt-4" />
             <h2 className="mt-6 font-serif text-4xl leading-[1.05] text-ink md:text-5xl">
-              Residential luxury. Editorial standards. Nearly three decades of local expertise.
+              A commanding presence in Seattle luxury real estate.
             </h2>
             <div className="mt-8 space-y-5 text-base leading-relaxed text-ink/80 md:text-lg">
               <p>
-                Christine Andreasen is the founder of Christine &amp; Company and one of the most recognized real estate professionals in the Seattle area. She pledges to exceed expectations — delivering superior service and remarkable results in every transaction, for every client.
+                Christine Andreasen is the founder of Christine &amp; Company — a brand synonymous with excellence, influence, and elevated results. With a career spanning more than two decades, Christine has built a reputation for representing exceptional properties with a rare blend of strategic precision, market sophistication, and magnetic client service.
               </p>
               <p>
-                Voted Best of Seattle for 14 consecutive years, recognized among the Top 100 influential agents, featured multiple times in Seattle Magazine, and listed in Forbes&rsquo; Top 500 twice — Christine&rsquo;s reputation is built on a career of exceptional outcomes. She works closely with each client to understand their goals and craft the most effective strategy to achieve them.
-              </p>
-              <p>
-                Based in Seattle and serving Washington State comprehensively, Christine also brings global reach through exceptional partners across the world.
+                Licensed since 1996, she first rose to prominence coaching and training top-producing agents across the country before returning her focus to the art of buying and selling homes at the highest level. She is known not only for the results she delivers, but for the experience she creates: polished, powerful, and deeply personal.
               </p>
             </div>
             <div className="mt-8 grid grid-cols-1 gap-6 border-t border-ink/10 pt-8 sm:grid-cols-2">
               <div>
                 <p className="text-xs uppercase tracking-editorial text-gold mb-3">Accolades</p>
                 <ul className="space-y-2 text-sm leading-relaxed text-ink/70">
-                  <li>Voted Best of Seattle — 14 consecutive years</li>
-                  <li>Top 100 Influential Agents</li>
-                  <li>Featured in Seattle Magazine</li>
-                  <li>Forbes Top 500 — recognized twice</li>
-                </ul>
-              </div>
-              <div>
-                <p className="text-xs uppercase tracking-editorial text-gold mb-3">Specialties</p>
-                <ul className="space-y-2 text-sm leading-relaxed text-ink/70">
+                  <li>Washington&rsquo;s Top 100 Most Influential Agents</li>
+                  <li>Forbes Top 500 Agents Nationwide</li>
+                  <li>Multiple ICON Award Recipient</li>
+                  <li>Top 1% of Agents Nationwide</li>
                   <li>Keynote Speaker — 20 years</li>
                   <li>Best-selling Author</li>
                   <li>National Real Estate Coach</li>
-                  <li>Investment Strategy Expert</li>
                 </ul>
               </div>
             </div>
@@ -138,17 +129,17 @@ export default function AboutPage() {
             <p className="eyebrow">Travis Foxx</p>
             <span className="gold-rule mt-4" />
             <h2 className="mt-6 font-serif text-4xl leading-[1.05] text-ink md:text-5xl">
-              Investment depth. Complex strategy. 30+ years across every asset class.
+              Financial sophistication. Operational mastery. 30+ years of trusted leadership.
             </h2>
             <div className="mt-8 space-y-5 text-base leading-relaxed text-ink/80 md:text-lg">
               <p>
-                Travis Foxx is a veteran real estate professional with over 30 years of experience across residential, investment, commercial, and multi-family properties. He started his first real estate company in Portland in 1996, helping business finance clients with the acquisition, management, and sale of commercial properties — before expanding into multi-family, residential investments, and complex receivership transactions.
+                Travis Foxx brings more than 30 years of real estate expertise shaped by a career that spans residential, commercial, investment, and complex asset sales. He founded his first real estate company in Portland in 1996, advising clients on the acquisition, management, and disposition of commercial real estate before expanding into multifamily, residential investment, and receivership properties.
               </p>
               <p>
-                Travis was instrumental in the SEC Receivership of Dargey Development, overseeing the sale of multiple related properties including a personal residence at $2.41M and Potala Village in Shoreline, sold to Trammel Crow for $11.5 million. That experience — evaluating assets under complexity and pressure — informs how he approaches every property decision today.
+                His depth of experience includes an instrumental role in the SEC receivership of Dargey Development, as well as the successful sale of several notable assets ranging from luxury residences to major development sites. Today, Travis applies that same level of discernment, financial sophistication, and operational mastery to the luxury market — offering sellers a calm, highly tailored, and exceptionally informed experience.
               </p>
               <p>
-                He focuses on Seattle&rsquo;s North Coast — the corridor from Magnolia to Mukilteo — with deep specialization in the 98107, 98117, and 98177 zip codes and the Edmonds area, where he has lived for more than a decade. Travis is Christine&rsquo;s life partner and Corporate Controller at Christine &amp; Company.
+                His presence brings a quiet strength to every transaction: measured, strategic, and built on decades of trusted leadership.
               </p>
             </div>
             <div className="mt-8 flex flex-wrap gap-6 text-sm text-ink/70">
