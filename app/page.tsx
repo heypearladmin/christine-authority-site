@@ -238,6 +238,8 @@ export default function HomePage() {
                 image={p.image}
                 category={p.category}
                 readingTime={p.readingTime}
+                date={p.date}
+                isNew={p.isNew}
               />
             ))}
           </div>
