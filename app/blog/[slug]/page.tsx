@@ -45,6 +45,9 @@ export async function generateMetadata({
       description: post.excerpt,
       images: [post.image],
     },
+    alternates: {
+      canonical: `https://christineandreasen.com/blog/${params.slug}`,
+    },
   };
 }
 
@@ -64,10 +67,11 @@ function extractFaqs(post: ReturnType<typeof getPostBySlug>) {
   );
   if (!faqSection) return [];
   const faqs: { question: string; answer: string }[] = [];
-  for (let i = 0; i + 1 < faqSection.body.length; i += 2) {
-    const q = faqSection.body[i];
-    const a = faqSection.body[i + 1];
-    if (q && a) faqs.push({ question: q, answer: a });
+  for (const item of faqSection.body) {
+    const qMatch = item.match(/^(.+\?)\s+([\s\S]+)$/);
+    if (qMatch) {
+      faqs.push({ question: qMatch[1], answer: qMatch[2] });
+    }
   }
   return faqs;
 }
@@ -160,7 +164,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
       <article className="bg-cream">
         <div className="mx-auto max-w-3xl px-6 py-16 md:px-10 md:py-20">
           <div className="editorial-prose">
-            {post.sections.map((section) => (
+            {post.sections.filter(s => !s.heading.toLowerCase().includes("frequently asked")).map((section) => (
               <section key={section.heading} className="scroll-mt-24">
                 <h2>{section.heading}</h2>
                 {section.body.map((para, i) => {
@@ -185,6 +189,31 @@ export default function BlogPostPage({ params }: { params: Params }) {
           </div>
         </div>
       </article>
+
+      {/* FAQ section */}
+      {faqs.length > 0 && (
+        <section className="bg-cream border-t border-ink/10">
+          <div className="mx-auto max-w-3xl px-6 py-16 md:px-10 md:py-20">
+            <p className="eyebrow">Frequently Asked Questions</p>
+            <span className="gold-rule mt-4" />
+            <h2 className="mt-6 font-serif text-3xl leading-[1.1] text-ink md:text-4xl">
+              Common questions answered.
+            </h2>
+            <div className="mt-10 divide-y divide-ink/10">
+              {faqs.map((faq, i) => (
+                <div key={i} className="py-6">
+                  <h3 className="font-serif text-lg leading-snug text-ink md:text-xl">
+                    {faq.question}
+                  </h3>
+                  <p className="mt-3 text-base leading-relaxed text-ink/75">
+                    {faq.answer}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA strip */}
       <section className="bg-ink text-cream">

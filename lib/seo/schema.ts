@@ -297,6 +297,11 @@ export function blogPostingSchema(params: {
     ...(params.keywords ? { keywords: params.keywords.join(", ") } : {}),
     author: { "@id": `${SITE.url}/#person` },
     publisher: { "@id": `${SITE.url}/#agent` },
+    about: { "@id": `${SITE.url}/#agent` },
     mainEntityOfPage: { "@type": "WebPage", "@id": params.url },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: [".editorial-prose h2", ".editorial-prose p:first-of-type"],
+    },
   });
 }
