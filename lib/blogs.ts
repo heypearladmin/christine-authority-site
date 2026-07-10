@@ -22,6 +22,139 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "how-much-to-buy-home-seattle-2026",
+    title: "How Much Do You Need to Buy a Home in Seattle in 2026?",
+    category: "Financial Guide",
+    date: "2026-07-10",
+    readingTime: "7 min read",
+    image: "/website-blog-buy-budget-seattle.png",
+    imageAlt: "Seattle neighborhood street with luxury homes and tree-lined sidewalk in late afternoon light",
+    isNew: true,
+    excerpt:
+      "The number most buyers think they need and the number they actually need are rarely the same. Here is what it takes — down payment, reserves, and total buying cost — to purchase a home in Seattle in 2026.",
+    quickAnswer:
+      "To buy a home in Seattle in 2026, most buyers need a minimum of 10–20% down payment plus 2–5% in closing costs, liquid reserves of three to six months of housing costs, and pre-approval from a lender familiar with the local market. At the luxury level, $3M+ buyers often bring 25–30% down or more.",
+    sections: [
+      {
+        heading: "The Number Most Buyers Get Wrong",
+        body: [
+          "The down payment is the number buyers focus on — but it is rarely the number that determines whether they can actually close. Closing costs, prepaid expenses, reserve requirements, and post-close liquidity all factor into the real cost of buying in Seattle.",
+          "A buyer targeting a $1.5 million home who has $300,000 saved (a 20% down payment) may still fall short if they haven't accounted for $30,000–$45,000 in closing costs and a lender requiring six months of reserves in the bank after closing.",
+        ],
+      },
+      {
+        heading: "What a Down Payment Looks Like by Price Tier",
+        body: [
+          "At the $750,000 to $1.2 million range — entry-level Seattle — most conventional buyers bring 10 to 20 percent down. Jumbo loan minimums typically require 20% at this tier, though some lenders will work with 10 to 15 percent at slightly higher rates.",
+          "From $1.5 million to $3 million, 20 percent is standard, and many lenders require a larger liquid asset position. Above $3 million, cash offers and 25 to 30 percent down payments are common, particularly in off-market transactions where seller confidence in a buyer's ability to close is paramount.",
+        ],
+      },
+      {
+        heading: "Closing Costs in Seattle",
+        body: [
+          "Buyers in Seattle should plan for 2 to 4 percent of the purchase price in closing costs. On a $1.5 million home, that is $30,000 to $60,000 in addition to the down payment. These costs include title insurance, escrow fees, lender origination fees, prepaid property taxes and insurance, and recording fees.",
+          "Washington State has no income tax but does have a real estate excise tax (REET) paid by the seller. Buyers are not responsible for REET, but should understand it as a factor in seller net calculations during negotiation.",
+        ],
+      },
+      {
+        heading: "Reserves and What Lenders Look For",
+        body: [
+          "Most jumbo lenders require two to twelve months of reserves — meaning cash or liquid assets remaining after closing that cover your projected monthly housing payment. At the luxury level, twelve months of reserves is not unusual.",
+          "Reserves are not the same as the down payment. They must remain accessible and liquid after the transaction closes. A buyer who depletes their savings to close a purchase will often fail to qualify even if the down payment itself is sufficient.",
+        ],
+      },
+      {
+        heading: "Pre-Approval vs. Pre-Qualification",
+        body: [
+          "In Seattle's market, a pre-qualification is not sufficient to compete for a desirable home. Sellers and their agents expect a fully underwritten pre-approval from a reputable lender — and for luxury properties, proof of funds for the down payment is often requested before a showing is confirmed.",
+          "Work with a lender who has closed transactions at your target price point in Seattle. Jumbo loan underwriting is meaningfully different from conventional lending, and a lender unfamiliar with the nuances can slow or derail a transaction at the worst possible moment.",
+        ],
+      },
+      {
+        heading: "What Buyers Often Underestimate",
+        body: [
+          "Move-in costs, immediate repairs or improvements, and carrying costs during any renovation are routinely underestimated. A $2 million home that needs $150,000 in updates before it feels right is a $2.15 million decision — and that $150,000 needs to come from somewhere other than the mortgage.",
+          "Property taxes in King County are also a meaningful line item. A $2 million Seattle home typically carries annual property taxes of $15,000 to $25,000 depending on assessed value and exemptions. Buyers should model their full monthly cost of ownership — not just the mortgage payment.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Buying a Home in Seattle",
+        body: [
+          "What is the minimum income to buy a home in Seattle in 2026? There is no single minimum, but lenders generally look for a debt-to-income ratio below 43 percent. On a $1.5 million purchase with 20 percent down, a buyer would typically need a gross household income of $350,000 to $400,000 or more to qualify, depending on other debts and loan terms.",
+          "Can I buy a home in Seattle with less than 20 percent down? Yes — there are jumbo loan products that allow 10 to 15 percent down, and FHA or conventional loans for properties under conforming limits. However, below 20 percent typically triggers private mortgage insurance (PMI) and higher rates. At the luxury level, most sellers prefer buyers with larger down payments as a signal of financial strength.",
+          "How competitive is the Seattle market for buyers in 2026? The market has moderated from the frenzy of prior years, but well-priced, well-presented homes still attract multiple offers. Buyers have more time to evaluate options, but should not interpret that as a signal to move slowly on a home they want.",
+          "Should I get pre-approved before starting my home search in Seattle? Always. Pre-approval gives you clarity on your real budget, strengthens your offer position, and signals to sellers and agents that you are a serious buyer. In the luxury segment, some listings will not schedule showings without it.",
+        ],
+      },
+    ],
+    closing:
+      "Buying in Seattle takes more preparation than most buyers expect — but the outcome, for the right buyer with the right guidance, is one of the strongest long-term wealth decisions in the Pacific Northwest.",
+  },
+
+  {
+    slug: "the-sevens-seattle-real-estate",
+    title: "What Are 'The Sevens' in Seattle Real Estate?",
+    category: "Market Insights",
+    date: "2026-07-06",
+    readingTime: "6 min read",
+    image: "/website-blog-the-sevens.png",
+    imageAlt: "Panoramic view of a Seattle luxury estate at twilight with city lights reflecting on the water",
+    isNew: true,
+    excerpt:
+      "In Seattle's luxury market, 'The Sevens' refers to homes priced at $7 million and above — a tier defined not just by price, but by a completely different standard of buyer, marketing, and representation.",
+    quickAnswer:
+      "'The Sevens' is a term used in Seattle's luxury real estate market to describe properties priced at $7 million and above. This tier operates by a different set of rules — buyers are highly sophisticated, marketing must be world-class, and the advisor you choose determines the outcome more than any other single factor.",
+    sections: [
+      {
+        heading: "Where the Term Comes From",
+        body: [
+          "The phrase 'The Sevens' emerged informally among high-end advisors in the Pacific Northwest to describe the threshold where luxury real estate stops behaving like the broader market. At $7 million and above, the buyer pool narrows dramatically, the marketing requirements shift entirely, and the advisor relationship becomes the most important variable in the transaction.",
+          "This isn't an arbitrary number. It reflects the point where most conventional real estate strategies — MLS exposure, open houses, algorithmic pricing — become largely irrelevant. At this tier, the home is rarely found; it is introduced.",
+        ],
+      },
+      {
+        heading: "Who Buys in The Sevens",
+        body: [
+          "Buyers in this segment are typically tech executives, entrepreneurs, and multigenerational wealth holders relocating from other primary markets. They are not casual shoppers. Many are comparing Seattle against Marin County, Scottsdale, or a second residence in Europe. They are evaluating the city as much as the property.",
+          "These buyers have advisors of their own — often a wealth manager, estate attorney, or family office representative — and the transaction involves multiple stakeholders with very different concerns. Representing a seller in this segment requires understanding how to communicate across that table.",
+        ],
+      },
+      {
+        heading: "What Marketing Looks Like at This Level",
+        body: [
+          "Standard marketing is not sufficient. Properties in The Sevens require bespoke digital and print campaigns, targeted outreach to qualified buyer networks, and in many cases, intentionally limited public exposure. The goal is not volume — it is precision.",
+          "Photography and video at this tier are editorial in quality, not transactional. Buyers must feel the property before they visit it. A poorly produced listing at $7M+ is not just a missed opportunity — it actively damages the property's perceived value.",
+        ],
+      },
+      {
+        heading: "How Pricing and Negotiation Work Differently",
+        body: [
+          "At $7 million and above, pricing is far less formula-driven. Comparable sales may be limited or months old. The price is often anchored to what the property delivers that cannot be replicated — a specific view corridor, a particular water frontage, an irreplaceable architectural statement.",
+          "Negotiation at this tier is measured and deliberate. Sophisticated buyers do not respond well to pressure tactics. The advisor's role is to create a transaction environment where the buyer feels the value is clear and the process is worthy of the asset.",
+        ],
+      },
+      {
+        heading: "Christine's Approach to Properties in The Sevens",
+        body: [
+          "Christine Andreasen has guided clients on both sides of transactions in this segment. Her approach begins well before the listing: understanding the property's unique value story, mapping the likely buyer profile, and designing a marketing strategy built for that specific audience — not for the general market.",
+          "With Travis Foxx's investment and financial depth alongside Christine's luxury positioning expertise, Christine & Company offers sellers in The Sevens the kind of comprehensive advisory capability that this tier demands.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About The Sevens in Seattle",
+        body: [
+          "What qualifies as a luxury home in Seattle? The definition shifts with the market, but homes priced at $3 million and above are generally considered luxury in the Seattle market. The Sevens refers specifically to the $7 million and above segment, which operates by a distinct set of buyer expectations and marketing standards.",
+          "How many homes sell above $7 million in Seattle each year? Volume in this segment is intentionally limited — typically fewer than 50 to 80 transactions per year across the greater Seattle area, depending on market conditions. The scarcity is part of what defines the tier.",
+          "Do I need a different agent to sell a $7 million home in Seattle? Yes — and the difference matters significantly. The skills required at this level go beyond those used in standard luxury transactions. Buyer network access, negotiation experience with sophisticated counterparties, and the ability to produce world-class marketing are non-negotiable.",
+          "Is it worth listing above $7 million publicly or selling off-market? Both approaches have merit depending on the property and the seller's goals. An experienced advisor in this segment can evaluate which path is more likely to produce the right buyer at the right price — and can execute either strategy effectively.",
+        ],
+      },
+    ],
+    closing:
+      "The Sevens is not just a price tier. It is a different world — one where preparation, presentation, and the right advisor make all the difference.",
+  },
+
+  {
     slug: "capital-gains-selling-seattle-home",
     title: "Capital Gains and Tax Strategy When Selling Your Seattle Home",
     category: "Financial Strategy",
@@ -29,7 +162,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-capital-gains.png",
     imageAlt: "Seattle home exterior at dusk with warm interior lighting",
-    isNew: true,
     excerpt:
       "Selling a home in Seattle can trigger significant tax consequences — or none at all. Understanding the exclusion rules, timing strategies, and when to consult a professional can protect hundreds of thousands of dollars.",
     quickAnswer:
@@ -106,7 +238,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "6 min read",
     image: "/website-blog-new-construction.png",
     imageAlt: "Modern new construction home next to a classic Seattle craftsman",
-    isNew: true,
     excerpt:
       "New construction offers warranties and modern systems. Existing homes offer character, location, and proven value. In Seattle's constrained market, understanding the trade-offs is essential before you commit.",
     quickAnswer:
@@ -182,7 +313,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "6 min read",
     image: "/website-blog-queen-anne.png",
     imageAlt: "Queen Anne Hill Seattle with Space Needle in the foreground",
-    isNew: true,
     excerpt:
       "Queen Anne offers one of Seattle's most distinctive combinations of elevated views, walkable charm, and architectural heritage. Here is what buyers and sellers need to know in 2026.",
     quickAnswer:
@@ -1424,137 +1554,6 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Staging is a key selling advantage. In Seattle's current market, it is no longer optional for sellers who want a strong outcome.",
-  },
-
-  {
-    slug: "the-sevens-seattle-real-estate",
-    title: "What Are 'The Sevens' in Seattle Real Estate?",
-    category: "Market Insights",
-    date: "2026-07-06",
-    readingTime: "6 min read",
-    image: "/website-blog-the-sevens.png",
-    imageAlt: "Panoramic view of a Seattle luxury estate at twilight with city lights reflecting on the water",
-    excerpt:
-      "In Seattle's luxury market, 'The Sevens' refers to homes priced at $7 million and above — a tier defined not just by price, but by a completely different standard of buyer, marketing, and representation.",
-    quickAnswer:
-      "'The Sevens' is a term used in Seattle's luxury real estate market to describe properties priced at $7 million and above. This tier operates by a different set of rules — buyers are highly sophisticated, marketing must be world-class, and the advisor you choose determines the outcome more than any other single factor.",
-    sections: [
-      {
-        heading: "Where the Term Comes From",
-        body: [
-          "The phrase 'The Sevens' emerged informally among high-end advisors in the Pacific Northwest to describe the threshold where luxury real estate stops behaving like the broader market. At $7 million and above, the buyer pool narrows dramatically, the marketing requirements shift entirely, and the advisor relationship becomes the most important variable in the transaction.",
-          "This isn't an arbitrary number. It reflects the point where most conventional real estate strategies — MLS exposure, open houses, algorithmic pricing — become largely irrelevant. At this tier, the home is rarely found; it is introduced.",
-        ],
-      },
-      {
-        heading: "Who Buys in The Sevens",
-        body: [
-          "Buyers in this segment are typically tech executives, entrepreneurs, and multigenerational wealth holders relocating from other primary markets. They are not casual shoppers. Many are comparing Seattle against Marin County, Scottsdale, or a second residence in Europe. They are evaluating the city as much as the property.",
-          "These buyers have advisors of their own — often a wealth manager, estate attorney, or family office representative — and the transaction involves multiple stakeholders with very different concerns. Representing a seller in this segment requires understanding how to communicate across that table.",
-        ],
-      },
-      {
-        heading: "What Marketing Looks Like at This Level",
-        body: [
-          "Standard marketing is not sufficient. Properties in The Sevens require bespoke digital and print campaigns, targeted outreach to qualified buyer networks, and in many cases, intentionally limited public exposure. The goal is not volume — it is precision.",
-          "Photography and video at this tier are editorial in quality, not transactional. Buyers must feel the property before they visit it. A poorly produced listing at $7M+ is not just a missed opportunity — it actively damages the property's perceived value.",
-        ],
-      },
-      {
-        heading: "How Pricing and Negotiation Work Differently",
-        body: [
-          "At $7 million and above, pricing is far less formula-driven. Comparable sales may be limited or months old. The price is often anchored to what the property delivers that cannot be replicated — a specific view corridor, a particular water frontage, an irreplaceable architectural statement.",
-          "Negotiation at this tier is measured and deliberate. Sophisticated buyers do not respond well to pressure tactics. The advisor's role is to create a transaction environment where the buyer feels the value is clear and the process is worthy of the asset.",
-        ],
-      },
-      {
-        heading: "Christine's Approach to Properties in The Sevens",
-        body: [
-          "Christine Andreasen has guided clients on both sides of transactions in this segment. Her approach begins well before the listing: understanding the property's unique value story, mapping the likely buyer profile, and designing a marketing strategy built for that specific audience — not for the general market.",
-          "With Travis Foxx's investment and financial depth alongside Christine's luxury positioning expertise, Christine & Company offers sellers in The Sevens the kind of comprehensive advisory capability that this tier demands.",
-        ],
-      },
-      {
-        heading: "Frequently Asked Questions About The Sevens in Seattle",
-        body: [
-          "What qualifies as a luxury home in Seattle? The definition shifts with the market, but homes priced at $3 million and above are generally considered luxury in the Seattle market. The Sevens refers specifically to the $7 million and above segment, which operates by a distinct set of buyer expectations and marketing standards.",
-          "How many homes sell above $7 million in Seattle each year? Volume in this segment is intentionally limited — typically fewer than 50 to 80 transactions per year across the greater Seattle area, depending on market conditions. The scarcity is part of what defines the tier.",
-          "Do I need a different agent to sell a $7 million home in Seattle? Yes — and the difference matters significantly. The skills required at this level go beyond those used in standard luxury transactions. Buyer network access, negotiation experience with sophisticated counterparties, and the ability to produce world-class marketing are non-negotiable.",
-          "Is it worth listing above $7 million publicly or selling off-market? Both approaches have merit depending on the property and the seller's goals. An experienced advisor in this segment can evaluate which path is more likely to produce the right buyer at the right price — and can execute either strategy effectively.",
-        ],
-      },
-    ],
-    closing:
-      "The Sevens is not just a price tier. It is a different world — one where preparation, presentation, and the right advisor make all the difference.",
-  },
-
-  {
-    slug: "how-much-to-buy-home-seattle-2026",
-    title: "How Much Do You Need to Buy a Home in Seattle in 2026?",
-    category: "Financial Guide",
-    date: "2026-07-10",
-    readingTime: "7 min read",
-    image: "/website-blog-buy-budget-seattle.png",
-    imageAlt: "Seattle neighborhood street with luxury homes and tree-lined sidewalk in late afternoon light",
-    excerpt:
-      "The number most buyers think they need and the number they actually need are rarely the same. Here is what it takes — down payment, reserves, and total buying cost — to purchase a home in Seattle in 2026.",
-    quickAnswer:
-      "To buy a home in Seattle in 2026, most buyers need a minimum of 10–20% down payment plus 2–5% in closing costs, liquid reserves of three to six months of housing costs, and pre-approval from a lender familiar with the local market. At the luxury level, $3M+ buyers often bring 25–30% down or more.",
-    sections: [
-      {
-        heading: "The Number Most Buyers Get Wrong",
-        body: [
-          "The down payment is the number buyers focus on — but it is rarely the number that determines whether they can actually close. Closing costs, prepaid expenses, reserve requirements, and post-close liquidity all factor into the real cost of buying in Seattle.",
-          "A buyer targeting a $1.5 million home who has $300,000 saved (a 20% down payment) may still fall short if they haven't accounted for $30,000–$45,000 in closing costs and a lender requiring six months of reserves in the bank after closing.",
-        ],
-      },
-      {
-        heading: "What a Down Payment Looks Like by Price Tier",
-        body: [
-          "At the $750,000 to $1.2 million range — entry-level Seattle — most conventional buyers bring 10 to 20 percent down. Jumbo loan minimums typically require 20% at this tier, though some lenders will work with 10 to 15 percent at slightly higher rates.",
-          "From $1.5 million to $3 million, 20 percent is standard, and many lenders require a larger liquid asset position. Above $3 million, cash offers and 25 to 30 percent down payments are common, particularly in off-market transactions where seller confidence in a buyer's ability to close is paramount.",
-        ],
-      },
-      {
-        heading: "Closing Costs in Seattle",
-        body: [
-          "Buyers in Seattle should plan for 2 to 4 percent of the purchase price in closing costs. On a $1.5 million home, that is $30,000 to $60,000 in addition to the down payment. These costs include title insurance, escrow fees, lender origination fees, prepaid property taxes and insurance, and recording fees.",
-          "Washington State has no income tax but does have a real estate excise tax (REET) paid by the seller. Buyers are not responsible for REET, but should understand it as a factor in seller net calculations during negotiation.",
-        ],
-      },
-      {
-        heading: "Reserves and What Lenders Look For",
-        body: [
-          "Most jumbo lenders require two to twelve months of reserves — meaning cash or liquid assets remaining after closing that cover your projected monthly housing payment. At the luxury level, twelve months of reserves is not unusual.",
-          "Reserves are not the same as the down payment. They must remain accessible and liquid after the transaction closes. A buyer who depletes their savings to close a purchase will often fail to qualify even if the down payment itself is sufficient.",
-        ],
-      },
-      {
-        heading: "Pre-Approval vs. Pre-Qualification",
-        body: [
-          "In Seattle's market, a pre-qualification is not sufficient to compete for a desirable home. Sellers and their agents expect a fully underwritten pre-approval from a reputable lender — and for luxury properties, proof of funds for the down payment is often requested before a showing is confirmed.",
-          "Work with a lender who has closed transactions at your target price point in Seattle. Jumbo loan underwriting is meaningfully different from conventional lending, and a lender unfamiliar with the nuances can slow or derail a transaction at the worst possible moment.",
-        ],
-      },
-      {
-        heading: "What Buyers Often Underestimate",
-        body: [
-          "Move-in costs, immediate repairs or improvements, and carrying costs during any renovation are routinely underestimated. A $2 million home that needs $150,000 in updates before it feels right is a $2.15 million decision — and that $150,000 needs to come from somewhere other than the mortgage.",
-          "Property taxes in King County are also a meaningful line item. A $2 million Seattle home typically carries annual property taxes of $15,000 to $25,000 depending on assessed value and exemptions. Buyers should model their full monthly cost of ownership — not just the mortgage payment.",
-        ],
-      },
-      {
-        heading: "Frequently Asked Questions About Buying a Home in Seattle",
-        body: [
-          "What is the minimum income to buy a home in Seattle in 2026? There is no single minimum, but lenders generally look for a debt-to-income ratio below 43 percent. On a $1.5 million purchase with 20 percent down, a buyer would typically need a gross household income of $350,000 to $400,000 or more to qualify, depending on other debts and loan terms.",
-          "Can I buy a home in Seattle with less than 20 percent down? Yes — there are jumbo loan products that allow 10 to 15 percent down, and FHA or conventional loans for properties under conforming limits. However, below 20 percent typically triggers private mortgage insurance (PMI) and higher rates. At the luxury level, most sellers prefer buyers with larger down payments as a signal of financial strength.",
-          "How competitive is the Seattle market for buyers in 2026? The market has moderated from the frenzy of prior years, but well-priced, well-presented homes still attract multiple offers. Buyers have more time to evaluate options, but should not interpret that as a signal to move slowly on a home they want.",
-          "Should I get pre-approved before starting my home search in Seattle? Always. Pre-approval gives you clarity on your real budget, strengthens your offer position, and signals to sellers and agents that you are a serious buyer. In the luxury segment, some listings will not schedule showings without it.",
-        ],
-      },
-    ],
-    closing:
-      "Buying in Seattle takes more preparation than most buyers expect — but the outcome, for the right buyer with the right guidance, is one of the strongest long-term wealth decisions in the Pacific Northwest.",
   },
 ];
 
