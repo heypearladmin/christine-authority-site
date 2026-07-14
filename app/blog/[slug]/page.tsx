@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+import React from "react";
 import BlogCard from "@/components/BlogCard";
+import TableOfContents from "@/components/blog/TableOfContents";
+import FAQSection from "@/components/blog/FAQSection";
 import { blogPosts, getAllSlugs, getPostBySlug } from "@/lib/blogs";
+import { getFaqsByBlogSlug } from "@/lib/faqs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { blogPostingSchema, breadcrumbSchema, faqPageSchema, SITE } from "@/lib/seo/schema";
 
@@ -60,30 +64,47 @@ function formatDate(d: string) {
   });
 }
 
-function extractFaqs(post: ReturnType<typeof getPostBySlug>) {
-  if (!post) return [];
-  const faqSection = post.sections.find((s) =>
-    s.heading.toLowerCase().includes("frequently asked")
-  );
-  if (!faqSection) return [];
-  const faqs: { question: string; answer: string }[] = [];
-  for (const item of faqSection.body) {
-    const qMatch = item.match(/^(.+\?)\s+([\s\S]+)$/);
-    if (qMatch) {
-      faqs.push({ question: qMatch[1], answer: qMatch[2] });
-    }
+function slugify(text: string): string {
+  return text.toLowerCase().replace(/[^a-z0-9\s]/g, "").trim().replace(/\s+/g, "-");
+}
+
+function renderParagraph(text: string, key: number) {
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  if (!linkRegex.test(text)) return <p key={key}>{text}</p>;
+  linkRegex.lastIndex = 0;
+  const parts: React.ReactNode[] = [];
+  let last = 0;
+  let match;
+  while ((match = linkRegex.exec(text)) !== null) {
+    if (match.index > last) parts.push(text.slice(last, match.index));
+    parts.push(
+      <Link key={match.index} href={match[2]} className="text-gold hover:text-ink underline underline-offset-2 transition-colors">
+        {match[1]}
+      </Link>
+    );
+    last = match.index + match[0].length;
   }
-  return faqs;
+  if (last < text.length) parts.push(text.slice(last));
+  return <p key={key}>{parts}</p>;
 }
 
 export default function BlogPostPage({ params }: { params: Params }) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
-  const related = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
+  const related = [
+    ...blogPosts.filter((p) => p.slug !== post.slug && p.category === post.category),
+    ...blogPosts.filter((p) => p.slug !== post.slug && p.category !== post.category),
+  ].slice(0, 4);
 
   const pageUrl = `${SITE.url}/blog/${post.slug}`;
-  const faqs = extractFaqs(post);
+  const faqItems = getFaqsByBlogSlug(post.slug);
+  const bodySections = post.sections.filter(
+    (s) => !s.heading.toLowerCase().includes("frequently asked")
+  );
+
+  // For schema: extract faqs in old format
+  const schemaFaqs = faqItems.map((f) => ({ question: f.question, answer: f.answer }));
 
   return (
     <>
@@ -102,7 +123,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
             { name: "The Journal", url: `${SITE.url}/blog` },
             { name: post.title, url: pageUrl },
           ]),
-          ...(faqs.length > 0 ? [faqPageSchema(faqs)] : []),
+          ...(schemaFaqs.length > 0 ? [faqPageSchema(schemaFaqs)] : []),
         ]}
       />
 
@@ -160,60 +181,51 @@ export default function BlogPostPage({ params }: { params: Params }) {
         </div>
       </section>
 
-      {/* Body */}
-      <article className="bg-cream">
-        <div className="mx-auto max-w-3xl px-6 py-16 md:px-10 md:py-20">
-          <div className="editorial-prose">
-            {post.sections.filter(s => !s.heading.toLowerCase().includes("frequently asked")).map((section) => (
-              <section key={section.heading} className="scroll-mt-24">
-                <h2>{section.heading}</h2>
-                {section.body.map((para, i) => {
-                  const qMatch = para.match(/^(.+\?)\s+([\s\S]+)$/);
-                  if (qMatch) {
-                    return (
-                      <p key={i}>
-                        <strong>{qMatch[1]}</strong>{" "}{qMatch[2]}
-                      </p>
-                    );
-                  }
-                  return <p key={i}>{para}</p>;
-                })}
-              </section>
-            ))}
+      {/* Body + TOC */}
+      <section className="bg-cream">
+        <div className="mx-auto max-w-6xl px-6 py-16 md:px-10 md:py-20">
+          {/* Mobile TOC inline */}
+          <div className="lg:hidden mx-auto max-w-3xl mb-8">
+            <TableOfContents sections={bodySections} />
+          </div>
+          <div className="lg:grid lg:grid-cols-[200px_1fr] lg:gap-16">
+            {/* Desktop TOC sidebar */}
+            <aside className="hidden lg:block">
+              <TableOfContents sections={bodySections} />
+            </aside>
+            {/* Article prose */}
+            <article>
+              <div className="editorial-prose max-w-3xl">
+                {bodySections.map((section) => (
+                  <section key={section.heading} id={slugify(section.heading)} className="scroll-mt-24">
+                    <h2>{section.heading}</h2>
+                    {section.body.map((para, i) => {
+                      const qMatch = para.match(/^(.+\?)\s+([\s\S]+)$/);
+                      if (qMatch) {
+                        return (
+                          <p key={i}>
+                            <strong>{qMatch[1]}</strong>{" "}{qMatch[2]}
+                          </p>
+                        );
+                      }
+                      return renderParagraph(para, i);
+                    })}
+                  </section>
+                ))}
 
-            <hr className="my-12 border-t border-ink/10" />
+                <hr className="my-12 border-t border-ink/10" />
 
-            <p className="font-serif text-xl italic leading-snug text-ink md:text-2xl">
-              {post.closing}
-            </p>
+                <p className="font-serif text-xl italic leading-snug text-ink md:text-2xl">
+                  {post.closing}
+                </p>
+              </div>
+            </article>
           </div>
         </div>
-      </article>
+      </section>
 
       {/* FAQ section */}
-      {faqs.length > 0 && (
-        <section className="bg-cream border-t border-ink/10">
-          <div className="mx-auto max-w-3xl px-6 py-16 md:px-10 md:py-20">
-            <p className="eyebrow">Frequently Asked Questions</p>
-            <span className="gold-rule mt-4" />
-            <h2 className="mt-6 font-serif text-3xl leading-[1.1] text-ink md:text-4xl">
-              Common questions answered.
-            </h2>
-            <div className="mt-10 divide-y divide-ink/10">
-              {faqs.map((faq, i) => (
-                <div key={i} className="py-6">
-                  <h3 className="font-serif text-lg leading-snug text-ink md:text-xl">
-                    {faq.question}
-                  </h3>
-                  <p className="mt-3 text-base leading-relaxed text-ink/75">
-                    {faq.answer}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      <FAQSection faqs={faqItems} />
 
       {/* CTA strip */}
       <section className="bg-ink text-cream">
@@ -223,7 +235,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
               <p className="eyebrow text-gold">Ready to talk?</p>
               <span className="mt-4 inline-block h-px w-14 bg-gold" />
               <h3 className="mt-5 max-w-2xl font-serif text-3xl leading-tight md:text-4xl">
-                Considering a move? Let's have the early conversation.
+                Considering a move? Let&apos;s have the early conversation.
               </h3>
             </div>
             <Link
@@ -240,9 +252,16 @@ export default function BlogPostPage({ params }: { params: Params }) {
       <section className="bg-cream">
         <div className="mx-auto max-w-7xl px-6 py-20 md:px-10 md:py-24">
           <div className="flex items-end justify-between">
-            <h2 className="font-serif text-3xl text-ink md:text-4xl">
-              More from the Journal
-            </h2>
+            <div>
+              <h2 className="font-serif text-3xl text-ink md:text-4xl">
+                More from the Journal
+              </h2>
+              {related.some((r) => r.category === post.category) && (
+                <p className="mt-1 text-xs uppercase tracking-editorial text-ink/50">
+                  More in {post.category}
+                </p>
+              )}
+            </div>
             <Link
               href="/blog"
               className="editorial-link text-xs uppercase tracking-editorial text-ink"
@@ -250,7 +269,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
               View all &rarr;
             </Link>
           </div>
-          <div className="mt-12 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
             {related.map((r) => (
               <BlogCard
                 key={r.slug}
@@ -260,6 +279,8 @@ export default function BlogPostPage({ params }: { params: Params }) {
                 image={r.image}
                 category={r.category}
                 readingTime={r.readingTime}
+                date={r.date}
+                isNew={r.isNew}
               />
             ))}
           </div>
