@@ -48,3 +48,17 @@ export function getFaqBySlug(slug: string): FAQ | undefined {
 export function getFaqsByBlogSlug(blogSlug: string): FAQ[] {
   return getAllFaqs().filter((f) => f.blogSlug === blogSlug);
 }
+
+export function getBlogDateBySlug(blogSlug: string): string | undefined {
+  return blogPosts.find((p) => p.slug === blogSlug)?.date;
+}
+
+export function getBlogExcerptBySlug(blogSlug: string): string | undefined {
+  return blogPosts.find((p) => p.slug === blogSlug)?.excerpt;
+}
+
+export function getFaqsByCategory(category: string, excludeSlug: string): FAQ[] {
+  return getAllFaqs().filter(
+    (f) => f.blogCategory === category && f.slug !== excludeSlug
+  );
+}
