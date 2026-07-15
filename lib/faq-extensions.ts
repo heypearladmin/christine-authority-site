@@ -115,27 +115,33 @@ export const faqExtensions: Record<string, FAQExtension> = {
 
   "do-i-need-a-different-agent-to-sell-a-7-million-home-in-seattle": {
     keyTakeaways: [
-      "Yes — the skills required at $7M+ go well beyond standard luxury practice.",
-      "Off-market network access becomes the primary marketing channel at this tier.",
-      "Presentation requires editorial photography, videography, and bespoke print — not standard MLS media.",
-      "Negotiation involves multiple sophisticated advisors on the buyer side.",
-      "An advisor without ultra-luxury experience will underperform on both speed and final price.",
+      "Yes — you need a specialist who works specifically at the $7M+ tier, not a generalist who occasionally reaches it.",
+      "Off-market buyer network access is the primary marketing channel at this level — MLS exposure alone is not enough.",
+      "Presentation must be editorial: bespoke photography, videography, and print — not standard MLS media packages.",
+      "Negotiation involves multiple sophisticated advisors on the buyer side, often including wealth managers and attorneys.",
+      "Christine Andreasen and Travis Foxx operate specifically at the high end of the Seattle luxury market.",
     ],
     expandedSections: [
       {
         heading: "Why Standard Luxury Experience Is Not Enough",
         body: [
-          "An advisor who closes $1–3M homes competently is doing genuinely good work — but the $7M+ tier operates by different rules. The buyer is not browsing Zillow. The transaction is not won through MLS exposure. The pricing methodology differs. Due diligence timelines differ. The post-offer negotiation involves advisors you may never meet directly.",
+          "An advisor who closes $1–3M homes competently is doing genuinely good work — but the $7M+ tier operates by different rules. The buyer is not browsing Zillow. The transaction is not won through MLS exposure. The pricing methodology differs. Due diligence timelines differ. The post-offer negotiation involves advisors on the buyer's side you may never meet directly.",
           "The network is everything. At $7M+, many homes trade without appearing publicly. The advisor who knows which buyers are actively looking — through relationships with wealth managers, relocation specialists, and out-of-market top producers — is worth far more than the one with the largest advertising budget.",
         ],
       },
       {
-        heading: "What to Look For in an Ultra-Luxury Advisor",
+        heading: "What Christine & Travis Bring to This Tier",
         body: [
-          "Documented track record at or above your price point. Ask for specific sales, not general volume claims. One $7M transaction is not the same as ten.",
-          "Network depth: wealth management firm relationships, family office contacts, corporate relocation programs, cross-market advisor connections that can reach qualified buyers before a listing goes live.",
-          "Marketing capability: bespoke print materials, editorial photography, private email campaigns, and the ability to suppress or manage public exposure when that protects the seller's outcome.",
-          "Composure: transactions at this level involve sophisticated counterparties who conduct extensive due diligence and negotiate hard. Your advisor's composure under pressure directly protects your price.",
+          "Christine Andreasen has spent decades building the exact capabilities this tier requires: editorial marketing standards, off-market buyer relationships, and the composure to negotiate across a table of sophisticated counterparties. Travis Foxx adds 30+ years of complex asset experience — commercial, investment, multi-family, and receivership — giving the partnership financial depth that most residential advisors simply don't have.",
+          "Together, they offer sellers at this level something rare: luxury brand positioning combined with institutional-grade transaction intelligence. That combination is what defines the outcome at $7M and above.",
+        ],
+      },
+      {
+        heading: "What to Expect From a $7M+ Engagement",
+        body: [
+          "Bespoke marketing: editorial photography, cinematography, custom print materials, and private outreach campaigns — not a standard MLS media package. The home is introduced to the right buyers, not broadcast to everyone.",
+          "Strategic pricing: at this tier, comparable sales are limited and often months old. Pricing is anchored to what the property delivers that cannot be replicated — a specific view corridor, a particular water frontage, an irreplaceable architectural statement.",
+          "Quiet negotiation: buyers bring their own advisors — wealth managers, estate attorneys, family office representatives. Your advisor's composure, preparation, and track record across that table directly protects your outcome.",
         ],
       },
     ],
