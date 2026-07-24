@@ -22,6 +22,174 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "magnolia-seattle-neighborhood-guide",
+    title: "Magnolia, Seattle: The Complete Neighborhood Guide for 2026",
+    category: "Neighborhood Guide",
+    date: "2026-07-17",
+    readingTime: "6 min read",
+    image: "/website-blog-magnolia-seattle.png",
+    imageAlt: "Tree-lined Magnolia Boulevard in Seattle with panoramic views of Puget Sound and the Olympic Mountains at golden hour",
+    isNew: true,
+    excerpt:
+      "Magnolia occupies one of Seattle's most privileged positions — a bluff-top peninsula with views of Puget Sound, the Olympic Mountains, and the city skyline. Here is what buyers and sellers need to know in 2026.",
+    quickAnswer:
+      "Magnolia is one of Seattle's most desirable residential neighborhoods — a bluff-top community west of Interbay with panoramic views of Puget Sound and the Olympics, anchored by Discovery Park, a tight-knit village center, and some of the city's most coveted view lots. In 2026, it remains a high-demand, structurally low-inventory market with strong price resilience for well-positioned properties.",
+    sections: [
+      {
+        heading: "What Defines Magnolia as a Place",
+        body: [
+          "Magnolia sits on a bluff-topped peninsula west of Interbay, surrounded by Puget Sound on three sides. Its geography is its identity: elevated, quiet, and distinctly removed from the density of central Seattle — while remaining minutes from downtown by car. The result is a neighborhood that feels like a small town inside a major city, a quality that draws buyers who have lived elsewhere and want something different.",
+          "The neighborhood is named after what early settlers mistakenly identified as magnolia trees — they were madrona trees — but the name stuck, and so did the character. Magnolia's streets are predominantly residential, lined with mature evergreens, well-maintained homes, and the kind of unhurried pace that is increasingly rare in Seattle's growing urban core.",
+        ],
+      },
+      {
+        heading: "Architecture and Housing Stock",
+        body: [
+          "Magnolia's housing stock is defined by mid-century construction from the 1950s through the 1970s — ranches, split-levels, and colonial-style homes that have been updated to varying degrees. Many have been extensively renovated, and the neighborhood has attracted a wave of design-forward buyers who have rebuilt aging structures into architecturally significant custom homes.",
+          "The bluff lots are the most coveted: elevated parcels with unobstructed views of Puget Sound, the Olympic Mountains, and the downtown skyline. These view lots command the highest premiums and attract buyers from across the city who specifically seek them out. Interior lots are more accessible in price and still benefit from the neighborhood's character and community.",
+          "Newer construction — townhomes and smaller infill homes — appears in pockets, particularly near the village center. However, density is far lower than in Seattle's eastern and northern neighborhoods. Magnolia is predominantly single-family, and that character is unlikely to change significantly given zoning and community organization.",
+        ],
+      },
+      {
+        heading: "Discovery Park: Magnolia's Defining Amenity",
+        body: [
+          "Discovery Park is Seattle's largest park — 534 acres of forests, meadows, bluffs, and beaches on the northern tip of the Magnolia peninsula. For residents, it functions as an extension of their backyard: morning runs on miles of wooded trails, afternoon walks to the West Point Lighthouse, and access to Puget Sound beaches that feel completely removed from the urban environment.",
+          "The park's scale and natural character have no equivalent in Seattle's other neighborhoods. It draws residents from across the city, but Magnolia residents have it at their doorstep. This access is a genuine quality-of-life differentiator that buyers who have lived near Discovery Park consistently cite as the reason they stayed — or returned.",
+        ],
+      },
+      {
+        heading: "Pricing in 2026",
+        body: [
+          "Entry-level Magnolia — smaller homes on interior lots in need of updating — begins around $900,000 to $1.1 million. Renovated three- and four-bedroom homes in non-view positions range from $1.2 million to $1.8 million. View properties — particularly those on Magnolia Boulevard or the bluff above Puget Sound — begin at $2 million and rise well beyond $4 million for the most exceptional architectural examples.",
+          "The gap between view and non-view pricing in Magnolia is among the most pronounced in Seattle. A renovated home on a flat interior lot and a comparable home with a direct Puget Sound view can differ by $600,000 to $1.2 million or more. Buyers who are flexible on view should understand that interior lots offer substantially more value per square foot without sacrificing neighborhood access.",
+        ],
+      },
+      {
+        heading: "Magnolia Village: Lifestyle and Walkability",
+        body: [
+          "Magnolia Village — centered along 32nd Avenue West — is a compact, authentic neighborhood business district: independent coffee shops, a grocery store, restaurants, a hardware store, a yoga studio, and the kind of community retail that defines a genuinely livable neighborhood. It is not a destination for outsiders; it exists for residents, which is precisely what makes it valuable.",
+          "Walkability within the neighborhood is good for a residential area, though the peninsula's geography means that most residents drive to reach destinations outside Magnolia. The bluff and the park create a self-contained quality of life that many residents choose intentionally — and the trade-off of car dependency is one most find entirely acceptable.",
+        ],
+      },
+      {
+        heading: "Schools and Community",
+        body: [
+          "Magnolia is primarily served by Seattle Public Schools. Catharine Blaine K-8 is the neighborhood's anchor public school — a K-8 program with strong community involvement and consistent performance. McClure Middle School and Ballard High School serve upper grades for residents outside the Blaine attendance area.",
+          "The neighborhood has a strong community identity supported by the Magnolia Community Council, active block watch programs, and a community organization culture that reflects the demographic profile of long-term homeowners. Families who move to Magnolia tend to stay — and the resale market reflects that stability.",
+        ],
+      },
+      {
+        heading: "Commute and Connectivity",
+        body: [
+          "Magnolia's geography creates a commute consideration that buyers should understand. The neighborhood is connected to the rest of Seattle by a limited number of arterials: the 15th Avenue West corridor through Interbay is the primary route to downtown and South Lake Union, while the Magnolia Bridge (currently under study for replacement or reconstruction) serves the south end of the neighborhood.",
+          "Drive times to downtown Seattle average 15 to 25 minutes depending on time of day and route. There is no light rail access on the peninsula, and bus service, while functional, is not frequent enough to serve as a daily commute alternative for most residents. Magnolia is best suited to buyers who drive to work or work remotely — and many of its residents cite that flexibility as a reason they chose the neighborhood.",
+        ],
+      },
+      {
+        heading: "Market Dynamics for Buyers and Sellers",
+        body: [
+          "Magnolia is a structurally constrained market. The peninsula is fully built out, bounded by water and park land, with no meaningful new supply possible at scale. This scarcity supports price resilience over time and creates a market where correctly positioned homes — particularly view properties — consistently generate strong interest.",
+          "Sellers who own view lots on the bluff or boulevard hold some of the most defensible equity positions in Seattle. The combination of irreplaceable view orientation, established neighborhood character, and proximity to Discovery Park creates a buyer profile that is both affluent and emotionally committed — a combination that favors sellers in well-run processes.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Magnolia Real Estate",
+        body: [
+          "Is Magnolia a good neighborhood in Seattle? Consistently yes. Magnolia ranks among Seattle's most livable neighborhoods for its combination of natural environment, community character, and residential quality. It is particularly well-suited to buyers who value quiet, access to nature, and a genuine community feel over urban density and walkability.",
+          "Why is Magnolia so expensive? The combination of limited supply, irreplaceable view lots, proximity to Discovery Park, and strong long-term demand creates a price premium that has held through multiple market cycles. The bluff lots in particular are a finite and non-reproducible asset.",
+          "Is Magnolia a good investment? Magnolia has outperformed Seattle's citywide average appreciation over most measured 10-year periods. The structural supply constraint and consistent buyer demand create conditions favorable to long-term value retention. View properties have historically been the most resilient.",
+          "What is commuting from Magnolia like? Most Magnolia residents drive to work or work remotely. The 15th Avenue West corridor provides reasonable access to downtown and South Lake Union. Buyers who require frequent transit commuting should evaluate this trade-off carefully — the neighborhood does not offer the same transit infrastructure as Capitol Hill or South Lake Union.",
+        ],
+      },
+    ],
+    closing:
+      "Magnolia is a neighborhood that holds its value because it holds its character. The buyers who find it tend not to leave — and those looking to enter should move decisively when the right property appears.",
+  },
+
+  {
+    slug: "how-to-win-multiple-offers-seattle",
+    title: "How to Win a Multiple-Offer Situation in Seattle: A Buyer's Strategy Guide",
+    category: "Buying Strategy",
+    date: "2026-07-14",
+    readingTime: "7 min read",
+    image: "/website-blog-multiple-offers-seattle.png",
+    imageAlt: "Confident couple reviewing and signing real estate offer documents at a clean modern desk with warm natural light",
+    isNew: true,
+    excerpt:
+      "Multiple offers still happen in Seattle's 2026 market — and they always will for the right home at the right price. Here is how buyers actually win: not just by bidding more, but by making an offer sellers genuinely trust.",
+    quickAnswer:
+      "Winning a multiple-offer situation in Seattle requires more than the highest price. A winning offer combines a fully underwritten pre-approval from a known local lender, clean terms, credible earnest money, and in competitive scenarios, a pre-offer inspection that allows you to waive the inspection contingency from an informed position. The goal is to make your offer the easiest and most credible for the seller to accept — not just the largest.",
+    sections: [
+      {
+        heading: "Why Multiple Offers Still Happen in Seattle's 2026 Market",
+        body: [
+          "Seattle's market has moderated from the extreme frenzy of 2021 and 2022 — but the conditions that produce multiple offers have not gone away. Geographic constraints, limited inventory in established neighborhoods, and a continued influx of high-earning buyers mean that well-priced, well-presented homes in desirable pockets still attract competing offers, often within the first week.",
+          "The difference in 2026 is that multiple-offer situations are more selective. They happen on specific homes — not on everything. A home priced correctly, prepared well, and launched in the right season will generate competition. A home that is overpriced, poorly presented, or in a lower-demand pocket will not. Knowing which category you are competing in is the first step in building the right strategy.",
+        ],
+      },
+      {
+        heading: "The Foundation: Pre-Approval Is Not Optional",
+        body: [
+          "In a multiple-offer situation, the first filter a seller and their agent apply is: which of these buyers can actually close? A pre-qualification letter is not sufficient to clear that bar. A fully underwritten pre-approval — where the lender has reviewed income documents, tax returns, employment verification, credit, and assets — is the floor.",
+          "Beyond the type of approval, the lender's reputation matters. Sellers and listing agents recognize local lenders who have earned trust through completed transactions. An approval letter from a nationally known but locally unknown online lender carries less weight than one from a Seattle-area lender with a track record of closing jumbo transactions cleanly and on time. Work with a lender your advisor can vouch for — that relationship is part of your offer.",
+        ],
+      },
+      {
+        heading: "The Pre-Offer Inspection: The Single Biggest Competitive Edge",
+        body: [
+          "In competitive situations, buyers who conduct a pre-offer inspection before submitting an offer — paying for a full inspection during the listing's review window — can waive the inspection contingency with full knowledge of the property's condition. This is the most powerful single move available to a buyer who wants to compete without abandoning due diligence.",
+          "A pre-offer inspection typically costs $600 to $1,200 and takes two to four hours. If you do not win the offer, you lose that cost. If you do win — with a contingency-free offer that competes directly with less-prepared buyers — the information advantage and offer strength are worth multiples of that cost. Sellers strongly prefer offers without an inspection contingency because it eliminates a major post-offer uncertainty.",
+          "This approach requires an advisor who has relationships with inspectors who can conduct same-day or next-day inspections on short notice. In a competitive market, the ability to move fast on inspection scheduling is as important as the decision to inspect at all.",
+        ],
+      },
+      {
+        heading: "Writing Clean Terms: Contingencies and What You Can Carefully Waive",
+        body: [
+          "A contingency is a condition that must be met for the sale to proceed — and every contingency gives the buyer an exit that a seller must live with. In a multiple-offer situation, sellers naturally prefer offers with fewer contingencies, because fewer contingencies mean a lower risk of the deal falling apart.",
+          "The inspection contingency is the one most often discussed — and as noted above, a pre-offer inspection allows it to be waived responsibly. The financing contingency protects buyers whose loan falls through; waiving it requires confidence in your financing and is generally only appropriate for all-cash buyers or those with highly stable employment and fully underwritten approval. The appraisal contingency protects buyers when a home doesn't appraise at the purchase price — waiving it requires either the financial capacity to cover an appraisal gap or deep conviction in the home's value.",
+          "Never waive contingencies you cannot afford to stand behind. A waived contingency without the financial backing to honor it creates risk that can result in loss of earnest money or legal exposure. Work with your advisor to calibrate the right risk level for each specific offer.",
+        ],
+      },
+      {
+        heading: "Escalation Clauses: When They Help and When They Don't",
+        body: [
+          "An escalation clause is a provision that automatically increases your offer by a set increment above the highest competing offer, up to a defined ceiling. Used correctly, it allows a buyer to compete without over-bidding on a home that receives only one other offer.",
+          "Escalation clauses work best in transparent situations where the seller is willing to disclose other offers and the clause can be triggered and verified cleanly. They are less effective in situations where the seller's agent refuses to share competing offer details — or where the seller simply picks the most credible offer rather than the highest one. Some listing agents advise sellers to reject escalation clauses entirely and ask all buyers for their highest and best offer instead.",
+          "Your advisor will know whether an escalation clause is appropriate for a specific situation based on their relationship with the listing agent and their read of the seller's priorities. Follow that guidance rather than applying escalation as a default strategy.",
+        ],
+      },
+      {
+        heading: "Non-Price Levers That Strengthen Your Position",
+        body: [
+          "Price is the most visible element of an offer — but experienced sellers and their agents evaluate far more than the number. A higher-priced offer from a buyer who is difficult to work with, has a weak lender, or is asking for excessive seller concessions can lose to a slightly lower offer that is clean, fast, and credible.",
+          "Close timeline flexibility: sellers often have a preferred close date driven by their own move, their next purchase, or school timing. A buyer who can offer to close in 21 days — or conversely, to accommodate a 60-day close if that is what the seller needs — has a meaningful advantage over buyers locked into a fixed timeline.",
+          "Earnest money size: increasing earnest money from the standard 2% to 3% of the purchase price to 4% or 5% demonstrates financial commitment and reduces the seller's perception of buyer risk. On a $1.5 million home, the difference between $30,000 and $60,000 in earnest money signals seriousness in a way that wording alone cannot.",
+          "Personal letters: once common in Seattle, personal letters from buyers to sellers are now discouraged by most advisors and some MLS rules due to Fair Housing concerns. Do not expect a letter to be a differentiator — focus on the offer itself.",
+        ],
+      },
+      {
+        heading: "The Advisor's Role in a Competitive Offer",
+        body: [
+          "In a multiple-offer situation, your advisor's relationships, judgment, and speed directly affect your outcome. A buyer's agent who has worked with the listing agent before — or who is known in the neighborhood — can often learn about the seller's priorities informally: a preferred close date, sensitivity about post-close occupancy, a specific concern about buyer financing.",
+          "That intelligence shapes every element of the offer: price, timeline, contingencies, earnest money, and how the letter of transmittal is framed. Buyers who work with advisors who are embedded in the specific neighborhood where they are searching benefit from this context in ways that buyers working with generalists do not.",
+          "Christine Andreasen's practice is built around neighborhood depth and relationship intelligence — the kind that translates directly into offer strategy in competitive situations. Her clients benefit from 29 years of Seattle market relationships that inform how every offer is constructed and presented.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Multiple Offers in Seattle",
+        body: [
+          "Should I offer above asking price in Seattle in 2026? Only if the home is priced correctly and competing offers are likely. A well-priced home in a competitive area in spring or early summer may warrant 3% to 8% above asking to be competitive. An overpriced home, or one in a softer segment, may not — and overbidding simply awards the seller the higher price without the competition to justify it. Your advisor's read of the specific situation is more reliable than any general rule.",
+          "How do I know if I will be in a multiple-offer situation? Your advisor should be able to tell you based on the home's price positioning, the activity it has generated since listing, the listing agent's communication style, and the neighborhood's current absorption rate. If you are scheduled for a showing on a home that has had 30 groups through in the first three days, assume competition.",
+          "What happens if I lose a multiple-offer situation? Your advisor should debrief with the listing agent to understand what the winning offer looked like — price, terms, contingencies. This information helps calibrate your strategy for the next opportunity. Losing one offer is not a failure; it is data that improves your positioning for the right home.",
+          "Can I back out if I waive contingencies and then change my mind? In most cases, no — not without forfeiting your earnest money and potentially exposing yourself to legal action depending on how the contract is structured. This is why waiving contingencies requires genuine conviction in the home and the financial capacity to stand behind the decision. Never waive contingencies as a competitive tactic if you are not truly comfortable with the risk.",
+        ],
+      },
+    ],
+    closing:
+      "Winning a multiple-offer situation in Seattle is a skill, not a lottery. The buyers who succeed most consistently are the ones who prepare before they need to compete — not the ones scrambling to assemble an offer the afternoon before deadline.",
+  },
+
+  {
     slug: "how-much-to-buy-home-seattle-2026",
     title: "How Much Do You Need to Buy a Home in Seattle in 2026?",
     category: "Financial Guide",
@@ -29,7 +197,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-buy-budget-seattle.png",
     imageAlt: "Seattle neighborhood street with luxury homes and tree-lined sidewalk in late afternoon light",
-    isNew: true,
     excerpt:
       "The number most buyers think they need and the number they actually need are rarely the same. Here is what it takes — down payment, reserves, and total buying cost — to purchase a home in Seattle in 2026.",
     quickAnswer:
@@ -99,7 +266,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "6 min read",
     image: "/website-blog-the-sevens.png",
     imageAlt: "Panoramic view of a Seattle luxury estate at twilight with city lights reflecting on the water",
-    isNew: true,
     excerpt:
       "In Seattle's luxury market, 'The Sevens' refers to homes priced at $7 million and above — a tier defined not just by price, but by a completely different standard of buyer, marketing, and representation.",
     quickAnswer:
