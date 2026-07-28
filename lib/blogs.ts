@@ -22,6 +22,173 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "bellevue-real-estate-neighborhood-guide",
+    title: "Bellevue Real Estate: The Complete Neighborhood Guide for 2026",
+    category: "Neighborhood Guide",
+    date: "2026-07-24",
+    readingTime: "7 min read",
+    image: "/website-blog-bellevue-seattle.png",
+    imageAlt: "Bellevue skyline at dusk with Lake Washington in the foreground and Mount Rainier visible in the distance",
+    isNew: true,
+    excerpt:
+      "Bellevue has evolved from a Seattle suburb into one of the Pacific Northwest's most significant cities in its own right. For buyers in 2026, it offers top-ranked schools, a thriving downtown, and a luxury market with its own distinct logic.",
+    quickAnswer:
+      "Bellevue is the Eastside's anchor city — a polished, affluent community of approximately 150,000 residents with a thriving downtown core, top-ranked public schools, and one of the strongest luxury real estate markets in the Pacific Northwest. In 2026, Bellevue's market is defined by limited single-family inventory, consistent tech-sector demand, and a price tier that reflects its position as the region's most prominent alternative to Seattle proper.",
+    sections: [
+      {
+        heading: "What Bellevue Is — and What It Isn't",
+        body: [
+          "Bellevue is not a suburb. It was — for decades, it was defined in relation to Seattle, the city across the lake. That framing no longer fits. Bellevue in 2026 has its own skyline, its own downtown dining and retail scene, its own concentration of corporate headquarters, and an identity that does not depend on Seattle for context.",
+          "This matters for buyers because the mental model of Bellevue as a quieter, cheaper Seattle alternative has been replaced by something more accurate: Bellevue as a destination. Buyers who arrive expecting a tidy version of Seattle often find something more complex — and more compelling — than they anticipated.",
+        ],
+      },
+      {
+        heading: "Downtown Bellevue: A City Core in Its Own Right",
+        body: [
+          "Downtown Bellevue has undergone dramatic transformation over the past decade. The Bellevue Collection — Bellevue Square, Lincoln Square, and Bellevue Place — represents one of the highest-concentration luxury retail environments in the Pacific Northwest. Restaurants, hotels, high-rise residential towers, and cultural venues have added density and energy that competes credibly with Seattle's urban core.",
+          "The arrival of East Link light rail with a downtown Bellevue station has connected the city directly to Seattle, Redmond, and points north — reinforcing its position as a genuine urban center rather than a car-dependent suburb. Buyers in downtown Bellevue condominiums now have transit options unavailable as recently as 2023.",
+        ],
+      },
+      {
+        heading: "Bellevue's Neighborhoods: A Guide Within the City",
+        body: [
+          "West Bellevue is the city's most established and most expensive residential area — a collection of neighborhoods between downtown and Lake Washington that includes Medina (technically its own city), Clyde Hill, Yarrow Point, and the lakefront Enatai neighborhood. These areas are defined by large lots, mature landscaping, lake access, and some of the highest residential prices in Washington State.",
+          "Bellevue's interior neighborhoods — Somerset, Newport Hills, Woodridge, and Factoria — offer more accessible price points with strong school district access. These areas attract families who want Bellevue's school district at a lower entry than West Bellevue commands. The Crossroads area in northeast Bellevue is the most diverse and culturally rich part of the city, with the most accessible price points within city limits and easy access to Microsoft's campus via SR-520.",
+        ],
+      },
+      {
+        heading: "Housing Stock and Architecture",
+        body: [
+          "Bellevue's residential housing stock skews newer than Seattle's, reflecting the city's post-war development pattern. Mid-century ranch homes from the 1950s and 1960s — many extensively renovated — sit alongside 1980s and 1990s construction, newer luxury custom homes, and an expanding supply of attached townhomes near the city core.",
+          "The West Bellevue lakefront is where the most architecturally significant homes concentrate: custom estates with private docks on Lake Washington, expansive view properties on Clyde Hill, and Medina's trophy residences that compete with Seattle's highest luxury tier. Architecture here trends deliberately contemporary, reflecting the wealth and aesthetic preferences of the tech-sector buyers who have defined this market for a decade.",
+          "High-rise condominiums are concentrated in and around downtown Bellevue, where several notable buildings have been developed in the past ten years. The condo market here has performed well — buoyed by proximity to tech employment and the arrival of light rail.",
+        ],
+      },
+      {
+        heading: "Bellevue School District: The Primary Value Driver",
+        body: [
+          "Bellevue School District is consistently ranked among the top public school districts in Washington State and competes nationally in academic performance. The district includes nationally recognized high schools — Bellevue, Interlake, and Newport — and benefits from strong community and corporate funding that supports programming at a level most districts cannot match.",
+          "The school district is the single most important driver of residential demand in Bellevue. Families relocating for tech-sector employment specifically target Bellevue for school access, and this demand is structural — driven by life stage rather than market speculation. It provides a floor to demand that makes Bellevue resilient in downturns in ways that markets without this anchor are not.",
+        ],
+      },
+      {
+        heading: "Pricing in 2026",
+        body: [
+          "Single-family homes in Bellevue's interior neighborhoods begin around $1.2 million for smaller, older homes and move into the $1.6 to $2.5 million range for renovated three- and four-bedroom homes in strong school catchments. West Bellevue and Clyde Hill begin around $3 million for entry positions and rise well past $10 million for lakefront and view estates. Medina's lakefront properties trade from $8 million to $30 million or more for the most exceptional examples.",
+          "Condominiums in downtown Bellevue range from $700,000 for one-bedroom units in newer buildings to $3 million or more for penthouse configurations with Cascade or Lake Washington views. The per-square-foot premium in downtown Bellevue's newest buildings reflects the walkability, transit access, and resort-level amenities that newer product commands.",
+        ],
+      },
+      {
+        heading: "Commute and Connectivity",
+        body: [
+          "Bellevue's commute dynamics are favorable for the Eastside's largest employer base. Microsoft's main Redmond campus is 10 to 15 minutes from most of Bellevue. Amazon's growing Bellevue presence — now one of the company's largest engineering hubs outside Seattle — is accessible within the city. Google, Meta, and other tech companies with Eastside offices are similarly proximate.",
+          "East Link light rail provides a 20-minute connection from downtown Bellevue to downtown Seattle — a significant improvement over the cross-lake drive at peak traffic. The line also connects Bellevue to Mercer Island, Redmond, and points north. For hybrid workers commuting to Seattle two or three days per week, light rail makes Bellevue a genuinely viable base.",
+        ],
+      },
+      {
+        heading: "Market Dynamics for Buyers and Sellers",
+        body: [
+          "Bellevue's single-family market in established neighborhoods operates with structurally low inventory. Well-priced homes — particularly those in top elementary school catchments or with significant recent renovation — generate competitive interest and move quickly. Days-on-market in Bellevue's most desirable pockets are among the lowest in King County for correctly priced inventory.",
+          "The luxury tier — West Bellevue, Clyde Hill, Medina — operates more deliberately. Buyer pools are smaller, due diligence timelines are longer, and transactions involve more sophisticated parties. But demand is consistent among its target buyers — tech wealth holders, executives, and family office clients — and the combination of school access, lake proximity, and privacy creates a value proposition difficult to find elsewhere.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Bellevue Real Estate",
+        body: [
+          "Is Bellevue or Seattle better to live in? It depends on your priorities. Bellevue offers newer housing, the state's top school district, and proximity to Eastside tech campuses. Seattle offers walkable urban neighborhoods, architectural character, and cultural density. Both markets are strong long-term holds — the decision should be driven by commute requirements, school needs, and lifestyle preference.",
+          "What is the most expensive area in Bellevue? The West Bellevue waterfront — particularly Medina, Clyde Hill, and the lakefront portions of Enatai and Beaux Arts — represents the highest price tier. Medina, home to a number of prominent tech executives, is one of the most expensive residential communities in Washington State.",
+          "Is Bellevue good for families? Exceptionally so. Bellevue School District's consistent top-tier performance, safe residential neighborhoods, extensive park system, and proximity to outdoor recreation make it one of the Pacific Northwest's most sought-after family destinations. It is frequently cited by relocating families as the primary reason they chose the Eastside.",
+          "Does Bellevue have good restaurants and things to do? Yes — and increasingly so. Downtown Bellevue's dining and retail scene has matured significantly, with nationally recognized restaurants alongside neighborhood establishments. The Bellevue Arts Museum, Bellevue Botanical Garden, and Marymoor Park in nearby Redmond provide cultural and outdoor programming that supports a full lifestyle without crossing the lake.",
+        ],
+      },
+    ],
+    closing:
+      "Bellevue is no longer a footnote in Seattle's story — it is a destination with its own gravitational pull. For buyers who want school district certainty, newer housing stock, and proximity to the Eastside's dominant employer base, it is the most complete market in the Pacific Northwest.",
+  },
+
+  {
+    slug: "eastside-vs-seattle-real-estate",
+    title: "Eastside vs. Seattle: Which Side of Lake Washington Is Right for You in 2026?",
+    category: "Buyer Decision",
+    date: "2026-07-21",
+    readingTime: "7 min read",
+    image: "/website-blog-eastside-vs-seattle.png",
+    imageAlt: "Aerial view of Lake Washington on a clear day with the Seattle skyline visible on the west shore and the Bellevue skyline on the east",
+    isNew: true,
+    excerpt:
+      "Lake Washington divides more than geography — it divides two distinct approaches to living in the Pacific Northwest. Understanding what each side actually offers is the most important decision a Seattle-area buyer makes.",
+    quickAnswer:
+      "The choice between the Eastside — Bellevue, Kirkland, Mercer Island, Redmond — and Seattle proper comes down to lifestyle priorities and commute requirements. The Eastside offers newer housing stock, top-ranked school districts, and proximity to Microsoft and Amazon's Eastside campuses. Seattle offers architectural character, walkable urban neighborhoods, and cultural density that no Eastside city has fully matched. Both markets are strong long-term holds. The right choice depends entirely on how you live.",
+    sections: [
+      {
+        heading: "The Core Difference: Urban Fabric vs. Suburban Quality",
+        body: [
+          "The simplest way to understand the divide: Seattle is a city with neighborhoods. The Eastside is a collection of cities with suburban density. That is not a criticism of either — it is a description of two genuinely different ways of organizing community life.",
+          "In Seattle, the neighborhood you choose defines your daily texture: the coffee shop two blocks away, the farmers market on Saturday, the restaurant you can reach on foot on a Tuesday night. In Bellevue or Kirkland, the car is assumed. The trade-off is that what you drive to tends to be newer, cleaner, and more purpose-built than what Seattle's older urban fabric provides.",
+          "Buyers relocating from San Francisco or New York often find Seattle's neighborhood character more familiar. Buyers from Phoenix, Dallas, or suburban Texas often find the Eastside more comfortable. Neither preference is wrong — they reflect different habits and different definitions of quality of life.",
+        ],
+      },
+      {
+        heading: "School Districts: Where the Eastside Pulls Ahead",
+        body: [
+          "For families with school-age children, the school district question is often the deciding factor — and on this dimension, the Eastside has a clear structural advantage. Bellevue School District and Mercer Island School District consistently rank among Washington State's top performers and compete nationally. Northshore School District (Bothell, Kenmore, Woodinville) is a strong performer at a more accessible price point. Issaquah and Lake Washington school districts are both well-regarded.",
+          "Seattle Public Schools is a single large district with wide variation by individual school and attendance area. Top-performing schools in neighborhoods like Laurelhurst, Bryant, and Wedgwood are excellent — but the system's size means that buyers must research individual attendance areas carefully rather than relying on a district-wide reputation. For buyers who want a strong district without the research burden, the Eastside offers more predictability.",
+        ],
+      },
+      {
+        heading: "Housing Stock and Price Comparison",
+        body: [
+          "Seattle's housing stock skews older — craftsman bungalows, mid-century colonials, and pre-war architectural character define the city's most desirable neighborhoods. These homes carry irreplaceable details that new construction cannot replicate, and they sit on established lots with mature landscaping in neighborhoods that have decades of proven demand.",
+          "The Eastside's housing stock skews newer. Bellevue, Kirkland, and Redmond have seen significant development since the 1970s and 1980s, and newer construction from the 1990s through today is more prevalent. Modern open-plan layouts, updated systems, and energy-efficient construction are more common on the Eastside than in Seattle's older neighborhoods.",
+          "In 2026, comparable homes across the lake are priced at rough parity at entry and mid-market levels. The Eastside's premium school districts and newer stock make comparable square footage slightly more expensive in Bellevue and Mercer Island than in equivalent Seattle pockets. However, Seattle's luxury tier — particularly view properties in Magnolia, Queen Anne, and Madrona — competes directly with Bellevue's highest tier.",
+        ],
+      },
+      {
+        heading: "Commute: The Variable That Changes Everything",
+        body: [
+          "Where you work is often the most practical filter. Microsoft's main campus is in Redmond — 10 to 15 minutes from most of Bellevue and Kirkland, and 35 to 45 minutes from Seattle proper depending on traffic. Amazon's headquarters are in Seattle's South Lake Union, 10 minutes from Capitol Hill and 35-plus minutes from Bellevue. Google, Meta, and most of Seattle's biotech and startup employment concentrate in Seattle proper.",
+          "East Link light rail now connects downtown Bellevue and Redmond to downtown Seattle in approximately 20 minutes — reducing the commute burden for transit users and meaningfully changing the calculus for hybrid workers. Driving remains the dominant cross-lake commute mode, but the rail option has made the Eastside viable for more Seattle-employed buyers than before.",
+          "Remote workers and hybrid employees have the most flexibility — and many have chosen neighborhoods on lifestyle merit alone, without commute shaping the decision. For this group, the lifestyle question becomes the only question.",
+        ],
+      },
+      {
+        heading: "Lifestyle Priorities That Should Drive the Decision",
+        body: [
+          "Choose Seattle if you prioritize walkability, restaurant and cultural proximity, the texture of an established urban neighborhood, and architectural character that cannot be replicated. Capitol Hill, Ballard, Queen Anne, Madrona, and Magnolia each offer specific versions of this lifestyle at different price points.",
+          "Choose the Eastside if you prioritize newer homes, school districts with less individual research burden, quieter residential streets, and proximity to the Cascades and the Eastside's extensive trail network. Bellevue, Kirkland, and Sammamish offer this with access to Lake Sammamish and outdoor recreation that is closer and more accessible than it is from Seattle's western neighborhoods.",
+          "Mercer Island occupies a unique position between both worlds — a self-contained island community with an exceptional school district, Lake Washington access on all sides, and an I-90 corridor that puts both Seattle and Bellevue within 15 minutes. For buyers who want the benefits of both sides, Mercer Island is the answer — at a price that reflects it.",
+        ],
+      },
+      {
+        heading: "Long-Term Value: Which Market Performs Better?",
+        body: [
+          "Both sides of the lake have produced strong long-term appreciation. Seattle's established neighborhoods — particularly those with irreplaceable view positions, walkability, and architectural character — have historically held value through corrections and amplified gains during upswings. Magnolia, Queen Anne, and Madrona are examples of neighborhoods with structural scarcity that supports durable pricing.",
+          "The Eastside has benefited from Microsoft and Amazon's sustained growth and the economic concentration of the tech sector. Bellevue in particular has seen dramatic appreciation as it has evolved from a suburban satellite into a genuine urban center. The opening of East Link light rail has accelerated this trajectory and opened new value in transit-adjacent neighborhoods.",
+          "Long-term performance correlates more with specific neighborhood quality and property positioning than with which side of the lake a home is on. Both markets reward buyers who buy correctly in the right location — and both will disappoint buyers who overpay for the wrong one.",
+        ],
+      },
+      {
+        heading: "Who Tends to Choose Each Side",
+        body: [
+          "Seattle tends to attract buyers relocating from urban East Coast or Bay Area environments, buyers without school-age children, buyers who prioritize walkability and cultural access, creative and startup-employed buyers, and buyers drawn to Seattle's architectural heritage.",
+          "The Eastside tends to attract families with school-age children, buyers relocating from suburban environments who prefer that lifestyle pattern, tech-employed buyers who work on the Eastside, buyers who want newer construction per dollar, and buyers seeking community-specific anchors like Mercer Island's school district or Kirkland's lakefront village character.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions: Eastside vs. Seattle",
+        body: [
+          "Is Bellevue more expensive than Seattle? At comparable home sizes and quality, Bellevue and Seattle are at rough parity in 2026. Bellevue's school district premium and newer stock can make specific neighborhoods slightly more expensive than comparable Seattle pockets. However, Seattle's luxury view tier — Magnolia Boulevard, Queen Anne bluff, Madrona lakefront — competes directly with Bellevue's top tier.",
+          "Which side of the lake has better schools? The Eastside has a structural advantage in district-wide consistency. Bellevue, Mercer Island, Northshore, and Issaquah school districts all outperform Seattle Public Schools at the district level. However, specific Seattle attendance areas — Bryant, Laurelhurst, Loyal Heights — are competitive with Eastside averages at the individual school level.",
+          "Is the Eastside or Seattle better for tech workers? It depends on your employer. Microsoft workers are generally better served by the Eastside. Amazon, Google, Meta, and biotech employees are better served by Seattle or Mercer Island. Remote workers have full flexibility — and should optimize entirely for lifestyle.",
+          "Can I live on the Eastside and access Seattle easily? Yes. Interstate 90 and SR-520 provide two cross-lake car routes, and East Link light rail provides a third. Normal-traffic drive times are 20 to 35 minutes between most Eastside cities and downtown Seattle. East Link connects downtown Bellevue to downtown Seattle in approximately 20 minutes.",
+        ],
+      },
+    ],
+    closing:
+      "The lake is not a barrier — it is a dividing line between two genuinely different approaches to Pacific Northwest living. Understanding which one matches your life is the single most important decision in a Seattle-area home search.",
+  },
+
+  {
     slug: "magnolia-seattle-neighborhood-guide",
     title: "Magnolia, Seattle: The Complete Neighborhood Guide for 2026",
     category: "Neighborhood Guide",
@@ -29,7 +196,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "6 min read",
     image: "/website-blog-magnolia-seattle.png",
     imageAlt: "Tree-lined Magnolia Boulevard in Seattle with panoramic views of Puget Sound and the Olympic Mountains at golden hour",
-    isNew: true,
     excerpt:
       "Magnolia occupies one of Seattle's most privileged positions — a bluff-top peninsula with views of Puget Sound, the Olympic Mountains, and the city skyline. Here is what buyers and sellers need to know in 2026.",
     quickAnswer:
@@ -114,7 +280,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-multiple-offers-seattle.png",
     imageAlt: "Confident couple reviewing and signing real estate offer documents at a clean modern desk with warm natural light",
-    isNew: true,
     excerpt:
       "Multiple offers still happen in Seattle's 2026 market — and they always will for the right home at the right price. Here is how buyers actually win: not just by bidding more, but by making an offer sellers genuinely trust.",
     quickAnswer:
