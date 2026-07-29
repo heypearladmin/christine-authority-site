@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { blogPosts } from "@/lib/blogs";
 import { neighborhoods } from "@/lib/neighborhoods";
 import { services } from "@/lib/services";
+import { getAllFaqs } from "@/lib/faqs";
 
 const SITE_URL = "https://christineandreasen.com";
 const now = new Date();
@@ -44,5 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticRoutes, ...blogRoutes, ...neighborhoodRoutes, ...serviceRoutes];
+  const faqRoutes: MetadataRoute.Sitemap = getAllFaqs().map((f) => ({
+    url: `${SITE_URL}/faq/${f.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...blogRoutes, ...faqRoutes, ...neighborhoodRoutes, ...serviceRoutes];
 }
