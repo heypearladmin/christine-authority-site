@@ -62,11 +62,9 @@ export default function RootLayout({
             ]),
           }}
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `var script=document.createElement("script");script.setAttribute("nowprocket","");script.setAttribute("nitro-exclude","");script.src="https://reports.heypearl.io/scripts/dynamic_optimization.js";script.dataset.uuid="c0923d2f-52de-467d-9657-3b2dedc817fa";script.id="sa-dynamic-optimization";document.head.appendChild(script);`,
-          }}
-        />
+        <link rel="preconnect" href="https://reports.heypearl.io" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
       </head>
       <body className="bg-cream text-ink antialiased">
         <Navbar />
@@ -89,6 +87,12 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KN6X350JBC');`,
           }}
+        />
+        <Script
+          id="sa-dynamic-optimization"
+          strategy="lazyOnload"
+          src="https://reports.heypearl.io/scripts/dynamic_optimization.js"
+          data-uuid="c0923d2f-52de-467d-9657-3b2dedc817fa"
         />
       </body>
     </html>
