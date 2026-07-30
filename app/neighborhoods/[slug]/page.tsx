@@ -28,6 +28,9 @@ export async function generateMetadata({
   return {
     title: page.metaTitle,
     description: page.metaDescription,
+    alternates: {
+      canonical: `https://christineandreasen.com/neighborhoods/${params.slug}`,
+    },
     openGraph: {
       title: page.metaTitle,
       description: page.metaDescription,

@@ -218,6 +218,21 @@ export default function BlogPostPage({ params }: { params: Params }) {
                 <p className="font-serif text-xl italic leading-snug text-ink md:text-2xl">
                   {post.closing}
                 </p>
+
+                {post.relatedServiceCta && (
+                  <div className="mt-10 rounded-lg border border-gold/30 bg-gold/5 px-6 py-6">
+                    <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+                      {post.relatedServiceCta.label}
+                    </p>
+                    <p className="mt-2 text-ink/80">{post.relatedServiceCta.text}</p>
+                    <a
+                      href={post.relatedServiceCta.href}
+                      className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-ink underline-offset-4 hover:underline"
+                    >
+                      Learn more →
+                    </a>
+                  </div>
+                )}
               </div>
             </article>
           </div>

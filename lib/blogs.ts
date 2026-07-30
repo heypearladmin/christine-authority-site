@@ -16,6 +16,7 @@ export type BlogPost = {
   sections: BlogSection[];
   closing: string;
   isNew?: boolean;
+  relatedServiceCta?: { label: string; href: string; text: string };
 };
 
 export const blogPosts: BlogPost[] = [
@@ -363,7 +364,7 @@ export const blogPosts: BlogPost[] = [
     image: "/website-blog-buy-budget-seattle.png",
     imageAlt: "Seattle neighborhood street with luxury homes and tree-lined sidewalk in late afternoon light",
     excerpt:
-      "The number most buyers think they need and the number they actually need are rarely the same. Here is what it takes — down payment, reserves, and total buying cost — to purchase a home in Seattle in 2026.",
+      "A $1M home in Seattle requires roughly $200K down, $25K in closing costs, and 6 months of reserves — most buyers underestimate the full number by 30–40%. Here is the complete cost breakdown by price tier for 2026.",
     quickAnswer:
       "To buy a home in Seattle in 2026, most buyers need a minimum of 10–20% down payment plus 2–5% in closing costs, liquid reserves of three to six months of housing costs, and pre-approval from a lender familiar with the local market. At the luxury level, $3M+ buyers often bring 25–30% down or more.",
     sections: [
@@ -845,6 +846,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "In a constrained market, access matters as much as budget. The buyers who consistently find the right home are the ones working with advisors who have built the relationships to surface it first.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying-seattle",
+      text: "Buying a luxury home in Seattle requires access to off-market inventory before it hits the MLS. Learn how Christine approaches the search.",
+    },
   },
 
   {
@@ -961,6 +967,23 @@ export const blogPosts: BlogPost[] = [
         body: [
           "Buyers who are thinking about eventual resale should factor school district quality into their purchase decision even if they do not have school-age children. When you sell, the largest pool of buyers for most single-family homes in the Seattle metro is families — and families will pay a premium for strong school access.",
           "Conversely, buyers purchasing in areas with lower-rated schools should understand that their buyer pool at resale may be narrower, and that the school factor could suppress demand or compress pricing during the sale. This is not a reason to avoid a neighborhood, but it should inform the premium you are willing to pay and the exit strategy you are planning for.",
+        ],
+      },
+      {
+        heading: "District-by-District Comparison: What Buyers Pay for Top Schools",
+        body: [
+          "Bellevue School District is widely considered the highest-performing large district in the state and consistently ranks among the top in the Pacific Northwest. The median home price in the core Bellevue School District footprint is approximately $1.6 to $2.2 million — a premium of 20 to 35 percent over comparable square footage in neighboring areas zoned for lower-rated districts. Families paying this premium are effectively buying school access as a feature of the home.",
+          "Mercer Island School District is smaller but similarly high-performing, with the added benefit that virtually every home on the island feeds into the same district. This uniformity means there is no attendance-area lottery — buying on Mercer Island guarantees Mercer Island School District enrollment. The premium is priced in at every price tier, but it is predictable.",
+          "Northshore School District, serving Bothell and Kenmore, offers strong academic performance at a lower entry price point than Bellevue — which makes it an increasingly popular target for families who want school quality without the full Bellevue premium. Lake Forest Park, Kenmore, and parts of Bothell in the Northshore footprint have seen above-average appreciation as this value proposition has become better understood.",
+          "Issaquah School District covers a broad geographic area — from Issaquah proper to parts of Sammamish and Maple Valley — and ranks consistently high on state report cards. The district's combination of strong academics, suburban character, and relative affordability compared to Bellevue draws families priced out of the Eastside's core.",
+        ],
+      },
+      {
+        heading: "How School Boundaries Affect Specific Seattle Neighborhoods",
+        body: [
+          "Within Seattle proper, the school premium is hyper-local. Laurelhurst feeds Lincoln High School and two elementary schools with strong reputations — and prices reflect it. Homes in Laurelhurst average 25 to 40 percent above comparable homes in neighboring Bryant and Ravenna, which also feed high-performing schools, though with slightly lower test score averages.",
+          "Queen Anne and Magnolia are split between multiple elementary and middle school attendance areas. A home on the north slope of Queen Anne may be zoned for a different school than a home on the south slope three blocks away. Buyers in these neighborhoods should check the specific address before assuming school access.",
+          "West Seattle's school landscape is more varied. Genesee Hill Elementary draws strong family demand in the Fauntleroy and Arbor Heights area. Madison Middle School and West Seattle High School have improved in reputation over the past decade — a fact that is beginning to be reflected in pricing in the neighborhoods that feed into them. Buyers who purchase ahead of this trend while it is still emerging have historically done well.",
         ],
       },
       {
@@ -1121,14 +1144,14 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "seattle-waterfront-homes-guide",
-    title: "Waterfront and Lakefront Homes in Seattle: A Complete Buyer's Guide",
+    title: "Seattle Waterfront Homes: Lake Washington, Lake Union & Puget Sound (2026 Buyer's Guide)",
     category: "Property Guide",
     date: "2026-04-30",
     readingTime: "7 min read",
     image: "/website-blog-waterfront.png",
     imageAlt: "Seattle lakefront home at sunset with dock and calm water reflections",
     excerpt:
-      "Waterfront property in Seattle carries some of the most durable premiums in the Pacific Northwest. Understanding what drives value, what to inspect, and where to buy is essential before entering this category.",
+      "Lake Washington waterfront starts at $3M — often 30–100% above comparable inland homes. Here's what drives Seattle waterfront premiums, what to inspect before buying, and which lakes and neighborhoods to target in 2026.",
     quickAnswer:
       "Waterfront properties in Seattle — including Lake Washington, Lake Union, Puget Sound, and smaller lakes — command significant premiums over comparable inland homes, often 30% to 100% or more depending on water access, views, and dock rights. They also involve unique due diligence requirements: shoreline regulations, bulkhead condition, dock permits, water rights, and environmental restrictions that standard inspections do not cover. Working with an advisor who has specific waterfront experience is essential.",
     sections: [
@@ -1185,6 +1208,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Waterfront property in Seattle is among the most coveted real estate in the Pacific Northwest. The premium is real — and so is the reward for buyers who approach it with the right preparation and the right advisor.",
+    relatedServiceCta: {
+      label: "Seattle Waterfront Homes",
+      href: "/services/seattle-waterfront-homes",
+      text: "Waterfront transactions require specialized due diligence and off-market access. See how Christine guides buyers through this category.",
+    },
   },
 
   {
@@ -1236,6 +1264,22 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        heading: "Seattle vs. Bay Area vs. New York: What Changes and What Doesn't",
+        body: [
+          "The most common relocating buyers come from the Bay Area, New York City, and increasingly, Texas. Each group finds a different Seattle. Bay Area transplants are often surprised by how much further their housing budget goes — a $2.5 million home in Seattle competes favorably with $4 to $5 million in the South Bay or Marin. New York buyers find Seattle's pace slower and its outdoor access transformative. Texas buyers arriving for tech jobs frequently gravitate toward Bellevue, where the suburban scale and newer construction feel more familiar.",
+          "What doesn't change: the intensity of the top-tier market. The $3–7 million segment in Seattle is as competitive as anything in comparable coastal markets. What does change: in Seattle, that money buys a lakefront property with mountain views and a dock, not a 2,000-square-foot Tudor on a 4,000-square-foot lot.",
+          "Washington State's income tax advantage is real and significant. A household earning $400,000 annually saves approximately $25,000–$38,000 per year versus California's top marginal rate. Over a decade, that number funds a material portion of a home purchase — a calculation worth running explicitly before making a final decision.",
+        ],
+      },
+      {
+        heading: "Commute Reality by Neighborhood",
+        body: [
+          "Seattle's topography and bridge constraints make commute math critical. Amazon's South Lake Union headquarters is 8–12 minutes from Capitol Hill, 20–30 minutes from Eastside suburbs (depending on 520 or I-90 bridge traffic), and 35–50 minutes from Kirkland or Issaquah during peak hours. Microsoft's Redmond campus is 15–20 minutes from Bellevue, 25–40 minutes from Kirkland, and 45–70 minutes from Seattle depending on traffic and routing.",
+          "The SR-520 and I-90 bridges are the two links between Seattle and the Eastside — and both experience significant congestion during peak commute hours. Buyers who work in Seattle but want Eastside schools should stress-test the commute before committing to a neighborhood. Buyers who work in Redmond or Bellevue but prefer Seattle's urban character face the same calculation in reverse. The floating bridge commute is often the deciding factor in the Seattle-vs.-Eastside choice.",
+          "The light rail expansion has materially changed commute options for buyers near station corridors. The East Link extension connects Bellevue and Redmond to downtown Seattle in approximately 30 minutes — a significant shift for buyers willing to forgo a car commute. Neighborhoods within half a mile of Link stations have seen appreciation premiums reflecting this new connectivity.",
+        ],
+      },
+      {
         heading: "How to Search from Out of State",
         body: [
           "The most common mistake out-of-state buyers make is touring homes they have already mentally committed to based on online listings — without having established the neighborhood context that would tell them whether that specific location makes sense for their life. Visiting Seattle for a neighborhood orientation before committing to a search is time better spent than touring homes.",
@@ -1253,6 +1297,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The buyers who navigate Seattle's market most successfully from out of state are the ones who arrive knowing what they want and who they trust to help them find it. The preparation happens before the flight.",
+    relatedServiceCta: {
+      label: "Seattle Relocation Guidance",
+      href: "/services/seattle-relocation",
+      text: "Christine works with out-of-state buyers throughout the search — from initial neighborhood orientation to closing. See how the relocation process works.",
+    },
   },
 
   {
@@ -1532,6 +1581,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The buyers who have the best experience in Seattle's market are not always the ones who know the most — they are the ones who prepared the most, asked the right questions early, and worked with advisors who gave them a clear picture before the process began.",
+    relatedServiceCta: {
+      label: "Seattle Home Buying Guidance",
+      href: "/services/buying-a-home-in-seattle",
+      text: "Ready to move from research to action? Christine works with buyers across every price tier in Seattle — from first purchase to luxury.",
+    },
   },
 
   // ─── EXISTING BLOGS (dates respaced weekly) ────────────────────────────────
