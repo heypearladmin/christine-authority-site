@@ -23,6 +23,151 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "seattle-waterfront-for-sale-2026",
+    title: "Seattle Waterfront Homes for Sale in 2026: Lake Washington, Puget Sound, and What the Market Looks Like Right Now",
+    category: "Property Guide",
+    date: "2026-08-14",
+    readingTime: "8 min read",
+    image: "/website-blog-seattle-waterfront-for-sale.png",
+    imageAlt: "Seattle lakefront home with private dock on Lake Washington at golden hour, mountains visible in background",
+    isNew: true,
+    excerpt:
+      "Waterfront inventory in Seattle is tighter than it looks online — the best Lake Washington properties rarely hit Zillow. Here's what's actually for sale across every price tier, which lakes are most competitive right now, and how serious buyers are finding homes before they list.",
+    quickAnswer:
+      "Seattle waterfront homes for sale in 2026 span four primary water bodies: Lake Washington ($3M–$20M+), Lake Union ($1.5M–$6M), Puget Sound ($800K–$5M+), and Lake Sammamish ($1.2M–$4M). Inventory at every tier is structurally constrained — fewer than 40 true waterfront homes are actively listed on Lake Washington at any given time. The most sought-after properties never appear publicly; they trade through advisor networks before any listing is created.",
+    sections: [
+      {
+        heading: "The State of Seattle Waterfront Inventory in 2026",
+        body: [
+          "Seattle waterfront is among the most constrained residential asset classes in the Pacific Northwest. Lake Washington has a fixed shoreline, a near-zero rate of new waterfront lot creation, and a buyer pool that extends nationally and internationally. The result is a market where supply is measured in dozens, not hundreds, and where a well-priced property in the right position will attract multiple offers regardless of broader market conditions.",
+          "Active listings across all of Lake Washington's waterfront — both shores combined — typically number between 30 and 50 at any given moment. That inventory is spread across Bellevue, Kirkland, Mercer Island, Medina, Clyde Hill, Kenmore, Bothell, and the Seattle neighborhoods of Laurelhurst, Madrona, and Leschi. When you filter for specific criteria — minimum frontage, dock rights, south or west facing — the realistic options often number in single digits.",
+          "This structural scarcity is the defining characteristic of the Seattle waterfront market. It means price discovery is driven by individual negotiation rather than broad comparable sales, it means off-market relationships matter more here than in any other segment, and it means buyers who move slowly often watch the property they wanted disappear while they were deliberating.",
+        ],
+      },
+      {
+        heading: "Lake Washington: The Premier Tier",
+        body: [
+          "Lake Washington waterfront is Seattle's most prestigious residential category. The west shore — encompassing Seattle neighborhoods like Laurelhurst, Madrona, and Leschi — commands the highest prices due to proximity to the city, established neighborhood character, and sunset views over the Olympics. Properties here range from $5 million for older homes with strong waterfront positions to well over $20 million for contemporary estates with maximum frontage and private dock infrastructure.",
+          "The east shore — Bellevue, Kirkland, Medina, and Mercer Island — offers different value. Bellevue and Kirkland provide proximity to the Eastside tech corridor, Bellevue School District access, and a slightly more accessible entry point relative to the west shore. Medina and Clyde Hill remain the most exclusive addresses on the lake — the small peninsulas where home values routinely exceed $10 to $15 million for premier positions.",
+          "Mercer Island occupies a category of its own. Every home on the island is within roughly a mile of the shoreline, and true waterfront properties circle the perimeter. The island's self-contained community character, top-ranked school district, and central position between Seattle and Bellevue create a buyer profile that is distinct from both shores of the mainland. Waterfront homes on Mercer Island range from $5 million to over $15 million.",
+          "One under-discussed variable: dock condition and permitting. A functioning private dock on Lake Washington can add $500,000 to $1.5 million to a property's value relative to undocked waterfront. Docks that were built without permits or that require replacement introduce regulatory complexity that buyers should evaluate carefully before closing — shoreline regulations have tightened, and unpermitted structures carry real risk.",
+        ],
+      },
+      {
+        heading: "Puget Sound Waterfront: A Different Character",
+        body: [
+          "Puget Sound waterfront operates on fundamentally different terms than Lake Washington. The Sound is tidal, saltwater, and open — which means dramatically different views, different maintenance requirements (salt air affects everything from roofing to decking to mechanical systems), and a different lifestyle. The trade-off is access to mountain and island views that Lake Washington cannot match, and price points that are more accessible at the entry level.",
+          "The primary Puget Sound waterfront areas for residential buyers are: West Seattle (Alki and Beach Drive), Shoreline and Edmonds to the north, Des Moines and Burien to the south, and more remote reaches of Kitsap and Vashon Island for buyers seeking greater seclusion. In West Seattle, Puget Sound waterfront begins around $1.5 million for modest older homes and climbs to $4 to $5 million for larger homes with significant frontage and unobstructed mountain views.",
+          "Tidal range on the Sound — up to 12 feet in some locations — affects dock usability meaningfully. Float-plane access, larger vessel moorage, and recreational boating on the Sound require different dock structures than Lake Washington. Buyers planning to keep boats should evaluate the site-specific tidal conditions, dock depth, and wave exposure before committing.",
+        ],
+      },
+      {
+        heading: "Lake Union and the Urban Waterfront",
+        body: [
+          "Lake Union is the most urban of Seattle's primary water bodies — surrounded by South Lake Union, Eastlake, Westlake, and Fremont, and bisected by the ship canal connecting it to Puget Sound and Lake Washington. Waterfront homes on Lake Union are rarer than the surrounding development density suggests; much of the shoreline is occupied by marinas, houseboats, and commercial uses.",
+          "True residential waterfront on Lake Union typically comes in the form of floating homes or upland homes with direct water access — both of which carry their own due diligence requirements. Floating home ownership involves a moorage slip lease (not land ownership), which affects financing, appreciation, and estate planning in ways buyers should understand before purchase. The lifestyle — living on the water in the center of the city — is genuinely unlike anything else in the Seattle market.",
+          "Lake Sammamish, on the Eastside between Issaquah and Redmond, offers a quieter alternative to Lake Washington at a lower entry point. Waterfront homes here start around $1.2 million for older homes on the north and south ends and climb to $3 to $4 million for renovated homes with strong positions and south-facing orientation. The lake's smaller size and recreational character attract families and buyers prioritizing quiet over prestige.",
+        ],
+      },
+      {
+        heading: "Finding Waterfront Homes Before They Hit the Market",
+        body: [
+          "A meaningful portion of Lake Washington waterfront trades off-market — conservatively estimated at 25 to 40 percent of transactions in any given year, with higher concentrations at the $7 million and above tier. Sellers at this level often have no interest in public exposure: they do not want open houses, do not want their property photographed for Zillow, and have advisors who can identify qualified buyers directly. The listing never exists.",
+          "Accessing this inventory requires the right relationships. Advisors who have transacted multiple times in a specific waterfront neighborhood have earned the phone calls when those owners begin to think about selling. Advisors who operate primarily through advertising and MLS exposure will not receive those calls. For buyers whose target property is a specific type of waterfront home in a specific location, working with an advisor who has deep existing relationships in that area is the single most important variable in the search.",
+          "Proactive outreach — identifying properties that match a buyer's criteria and reaching out to owners directly, even before the owner has considered selling — is a legitimate and often effective strategy at this level. It requires a buyer willing to move decisively when the right door opens, and an advisor capable of structuring that conversation in a way that produces a transaction rather than an awkward interaction.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Seattle Waterfront Homes for Sale",
+        body: [
+          "How many waterfront homes are for sale on Lake Washington right now? Active public listings on Lake Washington typically range from 30 to 50 properties across both shores at any given time. The count at any specific sub-tier — say, south-facing, minimum 50-foot frontage, with a dock, priced above $5 million — is often in single digits. The private market adds to this count but by definition cannot be tracked.",
+          "Can I find Seattle waterfront homes under $1 million? Genuine waterfront on Lake Washington or Puget Sound below $1 million is extremely rare in 2026 — occasionally possible on smaller, lower-demand lakes further from the city, or on properties with significant condition issues. Buyers with budgets below $1.5 million targeting water proximity should evaluate water-view homes, which carry a meaningful premium over comparable non-view homes but remain far more accessible than direct waterfront.",
+          "Is Seattle waterfront a good investment? Waterfront on Lake Washington has historically been one of the most inflation-resistant and appreciation-stable residential asset classes in the Pacific Northwest. The structural supply constraint — a fixed shoreline, no new waterfront creation — provides a floor to demand that most residential real estate cannot match. The investment case is strongest for buyers who plan long holds and who do not require maximum liquidity.",
+        ],
+      },
+    ],
+    closing:
+      "Seattle waterfront is not a category where patience is consistently rewarded. The best positions are held by owners who rarely sell, and when they do sell, the buyers who are ready — relationships established, financing arranged, criteria clearly defined — are the ones who close. Preparation is the competitive advantage.",
+    relatedServiceCta: {
+      label: "Seattle Waterfront Homes",
+      href: "/services/waterfront-homes",
+      text: "Christine specializes in waterfront transactions across Lake Washington, Puget Sound, and Lake Sammamish — including off-market inventory. Learn how the search process works.",
+    },
+  },
+
+  {
+    slug: "luxury-homes-for-sale-seattle-2026",
+    title: "Luxury Homes for Sale in Seattle: Price Tiers, Neighborhoods, and What the Market Looks Like in 2026",
+    category: "Market Guide",
+    date: "2026-08-07",
+    readingTime: "8 min read",
+    image: "/website-blog-luxury-homes-for-sale.png",
+    imageAlt: "Contemporary Seattle luxury home exterior at dusk with floor-to-ceiling windows and mountain view",
+    isNew: true,
+    excerpt:
+      "The luxury market in Seattle moves differently than the rest of the city — constrained inventory, a small buyer pool, and pricing driven by factors algorithms can't read. Here's what's actually for sale, what you get at each tier, and how to compete as a buyer in 2026.",
+    quickAnswer:
+      "Luxury homes for sale in Seattle are broadly defined as properties priced at $3 million and above, with an ultra-luxury tier — The Sevens — beginning at $7 million. In 2026, luxury inventory across Seattle and the Eastside remains constrained relative to a buyer pool driven by technology employment and out-of-state relocation. The best homes in this category frequently sell before reaching public listing, making advisor relationships the primary variable in successful luxury home searches.",
+    sections: [
+      {
+        heading: "What 'Luxury' Actually Means in Seattle's 2026 Market",
+        body: [
+          "The word 'luxury' is applied broadly in real estate marketing — and in Seattle, like most markets, it has a specific meaning worth understanding before you search. At the practical level, Seattle's luxury market begins around $3 million. Below that, homes may be high-quality and premium-finished, but they trade within the same buyer pool and under the same competitive dynamics as the broader market. Above $3 million, the dynamics shift.",
+          "From $3 to $7 million, the buyer pool narrows significantly. Homes in this range are typically purchased by senior technology executives, entrepreneurs, multi-generational wealth, and buyers relocating from higher-cost markets — often Bay Area or New York — where $3 to $5 million represents a step up in quality and a step down in price relative to what they left. Competition for well-positioned homes is real; correctly priced properties still attract multiple interested buyers.",
+          "Above $7 million — what Christine Andreasen calls The Sevens — the market operates by different rules entirely. The buyer pool at any moment in the greater Seattle area is measured in dozens, not hundreds. Marketing is private. Pricing cannot be anchored to comparables in any meaningful way. And the transaction itself, when it happens, typically involves multiple advisors, attorneys, and financial professionals on both sides. These are not standard real estate transactions.",
+        ],
+      },
+      {
+        heading: "Where Luxury Homes for Sale Are Actually Concentrated",
+        body: [
+          "Seattle's luxury inventory is not evenly distributed. The highest concentration of $3M+ homes available at any given time is found in: Medina and Clyde Hill (West Bellevue waterfront and estate properties), Mercer Island (waterfront and premier ridge positions), Bellevue's West Highland and Somerset neighborhoods, Kirkland's Yarrow Bay and Finn Hill areas, and Seattle proper neighborhoods like Laurelhurst, Madrona, and Broadmoor.",
+          "Within Seattle city limits, the luxury market is more fragmented. Capitol Hill and First Hill have high-floor condominium units in the $3 to $5 million range. Madrona, Leschi, and the Lake Washington waterfront communities offer lakefront single-family homes. Magnolia and Queen Anne have premier hillside homes with Sound and mountain views. Each of these sub-markets has its own buyer profile, its own pricing logic, and its own inventory rhythm.",
+          "New construction is a distinct sub-category. Several developers operate in the $3 to $6 million range in Bellevue and the Eastside — producing contemporary homes with current-generation finishes, smart home integration, and energy efficiency standards that older homes cannot match. Buyers who prioritize new construction often find better value on the Eastside than in Seattle proper, where land costs limit the economics of new luxury construction in many neighborhoods.",
+        ],
+      },
+      {
+        heading: "Price Tier Breakdown: What You Get at Each Level in 2026",
+        body: [
+          "At $3 to $5 million, buyers can expect: premium single-family homes in established neighborhoods, typically 3,500 to 5,500 square feet, fully renovated or originally built to a high standard, with quality finishes, strong location, and meaningful curb appeal. View homes in this range exist but require flexibility on other dimensions. Waterfront in this range is primarily found on secondary lakes or on Puget Sound.",
+          "At $5 to $10 million, the market shifts toward architectural distinction, significant lot size, or waterfront position. Lake Washington waterfront at this tier is possible — particularly on the east shore. Mercer Island estates, West Bellevue ridge homes, and premium Seattle properties (Laurelhurst, Broadmoor) are concentrated here. At $7 million and above, buyers should expect off-market outreach as the primary sourcing strategy.",
+          "Above $10 million, the Seattle market is genuinely ultra-luxury — a handful of transactions per year, driven by specific positions (lake frontage, architectural significance, estate land) that cannot be replicated. These homes are not 'for sale' in any traditional sense; they become available when an owner's circumstances change, and the right buyer for each one is identified through network rather than search.",
+        ],
+      },
+      {
+        heading: "The Off-Market Reality: Where the Best Homes Are",
+        body: [
+          "No accurate figure exists for the percentage of Seattle luxury homes that trade off-market, but estimates from advisors active in this segment consistently land between 25 and 50 percent — with the proportion rising as price tier rises. At $7 million and above, off-market may be the majority of transactions.",
+          "For buyers, this has a practical implication: the homes visible on Zillow, Redfin, and even the MLS represent a partial view of what is actually available. An advisor with deep relationships in Medina, Mercer Island, or Laurelhurst will know about homes whose owners are considering selling before any listing is created — and in some cases, will facilitate the conversation that produces a transaction. Buyers who rely exclusively on public search are, by definition, competing for the inventory that other buyers couldn't close privately.",
+          "Building the right advisory relationship before beginning a luxury search is not a luxury — it is the strategy. The off-market access, the private network of seller relationships, and the ability to structure a direct conversation between buyer and owner are what separate advisors who can find the right home from those who can only show what is publicly listed.",
+        ],
+      },
+      {
+        heading: "How to Position as a Buyer in a Constrained Market",
+        body: [
+          "Luxury buyers in Seattle who move decisively and arrive prepared consistently outperform those who treat the process like a standard home search with a larger budget. The dynamics are different: there is no urgency in the open-house format, no rush from a dozen competing buyers — but there is often a single competitor who has been cultivating the relationship longer and who closes while others are still requesting tours.",
+          "Practical preparation means: pre-approval or proof of funds established before beginning the search, a clear articulation of priorities (view vs. land vs. waterfront, Seattle vs. Eastside, new vs. established), and genuine willingness to move quickly when the right home appears. A buyer who needs sixty days to decide will routinely lose to one who can commit in a week.",
+          "For sellers evaluating the timing of a luxury listing: 2026 continues to reward well-prepared, correctly priced homes in the $3 to $7 million range. The buyer pool is qualified and active. Homes that are appropriately staged, priced precisely relative to limited comparables, and introduced through the right channels are seeing strong outcomes. The homes that struggle are those that test unrealistic price points in a market where buyers conduct their own diligence.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Luxury Homes for Sale in Seattle",
+        body: [
+          "What is the most expensive neighborhood in Seattle for luxury homes? Medina, on the west shore of Lake Washington across from Seattle, is consistently the most expensive residential area in the Seattle metro. Neighboring Clyde Hill and Hunts Point are similarly premium. Within Seattle city limits, Laurelhurst and Madrona waterfront positions command the highest per-square-foot prices for single-family homes.",
+          "How long do luxury homes typically stay on the market in Seattle? In 2026, well-priced luxury homes in the $3 to $5 million range are selling in 30 to 60 days on average. At $5 to $10 million, median days on market extends to 60 to 120 days. Above $10 million, individual transactions can take 6 to 18 months from initial contact to closing — particularly for off-market deals where the process moves at the owner's pace.",
+          "Do Seattle luxury homes sell below asking price? In most cases at the $3 to $7 million range, correctly priced homes sell within 3 to 7 percent of list price. Overpriced homes — and there are always some — sit longer and ultimately sell at larger discounts than they would have achieved with accurate initial pricing. Above $7 million, price negotiation is more case-specific and driven by individual circumstances rather than market norms.",
+        ],
+      },
+    ],
+    closing:
+      "The luxury market in Seattle rewards buyers who arrive prepared and sellers who price with precision. The homes that perform — whether measured by speed, price, or the quality of the transaction — are almost always the ones where strategy preceded execution.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying & Selling",
+      href: "/services/luxury-homes-seattle",
+      text: "Christine works with buyers and sellers across Seattle's $3M–$15M+ tier. See how the luxury process works — from private search to offer strategy to closing.",
+    },
+  },
+
+  {
     slug: "bellevue-real-estate-neighborhood-guide",
     title: "Bellevue Real Estate: The Complete Neighborhood Guide for 2026",
     category: "Neighborhood Guide",
@@ -30,7 +175,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-bellevue-seattle.png",
     imageAlt: "Bellevue skyline at dusk with Lake Washington in the foreground and Mount Rainier visible in the distance",
-    isNew: true,
     excerpt:
       "Bellevue has evolved from a Seattle suburb into one of the Pacific Northwest's most significant cities in its own right. For buyers in 2026, it offers top-ranked schools, a thriving downtown, and a luxury market with its own distinct logic.",
     quickAnswer:
@@ -115,7 +259,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-eastside-vs-seattle.png",
     imageAlt: "Aerial view of Lake Washington on a clear day with the Seattle skyline visible on the west shore and the Bellevue skyline on the east",
-    isNew: true,
     excerpt:
       "Lake Washington divides more than geography — it divides two distinct approaches to living in the Pacific Northwest. Understanding what each side actually offers is the most important decision a Seattle-area buyer makes.",
     quickAnswer:
