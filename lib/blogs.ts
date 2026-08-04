@@ -28,7 +28,7 @@ export const blogPosts: BlogPost[] = [
     category: "Property Guide",
     date: "2026-08-14",
     readingTime: "8 min read",
-    image: "/website-blog-seattle-waterfront-for-sale.png",
+    image: "/website-blog-seattle-waterfront-for-sale.jpg",
     imageAlt: "Seattle lakefront home with private dock on Lake Washington at golden hour, mountains visible in background",
     isNew: true,
     excerpt:
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
     category: "Market Guide",
     date: "2026-08-07",
     readingTime: "8 min read",
-    image: "/website-blog-luxury-homes-for-sale.png",
+    image: "/website-blog-luxury-homes-for-sale.jpg",
     imageAlt: "Contemporary Seattle luxury home exterior at dusk with floor-to-ceiling windows and mountain view",
     isNew: true,
     excerpt:
