@@ -1,6 +1,6 @@
 // Central site config — no lib/site.ts exists in this project
 const SITE = {
-  url: "https://christineandreasen.com",
+  url: "https://www.christineandreasen.com",
   name: "Christine Andreasen",
   brand: "Christine & Company",
   brokerage: "eXp Realty",

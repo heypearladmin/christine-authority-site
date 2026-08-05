@@ -50,7 +50,7 @@ export async function generateMetadata({
       images: [post.image],
     },
     alternates: {
-      canonical: `https://christineandreasen.com/blog/${params.slug}`,
+      canonical: `https://www.christineandreasen.com/blog/${params.slug}`,
     },
   };
 }

@@ -29,7 +29,7 @@ export async function generateMetadata({
     title: page.metaTitle,
     description: page.metaDescription,
     alternates: {
-      canonical: `https://christineandreasen.com/neighborhoods/${params.slug}`,
+      canonical: `https://www.christineandreasen.com/neighborhoods/${params.slug}`,
     },
     openGraph: {
       title: page.metaTitle,

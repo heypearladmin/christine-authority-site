@@ -4,7 +4,7 @@ import { neighborhoods } from "@/lib/neighborhoods";
 import { services } from "@/lib/services";
 import { getAllFaqs } from "@/lib/faqs";
 
-const SITE_URL = "https://christineandreasen.com";
+const SITE_URL = "https://www.christineandreasen.com";
 const now = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {

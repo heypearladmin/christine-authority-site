@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import { realEstateAgentSchema, webSiteSchema, personSchema, organizationSchema, travisPersonSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://christineandreasen.com"),
+  metadataBase: new URL("https://www.christineandreasen.com"),
   title: {
     default: "Christine Andreasen | Seattle Luxury Real Estate Advisor",
     template: "%s | Christine Andreasen",
