@@ -10,8 +10,10 @@ const SITE = {
   phone: "+12063538787",
   phoneDisplay: "(206) 353-8787",
   email: "christine@candco.me",
+  streetAddress: "2284 West Commodore Way Suite 200",
   city: "Seattle",
   state: "WA",
+  zip: "98199",
   country: "US",
   portraitSrc: "/headshot.webp",
   logoSrc: "/companylogo.webp",
@@ -46,8 +48,10 @@ export function realEstateAgentSchema(): SchemaObject {
     priceRange: "$$$$",
     address: {
       "@type": "PostalAddress",
+      streetAddress: SITE.streetAddress,
       addressLocality: SITE.city,
       addressRegion: SITE.state,
+      postalCode: SITE.zip,
       addressCountry: SITE.country,
     },
     areaServed: [
@@ -122,8 +126,10 @@ export function localBusinessSchema(): SchemaObject {
     priceRange: "$$$$",
     address: {
       "@type": "PostalAddress",
+      streetAddress: SITE.streetAddress,
       addressLocality: SITE.city,
       addressRegion: SITE.state,
+      postalCode: SITE.zip,
       addressCountry: SITE.country,
     },
     areaServed: [
@@ -190,9 +196,11 @@ export function organizationSchema(): SchemaObject {
       "Christine & Company is a Seattle-based luxury real estate practice founded by Christine Andreasen, powered by eXp Realty. Specializing in strategic representation for buyers, sellers, and owners across Seattle and surrounding waterfront communities.",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Seattle",
-      addressRegion: "WA",
-      addressCountry: "US",
+      streetAddress: SITE.streetAddress,
+      addressLocality: SITE.city,
+      addressRegion: SITE.state,
+      postalCode: SITE.zip,
+      addressCountry: SITE.country,
     },
     areaServed: [
       { "@type": "City", name: "Seattle", containedInPlace: "Washington" },

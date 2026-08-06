@@ -85,9 +85,9 @@ export default function Footer() {
             </h4>
             <ul className="mt-5 space-y-3 text-sm text-cream/80">
               <li>
-                9245 25th Avenue NW
+                2284 West Commodore Way Suite 200
                 <br />
-                Seattle, WA 98117
+                Seattle, WA 98199
               </li>
               <li>
                 <a

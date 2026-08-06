@@ -137,9 +137,9 @@ export default function PoliciesPage() {
             <p>
               <strong>Christine &amp; Company</strong>
               <br />
-              9245 25th Avenue NW
+              2284 West Commodore Way Suite 200
               <br />
-              Seattle, WA 98117
+              Seattle, WA 98199
               <br />
               Phone:{" "}
               <a href="tel:+12063538787" className="editorial-link">

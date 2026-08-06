@@ -67,7 +67,7 @@ export default function SchedulePage() {
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink/75 md:text-lg">
             A focused, 30 to 45 minute conversation about your property, your
             timing, and the right next move. By appointment only — virtual or
-            in person at the Ballard office.
+            in person at the Seattle office.
           </p>
         </div>
       </section>

@@ -85,7 +85,7 @@ export default function ContactPage() {
                 <div>
                   <div className="text-xs uppercase tracking-editorial text-gold">Office</div>
                   <p className="mt-2 text-cream/85">
-                    9245 25th Avenue NW<br />Seattle, WA 98117
+                    2284 West Commodore Way Suite 200<br />Seattle, WA 98199
                   </p>
                 </div>
                 <div>
@@ -129,7 +129,7 @@ export default function ContactPage() {
             <div className="mt-8 border-t border-ink/10 pt-8">
               <p className="text-sm leading-relaxed text-ink/70">
                 Ready to talk through your property goals? Book a private, no-pressure
-                consultation — virtual or in person at the Ballard office.
+                consultation — virtual or in person at the Seattle office.
               </p>
               <Link
                 href="/schedule"
