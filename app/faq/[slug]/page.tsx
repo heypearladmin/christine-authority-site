@@ -35,7 +35,7 @@ export async function generateMetadata({
   const description = faq.answer.slice(0, 160);
   const pageUrl = `${SITE.url}/faq/${faq.slug}`;
   return {
-    title: `${faq.question} | Christine Andreasen`,
+    title: faq.question,
     description,
     alternates: { canonical: pageUrl },
     openGraph: {
