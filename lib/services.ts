@@ -19,7 +19,7 @@ export const services: ServicePage[] = [
     metaTitle: "Luxury Homes Seattle | Christine Andreasen",
     metaDescription:
       "Seattle luxury homes for sale — strategic guidance for buyers and sellers across Seattle's premier neighborhoods. Christine Andreasen | Christine & Company.",
-    image: "/website-service-luxury-seattle.png",
+    image: "/website-service-luxury-seattle.webp",
     imageAlt: "Seattle luxury residential neighborhood with water views and Pacific Northwest architecture",
     intro:
       "Seattle's luxury residential market is one of the most complex and rewarding in the country — shaped by technology wealth, waterfront scarcity, neighborhood character, and a Pacific Northwest lifestyle that attracts discerning buyers from across the globe. Whether you are buying, selling, or simply evaluating your position, the outcomes in this market depend almost entirely on the quality of the strategy and representation you bring to the table.",
@@ -75,7 +75,7 @@ export const services: ServicePage[] = [
     metaTitle: "Luxury Homes Bellevue WA | Christine Andreasen",
     metaDescription:
       "Bellevue luxury homes — Eastside expertise, top school districts, waterfront estates. Strategic buyer and seller guidance from Christine Andreasen.",
-    image: "/website-service-luxury-bellevue.png",
+    image: "/website-service-luxury-bellevue.webp",
     imageAlt: "Bellevue Washington luxury home exterior with professional landscaping at dusk",
     intro:
       "Bellevue's luxury residential market has matured into one of the Pacific Northwest's most sophisticated — anchored by technology wealth, Eastside school districts, and a housing inventory that ranges from contemporary waterfront estates in Medina and Clyde Hill to newer custom construction in Bridle Trails and Somerset. For buyers and sellers operating in this market, the outcomes depend on an advisor with specific Eastside knowledge, the right buyer network, and a strategy calibrated to Bellevue's distinct dynamics.",
@@ -124,7 +124,7 @@ export const services: ServicePage[] = [
     metaTitle: "Luxury Homes Kirkland WA | Christine Andreasen",
     metaDescription:
       "Kirkland WA luxury homes — waterfront, Lake Washington views, Google campus proximity. Expert buyer and seller representation from Christine Andreasen.",
-    image: "/website-service-luxury-kirkland.png",
+    image: "/website-service-luxury-kirkland.webp",
     imageAlt: "Kirkland Washington luxury waterfront property on Lake Washington at sunset",
     intro:
       "Kirkland's luxury real estate market combines Lake Washington waterfront, a genuinely walkable downtown, technology employment proximity, and some of the Eastside's most competitive school districts into a residential offering that is in sustained demand. Buyers who discover Kirkland's waterfront neighborhoods and downtown access frequently end their search here — and the market reflects that conviction.",
@@ -173,7 +173,7 @@ export const services: ServicePage[] = [
     metaTitle: "Luxury Homes Medina WA | Christine Andreasen",
     metaDescription:
       "Medina WA luxury homes — Washington's most exclusive waterfront community. Private, discreet representation from Christine Andreasen.",
-    image: "/website-service-luxury-medina.png",
+    image: "/website-service-luxury-medina.webp",
     imageAlt: "Medina Washington lakefront luxury estate at golden hour with private dock",
     intro:
       "Medina is the pinnacle of the Pacific Northwest luxury residential market — an independent city on Lake Washington where privacy, prestige, and extraordinary property values reflect a community that has spent decades protecting exactly what makes it exceptional. Transactions here require an advisor with the network, discretion, and market depth to operate effectively in a market where properties rarely appear publicly and where outcomes depend heavily on relationships.",
@@ -222,7 +222,7 @@ export const services: ServicePage[] = [
     metaTitle: "Sell Luxury Home Seattle | Christine Andreasen",
     metaDescription:
       "Selling a luxury home in Seattle? Strategic preparation, presentation, and pricing guidance from Christine Andreasen — 30 years in Seattle luxury real estate.",
-    image: "/website-service-selling.png",
+    image: "/website-service-selling.webp",
     imageAlt: "Beautifully staged Seattle luxury home living room ready for professional photography",
     intro:
       "Selling a luxury home in Seattle is a high-stakes process where the quality of your strategy — not the quality of the market — determines your outcome. In a segment where buyers are sophisticated, representation is skilled, and the margin between a good result and a great one can be measured in hundreds of thousands of dollars, who you work with matters more than almost any other decision you make.",
@@ -271,7 +271,7 @@ export const services: ServicePage[] = [
     metaTitle: "Buy Luxury Home Seattle | Christine Andreasen",
     metaDescription:
       "Buying a luxury home in Seattle? Off-market access, strategic guidance, and 30 years of market expertise from Christine Andreasen | Christine & Company.",
-    image: "/website-service-buying.png",
+    image: "/website-service-buying.webp",
     imageAlt: "Seattle luxury home interior with floor-to-ceiling windows and Pacific Northwest views",
     intro:
       "Buying a luxury home in Seattle requires more than a search portal and a licensed agent. It requires an advisor who knows which properties never reach public platforms, who can assess value accurately across Seattle's complex neighborhood hierarchy, and who can negotiate on behalf of a sophisticated buyer without leaving money or terms on the table. The quality of your representation in this market determines whether you get the home — and at what price.",
@@ -320,7 +320,7 @@ export const services: ServicePage[] = [
     metaTitle: "Seattle Relocation Real Estate | Christine Andreasen",
     metaDescription:
       "Relocating to Seattle? Expert luxury real estate guidance for buyers moving to the Seattle area from out of state. Christine Andreasen | Christine & Company.",
-    image: "/website-service-relocation.png",
+    image: "/website-service-relocation.webp",
     imageAlt: "Seattle skyline viewed from the water with Mount Rainier in the background",
     intro:
       "Seattle has become one of America's most sought-after relocation destinations — a world-class city with extraordinary natural beauty, a technology economy that attracts top-tier professionals from every sector, and a quality of life that consistently exceeds expectations for buyers arriving from other major metros. Navigating Seattle's luxury real estate market from a distance, however, requires both a reliable strategy and an advisor who can be your eyes, ears, and counsel in a market that moves quickly and rewards preparation.",
@@ -369,7 +369,7 @@ export const services: ServicePage[] = [
     metaTitle: "Waterfront Homes Seattle | Christine Andreasen",
     metaDescription:
       "Waterfront homes in Seattle — Lake Washington, Puget Sound, Lake Union. Expert guidance from Christine Andreasen with 30 years of waterfront expertise.",
-    image: "/website-service-waterfront.png",
+    image: "/website-service-waterfront.webp",
     imageAlt: "Seattle area waterfront home with private dock reflected in calm lake at sunrise",
     intro:
       "Waterfront property in the Seattle area is among the most valuable and irreplaceable real estate in the Pacific Northwest. Whether on the shores of Lake Washington, along Puget Sound, or on one of the region's quiet coves and inlets, waterfront homes command permanent premiums — because the supply cannot grow and the demand, driven by Seattle's ongoing economic and population expansion, reliably does. Buying or selling waterfront in this market requires specialized knowledge and an advisor who has navigated it across multiple cycles.",
@@ -418,7 +418,7 @@ export const services: ServicePage[] = [
     metaTitle: "View Homes Seattle | Christine Andreasen",
     metaDescription:
       "Seattle view homes — Mount Rainier, Puget Sound, city skyline views. Expert buyer and seller guidance from Christine Andreasen.",
-    image: "/website-service-view-homes.png",
+    image: "/website-service-view-homes.webp",
     imageAlt: "Seattle luxury living room with panoramic floor-to-ceiling views of the city skyline and Puget Sound",
     intro:
       "Seattle's geography creates view opportunities that are rare among American cities — Mount Rainier visible to the south on clear days, the Olympic Mountains across Puget Sound to the west, the Cascade Range to the east, and a downtown skyline that has evolved into one of the country's most photographed urban silhouettes. Homes positioned to capture these views command enduring premiums because the view itself is an irreplaceable asset — you cannot create it, and you cannot replicate it in a different location.",
@@ -467,7 +467,7 @@ export const services: ServicePage[] = [
     metaTitle: "Investment Properties Seattle | Christine Andreasen",
     metaDescription:
       "Seattle investment properties — residential real estate strategy for long-term investors. Expert guidance from Christine Andreasen | Christine & Company.",
-    image: "/website-service-investment.png",
+    image: "/website-service-investment.webp",
     imageAlt: "Seattle multi-family investment property on tree-lined residential street",
     intro:
       "Seattle's residential real estate market has delivered some of the strongest long-term returns of any major American metro over the past two decades — driven by structural employment growth, geographic supply constraints, and a population that continues to expand faster than housing inventory can absorb. For investors with a 5–15 year horizon, Seattle residential real estate offers a compelling combination of appreciation potential, rental income, and portfolio diversification.",

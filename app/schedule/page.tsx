@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: "Schedule a Consultation",
   description:
     "Book a private consultation with Christine Andreasen, Seattle luxury real estate advisor. No pressure — just a focused conversation about your timing and next step.",
-  openGraph: { images: [{ url: "/headshot.jpg", width: 1200, height: 630 }] },
-  twitter: { images: ["/headshot.jpg"] },
+  openGraph: { images: [{ url: "/headshot.webp", width: 1200, height: 630 }] },
+  twitter: { images: ["/headshot.webp"] },
 };
 
 const STEPS = [
@@ -120,7 +120,7 @@ export default function SchedulePage() {
 
             <div className="relative mt-8 aspect-[4/3] w-full image-fallback">
               <Image
-                src="/luxury-living.jpg"
+                src="/luxury-living.webp"
                 alt="Luxury Seattle home interior at twilight"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"

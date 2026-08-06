@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: "Contact Christine Andreasen",
   description:
     "Get in touch with Christine Andreasen — Christine & Company | eXp Realty. Call, email, or follow along on social media.",
-  openGraph: { images: [{ url: "/headshot.jpg", width: 1200, height: 630 }] },
-  twitter: { images: ["/headshot.jpg"] },
+  openGraph: { images: [{ url: "/headshot.webp", width: 1200, height: 630 }] },
+  twitter: { images: ["/headshot.webp"] },
 };
 
 const SOCIAL = [
@@ -144,7 +144,7 @@ export default function ContactPage() {
           <aside className="lg:col-span-5">
             <div className="relative aspect-[3/4] w-full image-fallback">
               <Image
-                src="/seattle-skyline.jpg"
+                src="/seattle-skyline.webp"
                 alt="Seattle skyline at golden hour"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"

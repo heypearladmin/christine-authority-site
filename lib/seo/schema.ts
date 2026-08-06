@@ -13,9 +13,9 @@ const SITE = {
   city: "Seattle",
   state: "WA",
   country: "US",
-  portraitSrc: "/christine-portrait.jpg",
-  logoSrc: "/companylogo.png",
-  ogImage: "/headshot.jpg",
+  portraitSrc: "/headshot.webp",
+  logoSrc: "/companylogo.webp",
+  ogImage: "/headshot.webp",
   social: {
     facebook: "https://www.facebook.com/christine.andreasen.robertson",
     instagram: "https://www.instagram.com/christineandcompany",
@@ -264,7 +264,7 @@ export function travisPersonSchema(): SchemaObject {
       "Travis Foxx is a veteran real estate professional with over 30 years of experience across residential, investment, commercial, and multi-family properties. He specializes in Seattle's North Coast — from Magnolia to Mukilteo — and partners with Christine Andreasen at Christine & Company, powered by eXp Realty.",
     telephone: "+12069920066",
     email: "travis.foxx@exprealty.com",
-    image: `${SITE.url}/travis-headshot.png`,
+    image: `${SITE.url}/travis-headshot.webp`,
     worksFor: { "@id": `${SITE.url}/#agent` },
     sameAs: [
       "https://www.youtube.com/@travisfoxxrealtor-exp",

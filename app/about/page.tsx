@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "About Christine Andreasen & Travis Foxx",
   description:
     "Meet Christine Andreasen and Travis Foxx — a strategic luxury real estate partnership with 60+ combined years across Seattle residential, investment, and complex property decisions.",
-  openGraph: { images: [{ url: "/headshot.jpg", width: 800, height: 1000 }] },
-  twitter: { images: ["/headshot.jpg"] },
+  openGraph: { images: [{ url: "/headshot.webp", width: 800, height: 1000 }] },
+  twitter: { images: ["/headshot.webp"] },
 };
 
 const PILLARS = [
@@ -77,7 +77,7 @@ export default function AboutPage() {
           <div className="lg:col-span-5">
             <div className="relative aspect-[4/5] w-full image-fallback">
               <Image
-                src="/headshot.jpg"
+                src="/headshot.webp"
                 alt="Portrait of Christine Andreasen, Seattle Luxury Real Estate Advisor"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
@@ -155,7 +155,7 @@ export default function AboutPage() {
           <div className="order-1 lg:order-2 lg:col-span-5 lg:col-start-8">
             <div className="relative aspect-[4/5] w-full image-fallback">
               <Image
-                src="/travis-headshot.png"
+                src="/travis-headshot.webp"
                 alt="Portrait of Travis Foxx, Strategic Real Estate Advisor"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"

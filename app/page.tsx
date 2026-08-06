@@ -48,7 +48,7 @@ export default function HomePage() {
           </>
         }
         subtitle="Christine Andreasen serves discerning buyers and sellers across Seattle and surrounding waterfront communities. Editorial presentation, luxury standards, and nearly three decades of local expertise."
-        imageSrc="/hero-waterfront.jpg"
+        imageSrc="/hero-waterfront.webp"
         imageAlt="Luxury Seattle waterfront home at twilight overlooking the skyline"
         primaryCta={{ href: "/schedule", label: "Schedule a Consultation" }}
         secondaryCta={{ href: "/blog", label: "Read the Journal" }}
@@ -97,7 +97,7 @@ export default function HomePage() {
           <div className="lg:col-span-6 lg:col-start-7">
             <div className="relative h-64 w-full overflow-hidden image-fallback md:h-80 lg:h-[420px]">
               <Image
-                src="/christine-travis-together.png"
+                src="/christine-travis-together.webp"
                 alt="Christine Andreasen and Travis Foxx, Christine & Company"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
@@ -281,7 +281,7 @@ export default function HomePage() {
               {/* Top image */}
               <div className="relative h-full w-full overflow-hidden image-fallback">
                 <Image
-                  src="/listing1exterior.jpg"
+                  src="/listing1exterior.webp"
                   alt="Luxury Seattle home exterior at twilight"
                   fill
                   sizes="(min-width: 768px) 40vw, 100vw"
@@ -292,7 +292,7 @@ export default function HomePage() {
               {/* Bottom image */}
               <div className="relative h-full w-full overflow-hidden image-fallback">
                 <Image
-                  src="/luxury-living.jpg"
+                  src="/luxury-living.webp"
                   alt="Luxury Seattle interior living space"
                   fill
                   sizes="(min-width: 768px) 40vw, 100vw"

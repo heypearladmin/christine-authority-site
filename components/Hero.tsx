@@ -15,7 +15,7 @@ export default function Hero({
   eyebrow = "Seattle Real Estate Advisor",
   title,
   subtitle,
-  imageSrc = "/hero-waterfront.jpg",
+  imageSrc = "/hero-waterfront.webp",
   imageAlt = "Luxury Seattle waterfront home at twilight",
   primaryCta,
   secondaryCta,

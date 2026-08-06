@@ -19,7 +19,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Bellevue Luxury Real Estate | Christine Andreasen",
     metaDescription:
       "Luxury homes in Bellevue, WA — expert guidance from Christine Andreasen. Eastside neighborhoods, top schools, and strategic representation for buyers and sellers.",
-    image: "/website-neighborhood-bellevue.png",
+    image: "/website-neighborhood-bellevue.webp",
     imageAlt: "Bellevue Washington luxury residential neighborhood at golden hour",
     intro:
       "Bellevue has evolved from a suburban bedroom community into one of the most sophisticated real estate markets in the Pacific Northwest. With a skyline of its own, a thriving tech economy, top-ranked school districts, and a diverse inventory of luxury homes — from contemporary estates in Bridle Trails to waterfront properties along Lake Washington — Bellevue offers a range of premium residential options that few markets in the country can match.",
@@ -75,7 +75,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Medina Luxury Real Estate | Christine Andreasen",
     metaDescription:
       "Medina WA real estate — one of Washington's most private and prestigious communities. Expert guidance for buyers and sellers from Christine Andreasen.",
-    image: "/website-neighborhood-medina.png",
+    image: "/website-neighborhood-medina.webp",
     imageAlt: "Medina Washington private lakeside residential street with mature trees",
     intro:
       "Medina is Washington State's most exclusive residential enclave — a small, private city on the western shore of Lake Washington where discretion, privacy, and extraordinary lake frontage define the market. With a population of fewer than 3,500 residents and a strictly limited housing supply, Medina consistently ranks among the most expensive zip codes in the Pacific Northwest. Properties here trade infrequently, often quietly, and almost always at significant premiums.",
@@ -131,7 +131,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Mercer Island Real Estate | Christine Andreasen",
     metaDescription:
       "Mercer Island real estate — island community, top-ranked schools, Lake Washington access. Strategic guidance for buyers and sellers from Christine Andreasen.",
-    image: "/website-neighborhood-mercer-island.png",
+    image: "/website-neighborhood-mercer-island.webp",
     imageAlt: "Aerial view of Mercer Island surrounded by Lake Washington",
     intro:
       "Mercer Island occupies a singular position in the Seattle metro — a self-contained island community in the middle of Lake Washington, connected to both Seattle and Bellevue by Interstate 90. With one of Washington's highest-performing school districts, extensive waterfront, a walkable downtown, and a deeply rooted community identity, Mercer Island has sustained premium residential values across decades and market cycles.",
@@ -180,7 +180,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Kirkland Luxury Real Estate | Christine Andreasen",
     metaDescription:
       "Kirkland WA luxury homes — waterfront village, Google campus, walkable downtown. Expert buyer and seller guidance from Christine Andreasen.",
-    image: "/website-neighborhood-kirkland.png",
+    image: "/website-neighborhood-kirkland.webp",
     imageAlt: "Kirkland Washington waterfront promenade along Lake Washington",
     intro:
       "Kirkland has grown from a quiet lakefront suburb into one of the Eastside's most sought-after residential communities — anchored by a walkable downtown on Lake Washington, a growing technology presence led by Google's Kirkland campus, and a residential character that balances urban access with Pacific Northwest livability. The luxury market here spans waterfront estates, elevated hillside homes with lake views, and new construction in the city's expanding mixed-use corridors.",
@@ -229,7 +229,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Magnolia Seattle Real Estate | Christine Andreasen",
     metaDescription:
       "Magnolia Seattle luxury homes — bluff views, Discovery Park, quiet residential character. Expert guidance from Christine Andreasen.",
-    image: "/website-neighborhood-magnolia.png",
+    image: "/website-neighborhood-magnolia.webp",
     imageAlt: "Magnolia Seattle residential neighborhood with Puget Sound views through mature trees",
     intro:
       "Magnolia is one of Seattle's most quietly coveted neighborhoods — a residential bluff community bounded by Puget Sound, the Ship Canal, and Interbay, with Discovery Park at its northern edge and sweeping views of the Olympic Mountains and Elliott Bay from its elevated streets. Buyers who choose Magnolia are typically looking for a pace and character that Seattle's denser neighborhoods cannot provide — and they are willing to pay a premium for it.",
@@ -278,7 +278,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Ballard Seattle Real Estate | Christine Andreasen",
     metaDescription:
       "Ballard Seattle homes for sale — craftsman character, canal access, walkable village. Expert real estate guidance from Christine Andreasen.",
-    image: "/website-neighborhood-ballard.png",
+    image: "/website-neighborhood-ballard.webp",
     imageAlt: "Ballard Seattle tree-lined residential street with craftsman homes",
     intro:
       "Ballard has established itself as one of Seattle's most consistently desirable neighborhoods — a former Scandinavian fishing community that has evolved into a genuinely walkable urban village with strong architectural character, access to the Ship Canal and Puget Sound, and a community identity that attracts buyers who want urban amenity without sacrificing neighborhood cohesion. The real estate market reflects that appeal: competitive, active, and reliably in demand.",
@@ -327,7 +327,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Edmonds WA Real Estate | Christine Andreasen",
     metaDescription:
       "Edmonds WA homes for sale — waterfront, Olympic Mountain views, ferry access. Expert real estate guidance from Christine Andreasen.",
-    image: "/website-neighborhood-edmonds.png",
+    image: "/website-neighborhood-edmonds.webp",
     imageAlt: "Edmonds Washington waterfront with ferry terminal and Puget Sound views",
     intro:
       "Edmonds offers something that is genuinely rare in the greater Seattle area: a walkable waterfront small town with direct Puget Sound access, Olympic Mountain views across the water, a charming downtown, and real estate values that are meaningfully more accessible than comparable communities to the south. For buyers seeking waterfront proximity, Pacific Northwest lifestyle, and a genuine community identity — without Mercer Island or Medina price tags — Edmonds is one of the Seattle area's most compelling options.",
@@ -376,7 +376,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "West Seattle Real Estate | Christine Andreasen",
     metaDescription:
       "West Seattle homes for sale — bluff views, Elliott Bay, strong community identity. Expert real estate guidance from Christine Andreasen.",
-    image: "/website-neighborhood-west-seattle.png",
+    image: "/website-neighborhood-west-seattle.webp",
     imageAlt: "West Seattle bluff view looking east toward Seattle skyline across Elliott Bay",
     intro:
       "West Seattle occupies a peninsula southwest of downtown Seattle, separated from the rest of the city by the Duwamish River and connected by the West Seattle Bridge. The neighborhood is defined by its dramatic bluff views of the Seattle skyline and Elliott Bay, a strong community identity centered around the Alaska Junction village, and a residential character that feels distinctly more neighborhood-oriented than many of Seattle's denser quarters. For buyers seeking views, community, and value relative to comparable Seattle locations, West Seattle offers a compelling case.",
@@ -425,7 +425,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "North Beach Seattle Real Estate | Christine Andreasen",
     metaDescription:
       "North Beach Seattle homes — quiet beachfront community, Puget Sound access, established neighborhood. Expert guidance from Christine Andreasen.",
-    image: "/website-neighborhood-north-beach.png",
+    image: "/website-neighborhood-north-beach.webp",
     imageAlt: "North Beach Seattle residential street near Puget Sound with mature Northwest landscaping",
     intro:
       "North Beach is one of Seattle's most quietly coveted residential communities — a small, established neighborhood on Puget Sound in Seattle's northwest corner, defined by its direct beach access, mature landscaping, and a residential privacy that is rare this close to the city. Buyers who know North Beach tend to seek it out specifically; buyers who discover it rarely consider leaving. The market reflects that loyalty: low inventory, stable values, and consistent demand from buyers at the top of the local residential ladder.",
@@ -474,7 +474,7 @@ export const neighborhoods: NeighborhoodPage[] = [
     metaTitle: "Blue Ridge Seattle Real Estate | Christine Andreasen",
     metaDescription:
       "Blue Ridge Seattle homes — private residential enclave, elevated setting, established community. Expert guidance from Christine Andreasen.",
-    image: "/website-neighborhood-blue-ridge.png",
+    image: "/website-neighborhood-blue-ridge.webp",
     imageAlt: "Blue Ridge Seattle secluded residential street with established trees and well-maintained homes",
     intro:
       "Blue Ridge is one of Seattle's most private and established residential communities — an elevated neighborhood in the city's northwest corner with a gated character, mature landscaping, and a community identity built over decades of careful stewardship. Buyers who choose Blue Ridge are typically seeking privacy, a genuine community cohesion, and a residential environment that feels insulated from the city's pace while remaining comfortably connected to it.",
