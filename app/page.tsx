@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import BlogCard from "@/components/BlogCard";
+import LocationMap from "@/components/LocationMap";
 import { blogPosts } from "@/lib/blogs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { serviceSchema, breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
@@ -303,6 +304,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <LocationMap />
     </>
   );
 }

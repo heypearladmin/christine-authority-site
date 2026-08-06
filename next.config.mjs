@@ -40,7 +40,7 @@ const nextConfig = {
               "font-src 'self' data: https://fonts.gstatic.com",
               "img-src 'self' data: https:",
               "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.facebook.com https://connect.facebook.net https://reports.heypearl.io https://www.googletagmanager.com",
-              "frame-src 'self'",
+              "frame-src 'self' https://maps.google.com https://www.google.com",
               "base-uri 'self'",
               "form-action 'self'",
             ].join('; '),

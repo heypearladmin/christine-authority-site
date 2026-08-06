@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { JsonLd } from "@/components/seo/JsonLd";
+import LocationMap from "@/components/LocationMap";
 import {
   personSchema,
   travisPersonSchema,
@@ -243,6 +244,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <LocationMap />
     </>
   );
 }
