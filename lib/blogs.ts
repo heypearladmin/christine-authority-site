@@ -23,6 +23,169 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "inherited-a-home-in-seattle",
+    title: "Inherited a Home in Seattle? A 2026 Guide to Probate, Taxes, and Whether to Sell, Rent, or Keep It",
+    category: "Estate & Inheritance",
+    date: "2026-08-28",
+    readingTime: "8 min read",
+    image: "/website-blog-inherited-home-seattle.webp",
+    imageAlt: "Craftsman-style Seattle home with a mature garden inherited from a family estate, soft morning light",
+    isNew: true,
+    excerpt:
+      "Inheriting a home in Seattle brings emotional weight and real financial decisions — probate timelines, a stepped-up tax basis that can eliminate most capital gains, and the question of whether to sell, rent, or keep the property. Here's what heirs actually need to know in 2026.",
+    quickAnswer:
+      "When you inherit a home in Seattle, three things happen: the property typically goes through Washington State's probate process (unless it was held in a trust or had a transfer-on-death deed), you receive a stepped-up cost basis equal to the property's fair market value on the date of death — which can eliminate most or all capital gains tax if you sell reasonably soon after — and you gain the right to sell, rent, or keep the home once probate closes or the trustee transfers title. Washington probate for a straightforward estate typically takes 4 to 8 months; contested or complex estates can take a year or more. Most heirs who don't plan to live in the home choose to sell, and the stepped-up basis makes doing so with minimal tax burden — provided the sale happens reasonably close to the date of death.",
+    sections: [
+      {
+        heading: "What Happens to a House When Someone Dies in Washington State",
+        body: [
+          "If the deceased owned the home in their own name — not in a trust, and without a transfer-on-death deed — the property must typically pass through Washington's probate process before it can be sold or transferred. Probate is the court-supervised process of validating a will (or determining heirs if there is no will), appointing a personal representative (executor), settling debts, and distributing remaining assets, including real estate.",
+          "For a straightforward estate with a valid will, no disputes among heirs, and no significant creditor claims, Washington probate typically takes four to eight months from filing to closing. Estates become more complicated — and slower — when there is no will (intestate succession), when heirs disagree about how to proceed, when the deceased lived out of state, or when there are outstanding debts or tax issues to resolve. Contested probates can extend well past a year.",
+          "If the home was held in a revocable living trust, or if Washington's transfer-on-death deed was used, the property can often pass directly to the named beneficiary without probate — significantly shortening the timeline. If you're unsure which situation applies, the estate's attorney or personal representative can confirm within the first few weeks.",
+        ],
+      },
+      {
+        heading: "The Stepped-Up Basis: Why It Matters More Than Almost Anything Else",
+        body: [
+          "The single most valuable — and most misunderstood — element of inheriting property is the stepped-up cost basis. When you inherit a home, your cost basis for tax purposes resets to the property's fair market value on the date of the original owner's death, rather than what they originally paid for it decades earlier.",
+          "Here's why this matters: if a parent purchased a Seattle home in 1985 for $80,000, and it's worth $950,000 at the time of their death, an heir who sells it shortly after for $970,000 owes capital gains tax on only the $20,000 gain since inheriting it — not the roughly $890,000 of appreciation that occurred during the original owner's lifetime. Without the step-up, that entire gain would typically be taxable.",
+          "This is fundamentally different from receiving a home as a gift during someone's lifetime, which carries over the giver's original basis with no step-up. Confusing gifted property with inherited property is one of the costliest mistakes heirs and their families make — it's worth confirming which situation applies before making any assumptions about tax exposure.",
+          "The practical implication: heirs who sell an inherited home within a reasonable window after the date of death usually owe little to no capital gains tax, since fair market value at death and current sale price tend to be close. The longer you hold the property before selling, the more the stepped-up basis erodes as market appreciation accumulates on top of it.",
+        ],
+      },
+      {
+        heading: "Selling an Inherited Home: The Practical Path",
+        body: [
+          "Once probate has closed — or the personal representative has authority to act — selling an inherited home follows a similar process to any other sale, with a few added considerations. Inherited homes frequently carry deferred maintenance: an aging roof, outdated electrical or plumbing, decades-old kitchens and bathrooms. Buyers factor this into their offers, so understanding your as-is value versus your prepared-for-sale value is an early and important decision.",
+          "For many heirs, an as-is sale — priced to reflect the home's condition, marketed to buyers who expect to renovate — is the faster, lower-stress path, especially when heirs live out of the area or don't want to manage a renovation before selling. For others, modest pre-listing preparation (deep cleaning, decluttering decades of belongings, minor repairs) can meaningfully increase the final sale price relative to the cost.",
+          "When there are multiple heirs, everyone with a legal interest generally needs to agree to the sale and its terms, and proceeds are distributed according to the will or Washington's intestate succession rules. Establishing clear communication and expectations among co-heirs before listing prevents the disagreements that most often derail or delay these sales.",
+        ],
+      },
+      {
+        heading: "Renting It Out Instead: What Changes",
+        body: [
+          "Some heirs consider keeping the inherited home as a rental rather than selling. This is a legitimate option, but it changes the financial picture in several ways. The home stops being eligible for any owner-occupant tax treatment and becomes a straightforward investment property — subject to landlord-tenant law, ongoing maintenance responsibility, and the practical demands of managing a rental, whether personally or through a property manager.",
+          "The stepped-up basis still applies and still matters — it becomes the depreciable basis for tax purposes going forward, and it's still the reference point for calculating gain whenever you eventually do sell. But every year you hold and rent the property, additional appreciation accumulates on top of that stepped-up basis, gradually increasing the taxable gain a future sale would trigger.",
+          "Renting to a family member introduces its own complications — below-market rent to a sibling or relative can affect how the IRS treats the property for deduction purposes, and it can create friction among co-heirs who may prefer to sell and receive their share in cash rather than wait on rental income distributions.",
+        ],
+      },
+      {
+        heading: "Keeping It: Moving In or Buying Out Co-Heirs",
+        body: [
+          "If you want to keep the home for yourself — whether to live in it or simply hold onto a family property — and there are other heirs with a legal interest, you'll typically need to buy out their shares. This usually involves an independent appraisal to establish fair market value, followed by a refinance or cash payment to compensate co-heirs for their portion of the equity.",
+          "Washington does not reassess a home's property tax based on inheritance or change of ownership the way some other states do — property tax assessments here are tied to periodic county valuations rather than triggered by a transfer. That said, confirming the current assessed value and any exemptions with King County (or the relevant county assessor) early in the process avoids surprises.",
+          "Moving into an inherited family home is often as much an emotional decision as a financial one. It's worth having a candid conversation with a real estate advisor about the home's actual condition, what it would take to make it truly yours, and how that compares to the alternative of selling and purchasing something suited to your own life.",
+        ],
+      },
+      {
+        heading: "When Multiple Siblings or Heirs Disagree",
+        body: [
+          "Disagreement among heirs is common and rarely about the money alone — it's frequently tangled up with grief, family history, and differing financial circumstances. One sibling may want to sell quickly for cash, another may want to keep the home, and a third may be indifferent but resentful of how the conversation is being handled.",
+          "The most common resolution structures are: a buyout, where one heir purchases the others' shares at appraised value; a sale with proceeds split according to each heir's legal interest; or, in persistent disputes, mediation or — as a last resort — a partition action through the courts, which is slower and more expensive than either of the first two options.",
+          "A real estate advisor with no financial stake in which outcome the family chooses can be genuinely useful here — providing an objective, current market valuation and walking through the practical trade-offs of each path, without the emotional weight that makes these conversations hard to have among family members directly.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Inheriting a Home in Seattle",
+        body: [
+          "Do I have to pay capital gains tax on an inherited house in Seattle? Usually very little, if any — thanks to the stepped-up basis, your taxable gain is calculated from the home's fair market value at the date of death, not its original purchase price. If you sell reasonably soon after inheriting, the gain (and therefore the tax) is often minimal.",
+          "How long does probate take in Washington State? A straightforward, uncontested estate typically takes four to eight months. Estates with disputes, missing wills, out-of-state heirs, or creditor claims can take a year or longer.",
+          "Can I sell an inherited house before probate closes? Generally, the personal representative needs legal authority to sell before a transaction can close, though in many cases they can list the property and even accept an offer during probate, with the sale finalizing once authority is confirmed. An estate attorney can clarify the specific timeline for your situation.",
+          "What if my siblings and I disagree about selling the inherited home? Start with a neutral, current market valuation so everyone is working from the same information. From there, common paths include one heir buying out the others, a sale with proceeds split by ownership share, or mediation if the disagreement persists. Courts can order a partition sale as a last resort, but this is slower and costlier than resolving it directly.",
+        ],
+      },
+    ],
+    closing:
+      "Inheriting a home is rarely just a financial event — it carries the weight of family history alongside real decisions about taxes, timing, and what the property means to the people involved. The heirs who navigate it best are the ones who get clear, accurate information early, before emotion or urgency forces a decision that doesn't serve their actual interests.",
+    relatedServiceCta: {
+      label: "Selling an Inherited Home",
+      href: "/services/luxury-home-selling",
+      text: "Christine works with families navigating estate sales — coordinating with probate timelines, advising on as-is versus prepared listings, and handling the process with the sensitivity these situations require.",
+    },
+  },
+
+  {
+    slug: "buy-before-you-sell-seattle",
+    title: "How to Buy a Home Before Selling Your Current One in Seattle: Bridge Loans, Contingencies, and Timing Strategies for 2026",
+    category: "Buying Strategy",
+    date: "2026-08-21",
+    readingTime: "8 min read",
+    image: "/website-blog-buy-before-sell-seattle.webp",
+    imageAlt: "Modern Seattle home exterior with a moving truck and for-sale sign visible at dusk",
+    isNew: true,
+    excerpt:
+      "Buying before you sell means competing without a financing contingency — but it also means risking two mortgages at once. Here's how bridge loans, HELOCs, and rent-back agreements actually work in Seattle's 2026 market, and how to decide which timing strategy fits your situation.",
+    quickAnswer:
+      "Buying a home before selling your current one in Seattle is possible through three main paths: a bridge loan (short-term financing secured against your current home's equity, typically a 6 to 12 month term, priced 1 to 2 points above a standard mortgage rate), a home equity line of credit opened before you list your current home, or a contingent offer paired with a rent-back agreement negotiated with your buyer. Each carries different costs and qualification requirements. In a market where well-priced Seattle homes routinely draw multiple offers, removing the sale contingency from your purchase offer meaningfully strengthens your position — but it requires either substantial equity, income sufficient to qualify for two mortgage payments temporarily, or a lender comfortable underwriting the overlap.",
+    sections: [
+      {
+        heading: "Why Timing the Sale and Purchase Is the Hardest Part of Moving",
+        body: [
+          "Every buyer who also needs to sell faces the same structural problem: sell first, and you risk a gap with nowhere to live or a rushed, discounted purchase under time pressure. Buy first, and you risk carrying two mortgages, two sets of property taxes, and two insurance policies simultaneously until the first home closes.",
+          "In Seattle's competitive segments — well-priced homes in desirable neighborhoods routinely draw multiple offers — a purchase offer contingent on selling your current home is a real disadvantage. Sellers evaluating competing offers generally favor the one that doesn't depend on an external event outside their control. Buyers who can remove that contingency, even at some cost or complexity, compete meaningfully better.",
+          "This is why bridge financing, HELOCs, and rent-back agreements exist: they're mechanisms for decoupling the timing of your sale from the timing of your purchase, so you can make a clean, competitive offer on the next home without waiting for the first one to close.",
+        ],
+      },
+      {
+        heading: "Bridge Loans: How They Actually Work in 2026",
+        body: [
+          "A bridge loan is short-term financing secured against the equity in your current home, used to fund the down payment (or in some cases the full purchase) of your next home before your existing property sells. Terms typically run 6 to 12 months, with many structured as interest-only during the bridge period, and rates generally priced 1 to 2 percentage points above a comparable standard mortgage.",
+          "Lenders typically cap bridge loans at 65 to 80 percent of your current home's equity, and most require your current home to at least be listed for sale, if not already under contract, before approving the loan. Qualification depends heavily on your combined debt load — some lenders exclude the bridge loan payment from debt-to-income calculations if your current home is under contract with a firm closing date, while others count it in full, which can meaningfully affect what you qualify for on the new purchase.",
+          "As a rough illustration: a $200,000 bridge loan at an interest-only rate in the mid-8s would run roughly $1,400 to $1,500 per month in interest during the bridge period — a real cost, but often smaller than the cost of losing a competitive offer or accepting a rushed sale price on your current home.",
+        ],
+      },
+      {
+        heading: "Using a HELOC as a Lower-Cost Bridge Alternative",
+        body: [
+          "A home equity line of credit, opened on your current home before you list it, is often a lower-cost alternative to a dedicated bridge loan product. Because a HELOC is a standard, revolving credit line rather than a specialty bridge product, it typically carries a lower rate and fewer fees — but timing matters enormously here.",
+          "Most lenders will not approve a new HELOC once your home is listed for sale or under contract, since the pending sale changes their risk calculation. This means the HELOC strategy only works if you open the line of credit weeks or months before listing — a detail that catches many buyers off guard when they start planning their move too late.",
+          "Once opened, you draw against the HELOC for your new down payment, purchase your next home, and pay off the HELOC balance when your current home sells. The net effect is similar to a bridge loan, but generally at a lower carrying cost, provided you plan far enough ahead to have the line of credit already in place.",
+        ],
+      },
+      {
+        heading: "Contingent Offers and Rent-Back Agreements",
+        body: [
+          "If bridge financing or a HELOC isn't available or appealing, the more traditional path is a sale-contingent purchase offer — making your offer on the new home dependent on successfully selling your current one within a specified window. This is the least competitive option in a multiple-offer environment, but it's also the lowest-risk and lowest-cost approach if the seller accepts it.",
+          "The reverse structure — selling your current home first, then negotiating to stay in it temporarily — is a rent-back (or leaseback) agreement. You close the sale, receive your proceeds, and pay the new owner a negotiated daily or monthly rent to remain in the home for an agreed period, typically anywhere from a few days to 60 days, while you finalize your next purchase.",
+          "Rent-back agreements have become a standard, well-understood tool in Seattle transactions and give sellers-turned-buyers the cash from their sale in hand before they need to close on the next home — often the cleanest solution when a buyer doesn't have the equity or income profile for bridge financing.",
+        ],
+      },
+      {
+        heading: "The Two-Mortgage Math: What Buyers Underestimate",
+        body: [
+          "Buyers frequently underestimate the full carrying cost of the overlap period. Beyond the two mortgage payments themselves, there's double property tax accrual, two homeowners insurance policies, potentially two sets of utility bills if you're maintaining both properties, and the closing costs on both the purchase and the eventual sale.",
+          "Lenders will also scrutinize your debt-to-income ratio closely when qualifying you for the new purchase while still carrying the old mortgage. Some will exclude the departing home's mortgage from your DTI calculation if it's listed for sale with a signed listing agreement, or fully excluded once under contract — but policies vary by lender, and this is worth confirming explicitly before you count on it.",
+          "Reserve requirements also tend to be higher in these scenarios — lenders want to see you can weather several months of carrying both properties even if the sale takes longer than expected. Building in a realistic buffer, rather than assuming your current home sells on your preferred timeline, is the difference between a manageable transition and a genuinely stressful one.",
+        ],
+      },
+      {
+        heading: "Which Strategy Fits Your Situation",
+        body: [
+          "Buyers with substantial equity in their current home and strong, stable income are typically the best candidates for a bridge loan or HELOC — the cost of financing is manageable relative to the competitive advantage of an unconditional offer. Buyers with less equity or tighter income often do better with a contingent offer, accepting a somewhat weaker negotiating position in exchange for lower financial risk.",
+          "At the luxury and off-market end of Seattle's market, interim or bridge financing is common precisely because well-qualified buyers in this segment can absorb the temporary carrying cost, and sellers at this level are often more willing to negotiate flexible timing — including extended rent-backs — when the buyer is otherwise strongly positioned.",
+          "The right choice ultimately depends on your specific equity position, income, and risk tolerance — which is exactly the kind of conversation worth having with both a lender and a real estate advisor before you start touring homes, not after you've already found one you don't want to lose.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Buying Before Selling in Seattle",
+        body: [
+          "Can I buy a house before I sell mine in Seattle? Yes — through a bridge loan, a HELOC opened before listing, or a rent-back agreement after selling first. Each has different cost, timing, and qualification requirements, and the right fit depends on your equity and income profile.",
+          "What is a bridge loan and how much does it cost? A bridge loan is short-term financing secured against your current home's equity, typically running 6 to 12 months, priced 1 to 2 points above a standard mortgage rate. On a $200,000 bridge loan, interest-only payments commonly run in the range of $1,400 to $1,500 per month, though this varies by rate and lender.",
+          "Is a HELOC or bridge loan better for buying before selling? A HELOC is generally lower-cost, but it must be opened before your current home is listed for sale — most lenders won't approve one once a home is on the market. A bridge loan can be arranged later in the process, including after listing, but typically costs more.",
+          "How long can I stay in my home after I sell it? Rent-back periods are negotiated individually, but 7 to 60 days is common in Seattle transactions. Longer rent-backs are possible with buyer agreement, particularly when the buyer doesn't need immediate occupancy.",
+        ],
+      },
+    ],
+    closing:
+      "The buyers who move most smoothly between homes are rarely the ones with the most complicated financing — they're the ones who had the timing conversation early, understood their real options, and chose the strategy that matched their actual equity and risk tolerance before they needed to act on it.",
+    relatedServiceCta: {
+      label: "Seattle Home Buying Guidance",
+      href: "/services/luxury-home-buying",
+      text: "Christine helps buyers coordinate the sale of their current home with the purchase of their next one — including bridge financing conversations, contingency strategy, and rent-back negotiation.",
+    },
+  },
+
+  {
     slug: "seattle-waterfront-for-sale-2026",
     title: "Seattle Waterfront Homes for Sale in 2026: Lake Washington, Puget Sound, and What the Market Looks Like Right Now",
     category: "Property Guide",
@@ -30,7 +193,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-seattle-waterfront-for-sale.webp",
     imageAlt: "Seattle lakefront home with private dock on Lake Washington at golden hour, mountains visible in background",
-    isNew: true,
     excerpt:
       "Waterfront inventory in Seattle is tighter than it looks online — the best Lake Washington properties rarely hit Zillow. Here's what's actually for sale across every price tier, which lakes are most competitive right now, and how serious buyers are finding homes before they list.",
     quickAnswer:
@@ -103,7 +265,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-luxury-homes-for-sale.webp",
     imageAlt: "Contemporary Seattle luxury home exterior at dusk with floor-to-ceiling windows and mountain view",
-    isNew: true,
     excerpt:
       "The luxury market in Seattle moves differently than the rest of the city — constrained inventory, a small buyer pool, and pricing driven by factors algorithms can't read. Here's what's actually for sale, what you get at each tier, and how to compete as a buyer in 2026.",
     quickAnswer:
