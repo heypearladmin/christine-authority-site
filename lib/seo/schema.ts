@@ -105,6 +105,12 @@ export function personSchema(): SchemaObject {
       url: `${SITE.url}${SITE.portraitSrc}`,
       caption: "Christine Andreasen, Seattle Luxury Real Estate Advisor",
     },
+    award: [
+      "Washington's Top 100 Most Influential Agents",
+      "Forbes Top 500 Agents Nationwide",
+      "Multiple ICON Award Recipient",
+      "Top 1% of Agents Nationwide",
+    ],
     sameAs: [
       SITE.social.facebook,
       SITE.social.instagram,
@@ -286,6 +292,7 @@ export function blogPostingSchema(params: {
   url: string;
   image?: string;
   datePublished: string;
+  dateModified?: string;
   keywords?: string[];
 }): SchemaObject {
   return withContext({
@@ -301,7 +308,7 @@ export function blogPostingSchema(params: {
         }
       : {}),
     datePublished: params.datePublished,
-    dateModified: params.datePublished,
+    dateModified: params.dateModified ?? params.datePublished,
     ...(params.keywords ? { keywords: params.keywords.join(", ") } : {}),
     author: { "@id": `${SITE.url}/#person` },
     publisher: { "@id": `${SITE.url}/#agent` },

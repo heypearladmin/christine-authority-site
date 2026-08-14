@@ -8,6 +8,7 @@ import {
   travisPersonSchema,
   breadcrumbSchema,
   webPageSchema,
+  localBusinessSchema,
   SITE,
 } from "@/lib/seo/schema";
 
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
   title: "About Christine Andreasen & Travis Foxx",
   description:
     "Meet Christine Andreasen and Travis Foxx — a strategic luxury real estate partnership with 60+ combined years across Seattle residential, investment, and complex property decisions.",
+  alternates: { canonical: "https://www.christineandreasen.com/about" },
   openGraph: { images: [{ url: "/headshot.webp", width: 800, height: 1000 }] },
   twitter: { images: ["/headshot.webp"] },
 };
@@ -43,6 +45,7 @@ export default function AboutPage() {
     <>
       <JsonLd
         schema={[
+          localBusinessSchema(),
           personSchema(),
           travisPersonSchema(),
           breadcrumbSchema([

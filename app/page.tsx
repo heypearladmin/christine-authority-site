@@ -6,12 +6,13 @@ import BlogCard from "@/components/BlogCard";
 import LocationMap from "@/components/LocationMap";
 import { blogPosts } from "@/lib/blogs";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { serviceSchema, breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
+import { serviceSchema, breadcrumbSchema, webPageSchema, localBusinessSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
   title: "Seattle Luxury Real Estate Advisor",
   description:
     "Seattle luxury real estate advisor with 30+ years of experience. Strategic guidance for buyers and sellers across Seattle, Mercer Island, and Bellevue. Christine Andreasen | eXp Realty.",
+  alternates: { canonical: "https://www.christineandreasen.com/" },
 };
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
     <>
       <JsonLd
         schema={[
+          localBusinessSchema(),
           serviceSchema({
             name: "Seattle Luxury Real Estate Advisory",
             url: SITE.url,

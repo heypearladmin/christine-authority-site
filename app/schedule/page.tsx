@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Schedule a Consultation",
   description:
     "Book a private consultation with Christine Andreasen, Seattle luxury real estate advisor. No pressure — just a focused conversation about your timing and next step.",
+  alternates: { canonical: "https://www.christineandreasen.com/schedule" },
   openGraph: { images: [{ url: "/headshot.webp", width: 1200, height: 630 }] },
   twitter: { images: ["/headshot.webp"] },
 };

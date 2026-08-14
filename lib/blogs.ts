@@ -8,6 +8,7 @@ export type BlogPost = {
   title: string;
   category: string;
   date: string;
+  dateModified?: string;
   readingTime: string;
   image: string;
   imageAlt: string;
@@ -410,6 +411,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Bellevue is no longer a footnote in Seattle's story — it is a destination with its own gravitational pull. For buyers who want school district certainty, newer housing stock, and proximity to the Eastside's dominant employer base, it is the most complete market in the Pacific Northwest.",
+    relatedServiceCta: {
+      label: "Luxury Homes Bellevue",
+      href: "/services/luxury-homes-bellevue",
+      text: "Considering the Eastside? Christine works extensively with buyers and sellers across Bellevue's luxury neighborhoods, from Somerset to West Bellevue waterfront.",
+    },
   },
 
   {
@@ -491,6 +497,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The lake is not a barrier — it is a dividing line between two genuinely different approaches to Pacific Northwest living. Understanding which one matches your life is the single most important decision in a Seattle-area home search.",
+    relatedServiceCta: {
+      label: "Luxury Homes Bellevue",
+      href: "/services/luxury-homes-bellevue",
+      text: "Weighing Eastside versus Seattle? Christine advises buyers on both sides of the lake and can walk through what fits your lifestyle and budget.",
+    },
   },
 
   {
@@ -575,6 +586,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Magnolia is a neighborhood that holds its value because it holds its character. The buyers who find it tend not to leave — and those looking to enter should move decisively when the right property appears.",
+    relatedServiceCta: {
+      label: "Luxury Homes Seattle",
+      href: "/services/luxury-homes-seattle",
+      text: "Magnolia is one of Seattle's most distinctive luxury pockets. Christine has deep experience guiding buyers and sellers through this market specifically.",
+    },
   },
 
   {
@@ -657,6 +673,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Winning a multiple-offer situation in Seattle is a skill, not a lottery. The buyers who succeed most consistently are the ones who prepare before they need to compete — not the ones scrambling to assemble an offer the afternoon before deadline.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying",
+      text: "Competing in a multiple-offer market requires strategy and speed. See how Christine prepares buyers to win the homes they want.",
+    },
   },
 
   {
@@ -726,6 +747,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Buying in Seattle takes more preparation than most buyers expect — but the outcome, for the right buyer with the right guidance, is one of the strongest long-term wealth decisions in the Pacific Northwest.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying",
+      text: "Getting your numbers right before you search saves time and stress. Christine works with buyers to map out a realistic, confident budget.",
+    },
   },
 
   {
@@ -788,6 +814,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The Sevens is not just a price tier. It is a different world — one where preparation, presentation, and the right advisor make all the difference.",
+    relatedServiceCta: {
+      label: "Luxury Homes Seattle",
+      href: "/services/luxury-homes-seattle",
+      text: "Operating at the $7M+ tier requires a different playbook entirely. Learn how Christine and Travis approach this segment of the market.",
+    },
   },
 
   {
@@ -864,6 +895,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The tax side of a real estate transaction is one of the most consequential — and most misunderstood. The right preparation, the right timing, and the right team can protect gains that took years to build.",
+    relatedServiceCta: {
+      label: "Luxury Home Selling",
+      href: "/services/luxury-home-selling",
+      text: "Tax strategy is one piece of a larger sale plan. Christine coordinates timing, pricing, and preparation to help sellers keep more of what they've earned.",
+    },
   },
 
   {
@@ -939,6 +975,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "New or existing is rarely a question about the home — it's a question about the life you are building around it. Knowing what you are optimizing for makes the answer clear.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying",
+      text: "Whether new construction or a character home is the right fit depends on your priorities. Christine helps buyers weigh both paths clearly.",
+    },
   },
 
   {
@@ -1007,6 +1048,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Queen Anne is the kind of neighborhood that buyers discover and sellers never want to leave. Its combination of views, character, and community is rare in any city — and essentially unreplicable in Seattle.",
+    relatedServiceCta: {
+      label: "View Homes",
+      href: "/services/view-homes",
+      text: "Queen Anne is defined by its views. Christine specializes in view-property transactions across Seattle's premier hillside neighborhoods.",
+    },
   },
 
   {
@@ -1082,6 +1128,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Preparation is the one variable in a home sale that the seller controls entirely. The market sets the ceiling — preparation determines how close you get to it.",
+    relatedServiceCta: {
+      label: "Luxury Home Selling",
+      href: "/services/luxury-home-selling",
+      text: "Preparation is the highest-leverage step in any sale. See how Christine's listing process turns readiness into results.",
+    },
   },
 
   {
@@ -1089,6 +1140,7 @@ export const blogPosts: BlogPost[] = [
     title: "Off-Market Properties in Seattle: How to Find Homes Before They're Listed",
     category: "Buying Strategy",
     date: "2026-06-25",
+    dateModified: "2026-08-15",
     readingTime: "6 min read",
     image: "/website-blog-off-market.webp",
     imageAlt: "Quiet Seattle residential street with mature trees and well-maintained homes",
@@ -1223,6 +1275,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Closing costs are not a surprise if you plan for them. Understanding what you owe — and what is negotiable — is the financial preparation that makes a transaction feel as good on signing day as it did on offer day.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying",
+      text: "Understanding the full cost of a transaction before you're under contract avoids surprises. Christine walks every client through this in advance.",
+    },
   },
 
   {
@@ -1308,6 +1365,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "School district quality is one of the few real estate variables that is simultaneously a quality-of-life factor and a financial one. Understanding it before you buy is one of the most straightforward ways to protect your investment.",
+    relatedServiceCta: {
+      label: "Luxury Homes Bellevue",
+      href: "/services/luxury-homes-bellevue",
+      text: "School district access is a major driver of value on the Eastside specifically. Christine can help you weigh this alongside every other priority.",
+    },
   },
 
   {
@@ -1376,6 +1438,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The condo vs. house decision is ultimately a lifestyle question dressed in financial clothing. Clarify what you value most in your daily life — and the right answer usually becomes obvious.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying",
+      text: "Condo or single-family — the right choice depends on lifestyle as much as budget. Christine helps buyers think through both clearly.",
+    },
   },
 
   {
@@ -1444,6 +1511,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The best downsizes are not retreats — they are strategic moves toward a more intentional version of the life you want to live. In Seattle's market, they can also be among the most financially rewarding decisions a homeowner ever makes.",
+    relatedServiceCta: {
+      label: "Luxury Home Selling",
+      href: "/services/luxury-home-selling",
+      text: "Downsizing well starts with the right sale strategy for your current home. Christine guides owners through this transition with care.",
+    },
   },
 
   {
@@ -1451,6 +1523,7 @@ export const blogPosts: BlogPost[] = [
     title: "Seattle Waterfront Homes: Lake Washington, Lake Union & Puget Sound (2026 Buyer's Guide)",
     category: "Property Guide",
     date: "2026-06-08",
+    dateModified: "2026-08-15",
     readingTime: "7 min read",
     image: "/website-blog-waterfront.webp",
     imageAlt: "Seattle lakefront home at sunset with dock and calm water reflections",
@@ -1674,6 +1747,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Pricing is where strategy meets psychology and data meets judgment. The sellers who get it right at the start are the ones who walk away from the table with the result they planned for.",
+    relatedServiceCta: {
+      label: "Luxury Home Selling",
+      href: "/services/luxury-home-selling",
+      text: "Pricing strategy is the single biggest lever in a sale's outcome. See how Christine approaches pricing for maximum results.",
+    },
   },
 
   {
@@ -1742,6 +1820,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Mercer Island is not just a place to live — it is a commitment to a specific kind of life. Buyers who understand what they are buying into rarely regret it.",
+    relatedServiceCta: {
+      label: "Waterfront Homes",
+      href: "/services/waterfront-homes",
+      text: "Mercer Island's most coveted properties sit on the water. Christine specializes in waterfront transactions across the island and beyond.",
+    },
   },
 
   {
@@ -1810,6 +1893,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The market has rhythms, and knowing them creates an edge. But the buyers and sellers who move when they are ready — not just when the calendar says so — are the ones who make decisions they are satisfied with long after the transaction closes.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying",
+      text: "Timing matters, but readiness matters more. Christine helps clients decide when to act based on their specific situation, not just the calendar.",
+    },
   },
 
   {
@@ -1817,6 +1905,7 @@ export const blogPosts: BlogPost[] = [
     title: "The Seattle Home Buyer's Roadmap: A Complete 2026 Guide",
     category: "Buying Guide",
     date: "2026-05-21",
+    dateModified: "2026-08-15",
     readingTime: "8 min read",
     image: "/website-blog-buyer-guide.webp",
     imageAlt: "Couple reviewing documents in a bright Seattle home with large windows",
@@ -1960,6 +2049,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The market rewards strategy, preparation, and local expertise. In 2026, the advisors who win are the ones who interpret the data — not the ones who repeat it.",
+    relatedServiceCta: {
+      label: "Luxury Homes Seattle",
+      href: "/services/luxury-homes-seattle",
+      text: "Understanding where the market stands is the first step in any strategy. Christine translates these trends into a plan specific to your goals.",
+    },
   },
 
   {
@@ -2020,6 +2114,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Staging is essential in competitive markets. At the luxury level, it's the difference between a listing buyers tour and a home they remember.",
+    relatedServiceCta: {
+      label: "Luxury Home Selling",
+      href: "/services/luxury-home-selling",
+      text: "Staging is one part of a coordinated listing strategy. See how Christine's full preparation process is designed to maximize your sale.",
+    },
   },
 
   {
@@ -2084,6 +2183,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Choosing the right area improves long-term satisfaction more reliably than chasing square footage. The neighborhood is the home you live in every day.",
+    relatedServiceCta: {
+      label: "Seattle Relocation",
+      href: "/services/seattle-relocation",
+      text: "Narrowing down where to live is easier with a local advisor who knows every neighborhood firsthand. Christine specializes in exactly this conversation.",
+    },
   },
 
   {
@@ -2137,6 +2241,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Local expertise remains critical. Technology accelerates information; experience interprets it.",
+    relatedServiceCta: {
+      label: "Luxury Home Selling",
+      href: "/services/luxury-home-selling",
+      text: "An accurate valuation is the foundation of a smart sale. Christine provides real market analysis grounded in current, local data — not an algorithm.",
+    },
   },
 
   {
@@ -2191,6 +2300,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "The right team impacts outcomes significantly. The wrong one can quietly cost you the price you should have had.",
+    relatedServiceCta: {
+      label: "Luxury Homes Seattle",
+      href: "/services/luxury-homes-seattle",
+      text: "Choosing the right advisor changes the outcome of your transaction. Learn what makes Christine and Travis's approach different.",
+    },
   },
 
   {
@@ -2243,6 +2357,11 @@ export const blogPosts: BlogPost[] = [
     ],
     closing:
       "Staging is a key selling advantage. In Seattle's current market, it is no longer optional for sellers who want a strong outcome.",
+    relatedServiceCta: {
+      label: "Luxury Home Selling",
+      href: "/services/luxury-home-selling",
+      text: "Staging done right is a measurable investment, not just an expense. See how it fits into Christine's complete selling strategy.",
+    },
   },
 ];
 

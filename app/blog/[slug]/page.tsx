@@ -116,6 +116,7 @@ export default function BlogPostPage({ params }: { params: Params }) {
             url: pageUrl,
             image: post.image,
             datePublished: post.date,
+            dateModified: post.dateModified ?? post.date,
             keywords: [post.category, "Seattle real estate", "Christine Andreasen"],
           }),
           breadcrumbSchema([

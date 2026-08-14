@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "The Journal | Seattle Real Estate Insights",
   description:
     "Seattle real estate insights from Christine Andreasen — staging, neighborhoods, market strategy, and buyer/seller guides. Christine & Company | eXp Realty.",
+  alternates: { canonical: "https://www.christineandreasen.com/blog" },
   openGraph: {
     title: "The Journal | Seattle Real Estate Insights",
     description:

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Seattle Luxury Real Estate Services",
   description:
     "Expert luxury real estate services — buying, selling, relocation, waterfront, and investment guidance across Seattle and the Eastside. Christine Andreasen.",
+  alternates: { canonical: "https://www.christineandreasen.com/services" },
   openGraph: {
     title: "Seattle Luxury Real Estate Services | Christine Andreasen",
     description:

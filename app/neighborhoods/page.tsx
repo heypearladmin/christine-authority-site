@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Seattle Area Neighborhood Guides",
   description:
     "Expert neighborhood guides for Seattle, Bellevue, Mercer Island, Kirkland, and surrounding communities. Christine Andreasen | Christine & Company.",
+  alternates: { canonical: "https://www.christineandreasen.com/neighborhoods" },
   openGraph: {
     title: "Seattle Area Neighborhood Guides | Christine Andreasen",
     description:

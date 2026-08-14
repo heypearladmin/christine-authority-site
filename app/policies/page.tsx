@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "Privacy Policy for Christine & Company, including how we handle mobile information, SMS opt-in data, and AI-assisted communications.",
+  alternates: { canonical: "https://www.christineandreasen.com/policies" },
   robots: { index: true, follow: true },
 };
 

@@ -9,6 +9,7 @@ import {
   breadcrumbSchema,
   faqPageSchema,
   serviceSchema,
+  localBusinessSchema,
   SITE,
 } from "@/lib/seo/schema";
 
@@ -56,6 +57,7 @@ export default function ServicePage({ params }: { params: Params }) {
     <>
       <JsonLd
         schema={[
+          localBusinessSchema(),
           webPageSchema({
             name: page.title,
             url: pageUrl,

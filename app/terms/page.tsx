@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
     "Terms & Conditions for Christine & Company, including SMS communication, AI-assisted calling, and website usage terms.",
+  alternates: { canonical: "https://www.christineandreasen.com/terms" },
   robots: { index: true, follow: true },
 };
 
