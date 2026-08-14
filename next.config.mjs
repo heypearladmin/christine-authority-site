@@ -3,7 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './lib/image-loader.ts',
   },
 
   eslint: {
