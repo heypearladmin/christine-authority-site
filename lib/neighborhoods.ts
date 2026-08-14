@@ -515,6 +515,62 @@ export const neighborhoods: NeighborhoodPage[] = [
       { question: "How far is Blue Ridge from downtown Seattle?", answer: "Approximately 20–25 minutes by car depending on traffic. Aurora Avenue North provides the most direct route, with Shoreline commercial amenities nearby." },
     ],
   },
+
+  {
+    slug: "queen-anne",
+    name: "Queen Anne",
+    title: "Queen Anne Luxury Real Estate",
+    metaTitle: "Queen Anne Luxury Real Estate | Christine Andreasen",
+    metaDescription:
+      "Luxury homes on Queen Anne Hill, Seattle — expert guidance from Christine Andreasen. View properties, historic architecture, and strategic representation for buyers and sellers.",
+    image: "/website-blog-queen-anne.webp",
+    imageAlt: "Queen Anne Hill Seattle luxury home with Space Needle visible in the distance",
+    intro:
+      "Queen Anne offers one of Seattle's most distinctive combinations of elevated views, walkable village character, and architectural heritage. Rising above the city between South Lake Union and the Ship Canal, it divides naturally into Upper Queen Anne — the quieter residential summit — and Lower Queen Anne, bordering Seattle Center and the cultural corridor below. Few Seattle neighborhoods offer this range of housing stock, from century-old Victorians to view-forward modern construction, within a single, tightly-held market.",
+    sections: [
+      {
+        heading: "What Makes Queen Anne Different",
+        body: [
+          "Queen Anne sits atop one of Seattle's most prominent hills, and its elevation is the defining feature of the market. Upper Queen Anne is the quieter, more residential summit; Lower Queen Anne — also known as Uptown — borders Seattle Center and the Space Needle. The two areas share a zip code but feel markedly different in character, density, and price.",
+          "The hill's elevation creates some of Seattle's most coveted views: the Olympics to the west, the Space Needle below, Lake Union to the east, and Mount Rainier on clear days to the south. View premiums here are real, consistent, and among the most defensible in the city's luxury tier — a property with an unobstructed view corridor commands a materially different price than an otherwise-comparable home without one.",
+        ],
+      },
+      {
+        heading: "Architecture and Housing Stock",
+        body: [
+          "Queen Anne's housing stock is among the most architecturally varied in Seattle. Victorian and Edwardian homes from the early 1900s sit alongside craftsman bungalows, mid-century colonials, and modernist infill construction. Many of the older homes retain original details — leaded glass windows, fir floors, wainscoting — that have become increasingly rare elsewhere in the city.",
+          "Condominiums are more prevalent in Lower Queen Anne, with several newer developments built around the Seattle Center corridor. The upper hill is predominantly single-family, with some attached townhomes on smaller lots near the Queen Anne Avenue North business district.",
+        ],
+      },
+      {
+        heading: "Pricing and Market Position in 2026",
+        body: [
+          "Queen Anne single-family homes span a broad range — from the mid-$800,000s for smaller bungalows in need of updating to well over $3 million for view properties with renovated interiors and premium finishes. Condominiums start in the upper $300,000s for studio and one-bedroom units and extend past $1 million for larger, view-oriented penthouse configurations.",
+          "The market here is defined by scarcity as much as price: Queen Anne's fixed hillside geography means inventory is structurally limited, and well-positioned homes — particularly those with unobstructed views — rarely stay on the market long.",
+        ],
+      },
+      {
+        heading: "Buying or Selling on Queen Anne: What to Know",
+        body: [
+          "Buyers evaluating Queen Anne should treat view quality as a primary filter, not an afterthought — two homes at similar price points can differ enormously in long-term value based on view exposure and whether that view is protected from future development. Walkability to the Queen Anne Avenue North village center is a secondary but meaningful factor for many buyers, particularly those prioritizing a car-light lifestyle.",
+          "Sellers benefit from presentation strategies that foreground the home's view and architectural character specifically — professional photography timed for clear-sky conditions and staging that highlights period details (in older homes) or clean sightlines (in view-forward modern homes) both perform well in this market.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Queen Anne Real Estate",
+        body: [
+          "What is the difference between Upper and Lower Queen Anne? Upper Queen Anne is the quieter residential summit, predominantly single-family homes with a walkable village center. Lower Queen Anne (Uptown) borders Seattle Center and the Space Needle, with more condominiums and a denser, more urban feel.",
+          "How much do view homes cost on Queen Anne? View-oriented single-family homes with renovated interiors typically range from $1.5 million to well over $3 million, depending on the specific view corridor, lot position, and whether that view is protected from future development.",
+          "Is Queen Anne a good long-term investment? Queen Anne's fixed hillside geography creates structural scarcity that has historically supported strong long-term appreciation, particularly for view properties. Its combination of walkability, architectural character, and proximity to South Lake Union employment continues to drive sustained buyer demand.",
+        ],
+      },
+    ],
+    faqs: [
+      { question: "What is the difference between Upper and Lower Queen Anne?", answer: "Upper Queen Anne is the quieter residential summit, predominantly single-family homes with a walkable village center. Lower Queen Anne (Uptown) borders Seattle Center and the Space Needle, with more condominiums and a denser, more urban feel." },
+      { question: "How much do view homes cost on Queen Anne?", answer: "View-oriented single-family homes with renovated interiors typically range from $1.5 million to well over $3 million, depending on the specific view corridor, lot position, and whether that view is protected from future development." },
+      { question: "Is Queen Anne a good long-term investment?", answer: "Queen Anne's fixed hillside geography creates structural scarcity that has historically supported strong long-term appreciation, particularly for view properties. Its combination of walkability, architectural character, and proximity to South Lake Union employment continues to drive sustained buyer demand." },
+    ],
+  },
 ];
 
 export function getNeighborhoodBySlug(slug: string): NeighborhoodPage | undefined {
