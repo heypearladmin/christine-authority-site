@@ -1152,7 +1152,7 @@ export const blogPosts: BlogPost[] = [
       "In a constrained market, access matters as much as budget. The buyers who consistently find the right home are the ones working with advisors who have built the relationships to surface it first.",
     relatedServiceCta: {
       label: "Luxury Home Buying",
-      href: "/services/luxury-home-buying-seattle",
+      href: "/services/luxury-home-buying",
       text: "Buying a luxury home in Seattle requires access to off-market inventory before it hits the MLS. Learn how Christine approaches the search.",
     },
   },
@@ -1514,7 +1514,7 @@ export const blogPosts: BlogPost[] = [
       "Waterfront property in Seattle is among the most coveted real estate in the Pacific Northwest. The premium is real — and so is the reward for buyers who approach it with the right preparation and the right advisor.",
     relatedServiceCta: {
       label: "Seattle Waterfront Homes",
-      href: "/services/seattle-waterfront-homes",
+      href: "/services/waterfront-homes",
       text: "Waterfront transactions require specialized due diligence and off-market access. See how Christine guides buyers through this category.",
     },
   },
@@ -1887,7 +1887,7 @@ export const blogPosts: BlogPost[] = [
       "The buyers who have the best experience in Seattle's market are not always the ones who know the most — they are the ones who prepared the most, asked the right questions early, and worked with advisors who gave them a clear picture before the process began.",
     relatedServiceCta: {
       label: "Seattle Home Buying Guidance",
-      href: "/services/buying-a-home-in-seattle",
+      href: "/services/luxury-home-buying",
       text: "Ready to move from research to action? Christine works with buyers across every price tier in Seattle — from first purchase to luxury.",
     },
   },
