@@ -24,6 +24,160 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "adus-and-investment-properties-seattle-2026",
+    title: "ADUs and Investment Properties in Seattle: A 2026 Owner's Guide",
+    category: "Investment Strategy",
+    date: "2026-08-20",
+    readingTime: "8 min read",
+    image: "/website-blog-adu-investment-seattle.webp",
+    imageAlt: "Modern backyard accessory dwelling unit behind a Seattle craftsman home with landscaped yard",
+    isNew: true,
+    excerpt:
+      "Washington's statewide zoning reform has made ADUs one of the most accessible ways to add rental income or multigenerational space to a Seattle property. Here's what it actually costs, what's allowed under 2026 rules, and how ADUs fit into a broader investment strategy.",
+    quickAnswer:
+      "In 2026, most Seattle single-family lots can add up to two accessory dwelling units (ADUs) — one attached (a basement or garage conversion) and one detached (a backyard cottage) — under Washington State's statewide middle-housing reform combined with Seattle's own ADU ordinance updates. A detached ADU typically costs $200,000 to $350,000 to build depending on size and finish level, and can generate $2,000 to $3,500 per month in rental income depending on neighborhood and unit size. For owners specifically pursuing an investment strategy, ADUs offer one of the highest returns on incremental building investment available in the current Seattle market — though financing, permitting timelines, and construction costs all require careful planning before breaking ground.",
+    sections: [
+      {
+        heading: "What Changed: Washington's Statewide ADU and Middle Housing Reform",
+        body: [
+          "Washington's 2023 middle-housing legislation (House Bill 1110) required cities statewide to allow at least two housing units on most residential lots, with additional density near frequent transit. Seattle had already permitted up to two ADUs per lot since a 2019 ordinance update, but the statewide reform — combined with Seattle's own subsequent adjustments — further eased restrictions that previously limited ADU development.",
+          "The most consequential changes for owners: the owner-occupancy requirement that once forced property owners to live on-site was removed, off-street parking minimums for ADUs were eliminated in most cases, and maximum unit sizes were increased. Together, these changes have made ADU construction meaningfully more accessible than it was even three or four years ago — both for owners planning to live elsewhere and for those building a purely investment-oriented unit.",
+        ],
+      },
+      {
+        heading: "Attached vs. Detached ADUs: Which Makes Sense for Your Property",
+        body: [
+          "An attached ADU converts existing space within or connected to the primary home — a basement, an above-garage space, or a new addition — into a separate, self-contained unit with its own entrance, kitchen, and bathroom. These are generally less expensive to build since they use existing structure and utility connections, but they offer less privacy separation between the primary home and the rental unit.",
+          "A detached ADU (sometimes called a DADU, or backyard cottage) is a fully independent structure built elsewhere on the lot. These cost more to build — new foundation, new utility connections, new structure entirely — but offer complete privacy separation, which tends to command higher rent and appeal to a broader tenant pool, including longer-term renters who value not sharing walls with the primary residence.",
+          "Lot size, existing structure condition, and setback requirements determine which option — or whether both — is realistic for a given property. A pre-purchase or pre-construction consultation with a designer familiar with Seattle's current ADU rules is the fastest way to determine your property's actual capacity.",
+        ],
+      },
+      {
+        heading: "What ADUs Actually Cost to Build in Seattle in 2026",
+        body: [
+          "Costs vary significantly by ADU type and finish level. A basement conversion into an attached ADU typically runs $80,000 to $150,000, depending on existing ceiling height, egress requirements, and whether new plumbing lines are needed. A garage conversion runs somewhat higher, $100,000 to $180,000, since garages often require more substantial structural and insulation work to become livable space.",
+          "A new detached ADU is the largest investment: $200,000 to $350,000 or more for a well-finished 600–1,000 square foot unit, with cost scaling based on size, finish quality, and site conditions (a sloped lot or difficult utility access adds meaningfully to the budget). Financing options include a cash-out refinance on the primary home, a HELOC, or a dedicated construction loan — each with different qualification requirements and cost structures worth comparing before committing to a specific ADU size or finish level.",
+        ],
+      },
+      {
+        heading: "ADU Rental Income and Investment Returns",
+        body: [
+          "Rental rates for ADUs in Seattle vary by neighborhood, unit size, and finish quality, but a well-located, well-finished one-bedroom ADU commonly rents for $2,000 to $2,800 per month in 2026, with larger or premium-finished units reaching $3,500 in high-demand areas. Calculating real return requires weighing this income against the full construction cost, ongoing property tax impact, and maintenance responsibility as a landlord.",
+          "For many owners, the comparison that matters most is ADU construction versus purchasing a separate investment property outright. An ADU typically requires a smaller total capital outlay than acquiring a second property, avoids a second mortgage and its associated closing costs, and — because it sits on land the owner already controls — carries less market timing risk. The trade-off is that an ADU is illiquid in a different way: you can't sell it separately from the primary property, so the investment is tied to your overall equity in that single asset.",
+        ],
+      },
+      {
+        heading: "Permitting Timeline and Process in 2026",
+        body: [
+          "Seattle's Department of Construction and Inspections has streamlined ADU-specific permitting somewhat in response to the increased volume of applications following the statewide reform, but realistic timelines still run several months from initial application to permit issuance — longer if the design requires variances or the lot has complications like steep slopes or environmentally critical area designations.",
+          "Working with a designer or contractor who has specifically navigated Seattle's current ADU permitting process — as opposed to general residential construction experience — meaningfully reduces the likelihood of delays. The permitting requirements, required documentation, and common rejection reasons are specific enough to this use case that general contracting experience alone often isn't sufficient preparation.",
+        ],
+      },
+      {
+        heading: "ADUs as Part of a Broader Investment Property Strategy",
+        body: [
+          "For owners already thinking in investment terms, an ADU is one of several tools — alongside buying a separate rental property, a duplex, or a small multifamily building — for building real estate-based income. Its specific advantage is capital efficiency: building on land you already own avoids acquisition costs, financing a second property, and the search process itself.",
+          "An ADU can also serve a dual purpose many buyers value: housing a family member (aging parents, adult children) in the near term, with the flexibility to convert to a rental once that need changes. This flexibility — impossible with a separate, standalone rental property — is a genuine and underappreciated advantage of the ADU structure specifically.",
+          "When it comes time to sell, a property with a permitted, income-producing ADU is a different asset than a comparable property without one — it appeals to both owner-occupant buyers who want the flexibility and buyers evaluating the property with investment criteria in mind. Documentation of permits, rental history, and construction costs should be maintained carefully, since this materially affects how the ADU is valued at resale.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About ADUs and Investment Properties in Seattle",
+        body: [
+          "How many ADUs can I build on my Seattle lot in 2026? Most single-family lots can accommodate up to two ADUs — one attached and one detached — under current Seattle and Washington State rules, though specific lot size, setback, and critical-area restrictions can affect this. A pre-construction consultation confirms your specific property's capacity.",
+          "Do I have to live on the property to build an ADU? No. The owner-occupancy requirement that previously applied in Seattle was removed, meaning owners can build and rent out an ADU without living on-site themselves.",
+          "How much does a detached ADU cost to build in Seattle? Typically $200,000 to $350,000 for a well-finished 600–1,000 square foot unit, depending on size, finish level, and site conditions. Attached ADUs (basement or garage conversions) generally cost less, in the $80,000 to $180,000 range.",
+          "Is building an ADU a good investment compared to buying a rental property? For many owners, yes — an ADU avoids the acquisition cost, financing, and search process of a separate property, and offers flexibility (family housing now, rental income later) that a standalone investment property doesn't. The trade-off is that the ADU's value is tied to your primary property rather than being a separately sellable asset.",
+        ],
+      },
+    ],
+    closing:
+      "An ADU is one of the few moves available in Seattle's current market that adds real function to your own property while also producing genuine financial return — but only with the right planning before construction begins. The owners who get the most value from this strategy are the ones who think through financing, tenant strategy, and long-term resale implications before the first permit application, not after.",
+    relatedServiceCta: {
+      label: "Investment Properties",
+      href: "/services/investment-properties",
+      text: "Christine advises owners on how ADUs and investment properties fit into a broader real estate strategy — from initial planning through eventual resale.",
+    },
+  },
+
+  {
+    slug: "first-time-luxury-buyer-seattle-guide",
+    title: "The First-Time Luxury Buyer's Guide: Buying Your First $1M–$3M Home in Seattle",
+    category: "Buying Guide",
+    date: "2026-08-17",
+    readingTime: "8 min read",
+    image: "/website-blog-first-time-luxury-buyer.webp",
+    imageAlt: "Well-dressed couple touring a bright, modern Seattle luxury home interior with large windows",
+    isNew: true,
+    excerpt:
+      "Moving from a starter home into the $1M–$3M tier changes almost everything about how you search, finance, and compete — even for buyers who've purchased before. Here's what's genuinely different at this level, and how to navigate it with confidence the first time.",
+    quickAnswer:
+      "Buying your first home in Seattle's $1M–$3M tier differs from a typical purchase in several concrete ways: jumbo financing becomes standard since conforming loan limits in King County sit below this range, down payments of 20–30% are common rather than the 3–10% typical of entry-level purchases, competition includes more cash and highly-qualified buyers, and the properties themselves demand closer scrutiny on condition, systems, and long-term value drivers like views, lot position, and school district. Most first-time luxury buyers underestimate how much more thorough the due diligence and negotiation process becomes at this level compared to their previous purchase experience.",
+    sections: [
+      {
+        heading: "What Actually Changes at the $1M–$3M Level",
+        body: [
+          "The jump from an entry-level Seattle purchase into the $1M–$3M tier is not simply a matter of a bigger number on the offer. Financing structure changes (jumbo loans become standard), the buyer pool you're competing against changes (more cash, more highly-qualified financed buyers), and seller expectations for how offers are presented and negotiated shift as well.",
+          "Sellers at this level, and the agents representing them, are accustomed to buyers who arrive prepared — pre-approved with a lender experienced in jumbo financing, clear on their true budget ceiling, and ready to move decisively. A first-time luxury buyer who approaches this tier the way they approached their first, smaller purchase often finds themselves outcompeted, not because their offer was financially weaker, but because it wasn't presented with the same level of preparation.",
+        ],
+      },
+      {
+        heading: "Financing a Luxury Purchase for the First Time",
+        body: [
+          "Conforming loan limits in King County sit below most of the $1M–$3M range, meaning jumbo financing is standard at this tier. Jumbo loans typically require higher credit scores, larger cash reserves after closing (often 6–12 months of payments), and down payments in the 20–30% range — a meaningfully different qualification bar than a conventional loan.",
+          "Many first-time luxury buyers in Seattle work in tech or other industries with significant equity compensation — stock grants, RSUs, or business ownership — which lenders evaluate differently than straightforward W-2 income. Working with a lender specifically experienced in jumbo loans and non-traditional income documentation, rather than a generalist lender, often makes the difference between a smooth approval and a frustrating one.",
+          "Getting a genuine pre-approval — not just a pre-qualification based on stated income — before you begin touring homes is essential at this level. Sellers and their agents can generally tell the difference, and a stronger pre-approval materially improves your negotiating position when competing offers emerge.",
+        ],
+      },
+      {
+        heading: "How Competition Works Differently at This Tier",
+        body: [
+          "The buyer pool at $1M–$3M is smaller in absolute number than the entry-level market, but more sophisticated. Cash offers are meaningfully more common, and financed buyers competing at this level typically arrive with strong, verified pre-approvals rather than casual pre-qualifications. A well-prepared offer — clean terms, appropriate earnest money, a clear and reasonable inspection timeline — carries real weight here.",
+          "Working with an advisor who has genuine relationships and transaction history at this price tier, rather than one whose experience is primarily in lower price points, matters more than it might seem. Off-market opportunities become more common as price rises, and an advisor's network often surfaces properties and buyer relationships that a purely MLS-based search cannot replicate.",
+        ],
+      },
+      {
+        heading: "What to Actually Look for in a $1M–$3M Home",
+        body: [
+          "Condition expectations rise meaningfully at this tier — deferred maintenance that might be tolerable in an entry-level purchase reads very differently in a $1.5 million home, both to you as the buyer and to future buyers when you eventually sell. Distinguishing between cosmetic issues (easily and affordably changed) and structural or systems issues (expensive and sometimes not fully correctable) is essential due diligence.",
+          "Value drivers that matter most at this level are frequently not the ones a first-time luxury buyer initially focuses on. View corridor, lot position, natural light, and floor plan quality tend to hold and appreciate value more reliably than finish-level details like countertop material or cabinet brand — which can be updated relatively affordably after purchase. Seattle's older housing stock at this price point often requires a knowledgeable inspector who understands what's typical for the era and construction type versus what constitutes a genuine red flag.",
+        ],
+      },
+      {
+        heading: "Negotiation and Closing: What's Different",
+        body: [
+          "Earnest money at this tier is typically 3% or more of the purchase price, reflecting both the larger transaction size and the seriousness expected of buyers competing for these properties. Inspection contingency timelines and appraisal gap coverage are negotiated with more nuance than at lower price points, since comparable sales become sparser and pricing more individualized as the property value rises.",
+          "Appraisal gaps — where the appraised value comes in below the agreed purchase price — are handled differently at this tier as well; buyers competing seriously for luxury properties frequently offer some level of appraisal gap coverage upfront as part of a competitive offer, a term less common in entry-level transactions.",
+        ],
+      },
+      {
+        heading: "Common First-Time Luxury Buyer Mistakes",
+        body: [
+          "The most common mistake is underestimating carrying costs beyond the mortgage itself — property taxes, insurance, and maintenance all scale up meaningfully at this price point, and buyers who budget based on mortgage payment alone are frequently surprised by the full monthly cost of ownership.",
+          "A close second is over-indexing on cosmetic finishes rather than structural and locational value — buyers new to this tier sometimes pass on a well-located home with dated finishes in favor of a similarly priced but less well-positioned home with a fresh renovation, when the former is often the better long-term value.",
+          "Finally, moving too slowly in a competitive multiple-offer scenario is a mistake that costs first-time luxury buyers homes they were otherwise well-qualified to win. Having financing, priorities, and decision-making authority (including with a spouse or partner) settled before touring homes — not after finding one you like — is what allows for decisive action when it matters.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Buying Your First Luxury Home in Seattle",
+        body: [
+          "Do I need a jumbo loan to buy a $1.5 million home in Seattle? In most cases, yes — conforming loan limits in King County sit below this range for most of 2026, making jumbo financing the standard path for buyers who are financing rather than paying cash.",
+          "How much down payment do I need for a luxury home in Seattle? Most jumbo lenders require 20 to 30 percent down at this tier, higher than the 3 to 10 percent common for conventional, entry-level financing.",
+          "What's different about inspections at this price point? Inspectors experienced with older, high-value Seattle homes can distinguish between typical characteristics of the era and construction type versus genuine red flags — a distinction that matters more at this tier since the cost of getting it wrong is higher.",
+          "Is it worth using a luxury-specific real estate advisor for my first purchase at this level? Generally yes — an advisor with genuine relationships and transaction history in the $1M–$3M tier can surface off-market opportunities, help you present a competitive offer, and guide you through the due diligence questions specific to this price range that a generalist agent may not think to raise.",
+        ],
+      },
+    ],
+    closing:
+      "The $1M–$3M tier is unfamiliar territory even for buyers who have purchased homes before — the financing, the competition, and the due diligence all operate by somewhat different rules. The buyers who navigate it most successfully are the ones who treat it as genuinely different from their prior experience, not simply a bigger version of the same process.",
+    relatedServiceCta: {
+      label: "Luxury Home Buying",
+      href: "/services/luxury-home-buying",
+      text: "Christine works with first-time luxury buyers specifically — from jumbo financing conversations through closing — to make this unfamiliar tier feel navigable.",
+    },
+  },
+
+  {
     slug: "inherited-a-home-in-seattle",
     title: "Inherited a Home in Seattle? A 2026 Guide to Probate, Taxes, and Whether to Sell, Rent, or Keep It",
     category: "Estate & Inheritance",
@@ -31,7 +185,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-inherited-home-seattle.webp",
     imageAlt: "Craftsman-style Seattle home with a mature garden inherited from a family estate, soft morning light",
-    isNew: true,
     excerpt:
       "Inheriting a home in Seattle brings emotional weight and real financial decisions — probate timelines, a stepped-up tax basis that can eliminate most capital gains, and the question of whether to sell, rent, or keep the property. Here's what heirs actually need to know in 2026.",
     quickAnswer:
@@ -113,7 +266,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-buy-before-sell-seattle.webp",
     imageAlt: "Modern Seattle home exterior with a moving truck and for-sale sign visible at dusk",
-    isNew: true,
     excerpt:
       "Buying before you sell means competing without a financing contingency — but it also means risking two mortgages at once. Here's how bridge loans, HELOCs, and rent-back agreements actually work in Seattle's 2026 market, and how to decide which timing strategy fits your situation.",
     quickAnswer:
