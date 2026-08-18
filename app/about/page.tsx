@@ -13,7 +13,7 @@ import {
 } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
-  title: "About Christine Andreasen & Travis Foxx",
+  title: { absolute: "About Christine Andreasen & Travis Foxx" },
   description:
     "Meet Christine Andreasen and Travis Foxx — a strategic luxury real estate partnership with 60+ combined years across Seattle residential, investment, and complex property decisions.",
   alternates: { canonical: "https://www.christineandreasen.com/about" },

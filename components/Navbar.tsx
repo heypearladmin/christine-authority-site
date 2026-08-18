@@ -2,19 +2,21 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { ServicesDesktopDropdown, ServicesMobileAccordion } from "./ServicesDropdown";
 
-const NAV = [
+const NAV_BEFORE_SERVICES = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/neighborhoods", label: "Neighborhoods" },
-  { href: "/services", label: "Services" },
-  { href: "/blog", label: "Blog" },
 ];
+
+const NAV_AFTER_SERVICES = [{ href: "/blog", label: "Blog" }];
 
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -39,7 +41,17 @@ export default function Navbar() {
         </Link>
 
         <nav className="hidden items-center gap-10 md:flex">
-          {NAV.map((item) => (
+          {NAV_BEFORE_SERVICES.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="editorial-link text-sm tracking-wide text-ink/80 hover:text-ink"
+            >
+              {item.label}
+            </Link>
+          ))}
+          <ServicesDesktopDropdown />
+          {NAV_AFTER_SERVICES.map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -70,7 +82,22 @@ export default function Navbar() {
       {open && (
         <div className="border-t border-ink/10 bg-cream md:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col px-6 py-4">
-            {NAV.map((item) => (
+            {NAV_BEFORE_SERVICES.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="border-b border-ink/5 py-3 text-sm tracking-wide text-ink"
+                onClick={() => setOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
+            <ServicesMobileAccordion
+              open={mobileServicesOpen}
+              onToggle={() => setMobileServicesOpen((v) => !v)}
+              onNavigate={() => setOpen(false)}
+            />
+            {NAV_AFTER_SERVICES.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}

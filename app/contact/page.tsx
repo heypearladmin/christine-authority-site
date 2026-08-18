@@ -5,7 +5,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { localBusinessSchema, breadcrumbSchema, webPageSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
-  title: "Contact Christine Andreasen",
+  title: "Contact",
   description:
     "Get in touch with Christine Andreasen — Christine & Company | eXp Realty. Call, email, or follow along on social media.",
   alternates: { canonical: "https://www.christineandreasen.com/contact" },

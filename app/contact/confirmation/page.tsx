@@ -4,7 +4,7 @@ import { breadcrumbSchema, SITE } from "@/lib/seo/schema";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Message Received — Christine Andreasen",
+  title: "Message Received",
   description: "Your message has been received. Christine will be in touch shortly.",
   robots: { index: false, follow: false },
 };

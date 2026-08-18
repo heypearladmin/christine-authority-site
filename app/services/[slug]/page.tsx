@@ -27,7 +27,7 @@ export async function generateMetadata({
   const page = getServiceBySlug(params.slug);
   if (!page) return { title: "Service not found" };
   return {
-    title: page.metaTitle,
+    title: page.metaTitle.replace(/\s*\|\s*Christine Andreasen\s*$/, ""),
     description: page.metaDescription,
     alternates: {
       canonical: `https://www.christineandreasen.com/services/${params.slug}`,

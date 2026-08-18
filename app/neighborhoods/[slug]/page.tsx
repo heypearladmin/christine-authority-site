@@ -26,7 +26,7 @@ export async function generateMetadata({
   const page = getNeighborhoodBySlug(params.slug);
   if (!page) return { title: "Neighborhood not found" };
   return {
-    title: page.metaTitle,
+    title: page.metaTitle.replace(/\s*\|\s*Christine Andreasen\s*$/, ""),
     description: page.metaDescription,
     alternates: {
       canonical: `https://www.christineandreasen.com/neighborhoods/${params.slug}`,

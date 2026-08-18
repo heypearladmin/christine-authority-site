@@ -18,6 +18,7 @@ export type BlogPost = {
   closing: string;
   isNew?: boolean;
   relatedServiceCta?: { label: string; href: string; text: string };
+  pillar?: "buying" | "selling";
 };
 
 export const blogPosts: BlogPost[] = [
@@ -102,6 +103,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "first-time-luxury-buyer-seattle-guide",
+    pillar: "buying",
     title: "The First-Time Luxury Buyer's Guide: Buying Your First $1M–$3M Home in Seattle",
     category: "Buying Guide",
     date: "2026-08-17",
@@ -747,6 +749,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "how-to-win-multiple-offers-seattle",
+    pillar: "buying",
     title: "How to Win a Multiple-Offer Situation in Seattle: A Buyer's Strategy Guide",
     category: "Buying Strategy",
     date: "2026-07-20",
@@ -1056,6 +1059,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "new-construction-vs-existing-homes-seattle",
+    pillar: "buying",
     title: "New Construction vs. Existing Homes in Seattle: What's the Smarter Buy in 2026?",
     category: "Buyer Decision",
     date: "2026-07-06",
@@ -1209,6 +1213,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "prepare-home-to-sell-seattle",
+    pillar: "selling",
     title: "Preparing Your Seattle Home to Sell in 30 Days: A Room-by-Room Checklist",
     category: "Selling Strategy",
     date: "2026-06-29",
@@ -1289,6 +1294,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "off-market-homes-seattle",
+    pillar: "buying",
     title: "Off-Market Properties in Seattle: How to Find Homes Before They're Listed",
     category: "Buying Strategy",
     date: "2026-06-25",
@@ -1363,6 +1369,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "closing-costs-seattle-real-estate",
+    pillar: "buying",
     title: "What Buyers and Sellers Need to Know About Closing Costs in Seattle",
     category: "Financial Guide",
     date: "2026-06-22",
@@ -1835,6 +1842,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "how-to-price-seattle-home",
+    pillar: "selling",
     title: "How to Price Your Seattle Home to Sell — Not Just to List",
     category: "Selling Strategy",
     date: "2026-06-01",
@@ -2054,6 +2062,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "seattle-home-buyer-guide-2026",
+    pillar: "buying",
     title: "The Seattle Home Buyer's Roadmap: A Complete 2026 Guide",
     category: "Buying Guide",
     date: "2026-05-21",
@@ -2210,6 +2219,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "luxury-staging-seattle-tips",
+    pillar: "selling",
     title: "Luxury Staging Tips for Seattle Homes",
     category: "Selling Strategy",
     date: "2026-05-14",
@@ -2344,6 +2354,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "ai-vs-appraisals-seattle",
+    pillar: "selling",
     title: "AI Home Valuations vs. Real Appraisals in Seattle",
     category: "Valuations",
     date: "2026-05-07",

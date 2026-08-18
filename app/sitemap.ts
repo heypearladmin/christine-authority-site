@@ -37,6 +37,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const serviceRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/services`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${SITE_URL}/services/buying`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${SITE_URL}/services/selling`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     ...services.map((s) => ({
       url: `${SITE_URL}/services/${s.slug}`,
       lastModified: now,

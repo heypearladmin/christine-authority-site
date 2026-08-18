@@ -119,11 +119,23 @@ export default function BlogPostPage({ params }: { params: Params }) {
             dateModified: post.dateModified ?? post.date,
             keywords: [post.category, "Seattle real estate", "Christine Andreasen"],
           }),
-          breadcrumbSchema([
-            { name: "Home", url: SITE.url },
-            { name: "The Journal", url: `${SITE.url}/blog` },
-            { name: post.title, url: pageUrl },
-          ]),
+          breadcrumbSchema(
+            post.pillar
+              ? [
+                  { name: "Home", url: SITE.url },
+                  { name: "Services", url: `${SITE.url}/services` },
+                  {
+                    name: post.pillar === "buying" ? "Buying" : "Selling",
+                    url: `${SITE.url}/services/${post.pillar}`,
+                  },
+                  { name: post.title, url: pageUrl },
+                ]
+              : [
+                  { name: "Home", url: SITE.url },
+                  { name: "The Journal", url: `${SITE.url}/blog` },
+                  { name: post.title, url: pageUrl },
+                ]
+          ),
           ...(schemaFaqs.length > 0 ? [faqPageSchema(schemaFaqs)] : []),
         ]}
       />
@@ -137,6 +149,23 @@ export default function BlogPostPage({ params }: { params: Params }) {
           >
             &larr; The Journal
           </Link>
+          {post.pillar && (
+            <nav
+              aria-label="Breadcrumb"
+              className="mt-3 flex flex-wrap items-center gap-x-2 text-xs uppercase tracking-editorial text-ink/50"
+            >
+              <Link href="/" className="transition-colors hover:text-gold">Home</Link>
+              <span aria-hidden>/</span>
+              <Link href="/services" className="transition-colors hover:text-gold">Services</Link>
+              <span aria-hidden>/</span>
+              <Link
+                href={`/services/${post.pillar}`}
+                className="transition-colors hover:text-gold"
+              >
+                {post.pillar === "buying" ? "Buying" : "Selling"}
+              </Link>
+            </nav>
+          )}
           <p className="eyebrow mt-10">{post.category}</p>
           <span className="gold-rule mt-4" />
           <h1 className="mt-6 font-serif text-4xl leading-[1.05] text-ink md:text-5xl lg:text-6xl">
