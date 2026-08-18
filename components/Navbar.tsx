@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ServicesDesktopDropdown, ServicesMobileAccordion } from "./ServicesDropdown";
+import { NeighborhoodsDesktopDropdown, NeighborhoodsMobileAccordion } from "./NeighborhoodsDropdown";
 
-const NAV_BEFORE_SERVICES = [
+const NAV_BEFORE_NEIGHBORHOODS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/neighborhoods", label: "Neighborhoods" },
 ];
 
 const NAV_AFTER_SERVICES = [{ href: "/blog", label: "Blog" }];
@@ -17,6 +17,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileNeighborhoodsOpen, setMobileNeighborhoodsOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -41,7 +42,7 @@ export default function Navbar() {
         </Link>
 
         <nav className="hidden items-center gap-10 md:flex">
-          {NAV_BEFORE_SERVICES.map((item) => (
+          {NAV_BEFORE_NEIGHBORHOODS.map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -50,6 +51,7 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
+          <NeighborhoodsDesktopDropdown />
           <ServicesDesktopDropdown />
           {NAV_AFTER_SERVICES.map((item) => (
             <Link
@@ -82,7 +84,7 @@ export default function Navbar() {
       {open && (
         <div className="border-t border-ink/10 bg-cream md:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col px-6 py-4">
-            {NAV_BEFORE_SERVICES.map((item) => (
+            {NAV_BEFORE_NEIGHBORHOODS.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -92,6 +94,11 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
+            <NeighborhoodsMobileAccordion
+              open={mobileNeighborhoodsOpen}
+              onToggle={() => setMobileNeighborhoodsOpen((v) => !v)}
+              onNavigate={() => setOpen(false)}
+            />
             <ServicesMobileAccordion
               open={mobileServicesOpen}
               onToggle={() => setMobileServicesOpen((v) => !v)}
