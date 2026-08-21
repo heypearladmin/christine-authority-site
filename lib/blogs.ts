@@ -25,6 +25,165 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "divorce-real-estate-seattle",
+    title: "Selling or Buying a Home During a Divorce in Seattle: What You Need to Know in 2026",
+    category: "Life Stage",
+    date: "2026-08-27",
+    readingTime: "8 min read",
+    image: "/website-blog-divorce-real-estate-seattle.webp",
+    imageAlt: "Empty modern Seattle home interior near a window with soft neutral daylight, moving boxes in the background",
+    isNew: true,
+    pillar: "selling",
+    excerpt:
+      "Divorce forces real estate decisions on a timeline no one would choose — and Washington's community property laws shape those decisions in ways that surprise most people. Here's what actually happens to the house, the options beyond simply selling, and how to protect your interests.",
+    quickAnswer:
+      "Washington is a community property state, which means real estate acquired during a marriage is generally presumed to be jointly owned regardless of whose name is on the title, and a divorcing couple has three practical paths for the marital home: sell it and split the proceeds, have one spouse buy out the other's equity and refinance the mortgage into their name alone, or continue co-owning it temporarily under a written agreement — often until children finish school. Which option makes sense depends on each spouse's ability to qualify for financing alone, the amount of equity involved, and whether the divorce is contested or amicable. Courts generally expect an independent, current valuation before any option can be finalized.",
+    sections: [
+      {
+        heading: "Washington Is a Community Property State — What That Actually Means for Your Home",
+        body: [
+          "Washington is one of a small number of community property states, which means real estate acquired during the marriage is generally presumed to belong to both spouses equally, regardless of whose name is on the title or who made the mortgage payments. This surprises many homeowners who assume that being the sole name on the deed gives them sole ownership — in a divorce, it typically does not.",
+          "Separate property — a home one spouse owned before the marriage, or received as a gift or inheritance — is treated differently, but the line is not always clean. If a separate-property home appreciated significantly during the marriage, or if marital funds were used to pay down the mortgage or fund renovations, the other spouse may have a community property interest in that appreciation even though the underlying property remains separate. This is exactly the kind of determination where a family law attorney's guidance matters more than a real estate advisor's — but understanding the distinction helps you ask the right questions before decisions get made.",
+          "None of this is a substitute for legal advice specific to your situation. What follows assumes the property question has been addressed by counsel and focuses on the practical real estate mechanics that follow.",
+        ],
+      },
+      {
+        heading: "The Three Practical Paths for the Marital Home",
+        body: [
+          "Once the property question is settled, most divorcing couples in Seattle choose from three paths. The most common is selling the home and dividing the net proceeds according to the settlement or court order — this is often the cleanest option because it converts an illiquid, jointly-titled asset into cash that can be divided precisely and severs financial ties between both parties.",
+          "The second path is a buyout: one spouse keeps the home, pays the other their share of the equity, and refinances the existing mortgage into their name alone. This preserves stability — often important when children are involved — but requires the remaining spouse to qualify for financing independently, which is not always straightforward on a single income.",
+          "The third path is continued co-ownership under a written agreement, sometimes called 'nesting' when children remain in the home and parents rotate in and out. This is less common and generally treated as a temporary bridge — most family law attorneys recommend a defined end date, such as when the youngest child graduates high school, rather than an open-ended arrangement.",
+        ],
+      },
+      {
+        heading: "Getting an Accurate Valuation Before Anything Else",
+        body: [
+          "Every one of these paths depends on knowing what the home is actually worth — and this is where divorce transactions differ most from a standard sale. A single spouse's assumption about value, based on a Zillow estimate or a neighbor's sale price, is rarely sufficient and can become a point of dispute that delays the entire settlement.",
+          "Courts and family law attorneys generally expect either a formal appraisal or a detailed broker's opinion of value from an experienced local agent — grounded in true comparable sales, not an algorithm. Because this valuation often becomes part of the settlement record, accuracy and defensibility matter more here than in a typical sale, where a seller can simply adjust price based on market feedback.",
+          "Getting this valuation early — before positions harden on either side — tends to produce a smoother process. A neutral, current number gives both spouses and their attorneys the same starting point, which removes one common source of conflict from an already difficult negotiation.",
+        ],
+      },
+      {
+        heading: "If You're Selling: Timing, Disclosure, and Keeping the Process Businesslike",
+        body: [
+          "When a home is jointly titled, both spouses typically need to agree to list the property, sign disclosure documents, and accept an offer — unless a court order specifically authorizes one spouse to act alone. This makes selecting the right listing agent especially important: an agent who can communicate clearly and neutrally with both parties, rather than one who feels aligned with only one side, keeps the transaction moving instead of becoming another point of friction.",
+          "Washington's seller disclosure obligations don't change because of a divorce — the seller disclosure statement must be completed accurately regardless of how contentious the situation is. Sale proceeds are held in escrow and distributed according to the settlement agreement or court order, typically requiring both spouses' authorization or a court order to release funds.",
+          "Homes sold during a divorce sometimes carry deferred maintenance if one spouse moved out and upkeep lapsed during the separation period. Addressing this honestly in preparation — rather than letting it surface during a buyer's inspection — generally produces a better outcome for both parties' share of the proceeds.",
+        ],
+      },
+      {
+        heading: "If One Spouse Is Buying Out the Other",
+        body: [
+          "A buyout requires the remaining spouse to refinance the existing mortgage into their name alone, both to formally remove the departing spouse from the loan and to pay out their equity share. This step is often rushed or overlooked — until the refinance closes, both spouses typically remain legally liable on the original mortgage, regardless of what the divorce decree says about who keeps the house.",
+          "The buyout amount is generally calculated from the agreed-upon home value, minus the remaining mortgage balance, divided according to each spouse's ownership share — then adjusted for any other assets being offset in the broader settlement. Because mortgage rates and the remaining spouse's qualifying income are moving variables, this calculation is worth finalizing and executing promptly rather than leaving open during a long negotiation.",
+          "Buyouts can fall through when the remaining spouse cannot qualify for financing alone at the required loan amount. This is worth confirming with a lender early — before either spouse builds a settlement position around an assumption that may not hold.",
+        ],
+      },
+      {
+        heading: "Working With One Agent vs. Two",
+        body: [
+          "It might seem natural for each spouse to want their own agent, but for the property itself, most experienced advisors recommend a single neutral agent representing the sale — not each spouse individually. This is different from legal representation; each spouse should absolutely have their own attorney, but the real estate transaction benefits from one point of coordination who treats both parties equally.",
+          "An experienced advisor working a divorce sale communicates proactively and separately with both spouses when needed, avoids taking sides on pricing or timing disagreements, and keeps documentation transparent so neither party feels at an information disadvantage. This approach reduces friction and, in most cases, produces a faster, less contentious sale than two competing agents would.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Divorce and Real Estate in Seattle",
+        body: [
+          "Do both spouses have to agree to sell the house in a divorce in Washington? In most cases, yes — if the home is jointly titled, both spouses typically need to agree to list, sign disclosures, and accept an offer, unless a court order specifically authorizes one spouse to act alone. Your family law attorney can confirm what applies to your specific decree or pending order.",
+          "Can one spouse keep the house and buy out the other in a divorce? Yes — this is one of the three common paths. It requires an agreed-upon valuation, a buyout amount calculated from the equity split, and a refinance that removes the departing spouse from the original mortgage and transfers the loan into the remaining spouse's name alone.",
+          "Is a home owned before marriage still separate property in Washington? Generally yes, but appreciation or paydown that occurred during the marriage using marital funds can create a community property interest even in an otherwise separate-property home. This determination should be made with a family law attorney, not assumed.",
+          "What happens to home equity in a Washington divorce? Home equity acquired during the marriage is generally treated as community property and divided according to the settlement agreement or court order — typically through a sale and split of net proceeds, or through a buyout where one spouse pays the other their equity share directly.",
+        ],
+      },
+    ],
+    closing:
+      "A divorce is never just a real estate transaction — but the real estate decision doesn't have to add unnecessary conflict to an already difficult chapter. The couples who navigate this most smoothly are the ones who get an accurate, neutral valuation early and work with an advisor who treats the process with the discretion and professionalism it deserves.",
+    relatedServiceCta: {
+      label: "Selling During a Life Transition",
+      href: "/services/luxury-home-selling",
+      text: "Christine works with clients navigating divorce, estate, and other life-transition sales with the discretion and neutrality these situations require — coordinating clearly with both parties and their attorneys throughout.",
+    },
+  },
+
+  {
+    slug: "escrow-process-seattle-explained",
+    title: "How Escrow Works in Seattle: What Actually Happens Between Your Accepted Offer and Closing Day",
+    category: "Transaction Process",
+    date: "2026-08-24",
+    readingTime: "7 min read",
+    image: "/website-blog-escrow-process-seattle.webp",
+    imageAlt: "Seattle title and escrow office desk with closing documents and house keys in warm natural light",
+    isNew: true,
+    excerpt:
+      "Escrow is the most misunderstood part of a real estate transaction — most buyers and sellers know the term but not what actually happens inside it. Here's what the escrow company does, in what order, and how long it actually takes in Washington State.",
+    quickAnswer:
+      "In Washington State, escrow is a neutral third party — typically a title and escrow company, not an attorney — that holds funds and documents between an accepted offer and closing, then coordinates their exchange once every condition of the contract has been satisfied. After mutual acceptance, escrow opens a file, orders a title search, collects loan documents from the buyer's lender, tracks contingency deadlines, prepares the settlement statement, and finally records the deed with the county once funds and signatures are in hand — a process that typically takes 20 to 30 days from acceptance to closing in Seattle.",
+    sections: [
+      {
+        heading: "What Escrow Actually Is (and Isn't)",
+        body: [
+          "The word 'escrow' does double duty in real estate, which is a common source of confusion. It refers both to the earnest money deposit that gets 'held in escrow' after an offer is accepted, and separately to the entire coordination process — and the company that runs it — between accepted offer and closing. Washington is a non-attorney closing state, meaning a licensed title and escrow company, not a lawyer, handles this coordination.",
+          "The escrow company is a neutral third party. It does not represent the buyer or the seller — its job is to hold funds and documents, verify that every condition of the purchase agreement has been satisfied, and only then release funds and record the transaction. This neutrality is exactly why it exists: neither party has to trust the other to hand over money or a deed on faith.",
+        ],
+      },
+      {
+        heading: "Who Chooses the Escrow Company, and Who Pays for It?",
+        body: [
+          "The purchase and sale agreement specifies which escrow company will handle the transaction — this is typically negotiated between the buyer and seller (or their agents) at the time the offer is written, and it's common for the same company to handle both title insurance and escrow services. In Seattle, sellers often have an established relationship with a title and escrow company and propose it in their counteroffer.",
+          "Escrow fees are generally split between buyer and seller, though this is negotiable and varies by transaction. On a typical Seattle purchase, escrow fees run $1,000 to $2,000 total, separate from title insurance premiums, which are a larger cost addressed in detail in our closing costs guide.",
+        ],
+      },
+      {
+        heading: "Day-by-Day: What Happens Inside Escrow",
+        body: [
+          "Escrow opens within a day or two of mutual acceptance — both parties' signatures on the purchase agreement. The escrow officer immediately orders a preliminary title report, which identifies the current owner, any liens, easements, or title issues that need to be resolved before closing.",
+          "Over the following one to three weeks, several things happen in parallel: the buyer's lender sends loan documents and conditions to escrow, the buyer completes inspections and any negotiated repairs or credits, the appraisal is ordered and completed, and escrow works through any title issues the preliminary report surfaced — clearing old liens, confirming HOA standing if applicable, and resolving anything unusual in the chain of ownership.",
+          "In the final week, the lender issues final loan approval (often called 'clear to close'), escrow prepares the settlement statement itemizing every cost for both parties, and a closing date is confirmed once all contingencies have been satisfied or waived.",
+        ],
+      },
+      {
+        heading: "Contingencies and the Escrow Timeline",
+        body: [
+          "Most Seattle purchase agreements include an inspection contingency, a financing contingency, and often an appraisal contingency — each with its own deadline running concurrently with escrow's broader timeline, not after it. If an inspection reveals an issue, negotiation over repairs or credits typically happens within the inspection contingency window, and escrow simply waits for that resolution before proceeding.",
+          "If a contingency isn't satisfied — the buyer can't secure financing, or the appraisal comes in below the purchase price and the parties can't agree on how to bridge the gap — the transaction can be canceled within the terms of that contingency, and escrow returns the earnest money according to the contract terms. This is a normal, built-in part of the process, not a failure of escrow itself.",
+        ],
+      },
+      {
+        heading: "Signing and Funding: The Last 48 Hours",
+        body: [
+          "Buyers typically sign their closing documents a day or two before the scheduled closing date, and wire their remaining down payment and closing costs directly to escrow. Sellers usually sign in advance as well — in Washington, it's common for sellers to sign before the buyer, sometimes several days ahead of the actual closing date.",
+          "Wire fraud targeting real estate closings has become a serious, real risk — always confirm wiring instructions by phone, using a number you look up independently, never one provided only by email. Legitimate escrow companies will never change wiring instructions via email without verbal confirmation, and any last-minute change to those instructions should be treated as a red flag.",
+          "Once escrow confirms all funds have been received and all documents are signed, the deed is recorded with the county. Recording is what legally transfers ownership — this is why you don't always get keys the moment you sign; you get them once recording is confirmed, which is sometimes the same day and sometimes the following morning depending on the county's recording schedule.",
+        ],
+      },
+      {
+        heading: "What Can Delay Escrow (and How to Avoid It)",
+        body: [
+          "The most common delays come from loan underwriting — a lender requesting additional documentation late in the process, or a change in the buyer's financial picture (a new credit inquiry, a job change) that requires re-verification. Buyers should avoid large purchases, new credit applications, or job changes during escrow for exactly this reason.",
+          "Title issues — an old lien that wasn't cleared, a boundary discrepancy, or a missing signature from a prior owner — can also cause delays, though most are identified early in the preliminary title report and resolved well before closing. HOA document delays, particularly for condominiums, are another common source of last-minute slowdowns, since some HOAs are slow to produce the resale certificate lenders require.",
+          "The single best way to avoid delays is responsiveness — returning lender document requests same-day, scheduling inspections and the final walkthrough promptly, and confirming wiring instructions well before they're actually needed rather than at the last minute.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Escrow in Seattle",
+        body: [
+          "How long does escrow take in Washington State? Most Seattle transactions close 20 to 30 days after mutual acceptance, though cash purchases can close faster — sometimes in as little as 10 to 14 days — and transactions with financing contingencies or condominium HOA requirements can take longer.",
+          "Who chooses the escrow company in Seattle? The buyer and seller agree on the escrow company as part of the purchase and sale agreement, typically proposed by whichever party's agent has an established relationship with a local title and escrow company. It's common, though not required, for the same company to also handle title insurance.",
+          "What happens if my loan isn't approved before closing? If financing falls through within the financing contingency period, the buyer can typically cancel the contract and have their earnest money returned according to the contract terms. If the contingency has already been waived or expired, the buyer's earnest money may be at risk — which is why buyers should never waive a financing contingency without being fully confident in their loan approval.",
+          "Do I need a real estate attorney for closing in Washington? No — Washington is a non-attorney closing state, and licensed title and escrow companies handle the closing process without requiring an attorney. Buyers or sellers with unusually complex situations sometimes choose to consult an attorney separately, but it is not a standard part of a typical residential closing.",
+        ],
+      },
+    ],
+    closing:
+      "Escrow can feel like a black box while it's happening — documents move, deadlines pass, and it's not always obvious what's happening behind the scenes. Understanding the sequence in advance is what turns that uncertainty into confidence, and it's exactly the kind of preparation that makes the last stretch of a transaction feel manageable instead of stressful.",
+    relatedServiceCta: {
+      label: "Seattle Home Buying Guidance",
+      href: "/services/buying",
+      text: "Christine walks every client through the escrow timeline before it starts, so nothing that happens between offer and closing comes as a surprise.",
+    },
+  },
+
+  {
     slug: "adus-and-investment-properties-seattle-2026",
     title: "ADUs and Investment Properties in Seattle: A 2026 Owner's Guide",
     category: "Investment Strategy",
@@ -32,7 +191,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-adu-investment-seattle.webp",
     imageAlt: "Modern backyard accessory dwelling unit behind a Seattle craftsman home with landscaped yard",
-    isNew: true,
     excerpt:
       "Washington's statewide zoning reform has made ADUs one of the most accessible ways to add rental income or multigenerational space to a Seattle property. Here's what it actually costs, what's allowed under 2026 rules, and how ADUs fit into a broader investment strategy.",
     quickAnswer:
@@ -110,7 +268,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-first-time-luxury-buyer.webp",
     imageAlt: "Well-dressed couple touring a bright, modern Seattle luxury home interior with large windows",
-    isNew: true,
     excerpt:
       "Moving from a starter home into the $1M–$3M tier changes almost everything about how you search, finance, and compete — even for buyers who've purchased before. Here's what's genuinely different at this level, and how to navigate it with confidence the first time.",
     quickAnswer:
