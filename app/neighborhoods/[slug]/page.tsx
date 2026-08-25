@@ -80,6 +80,16 @@ export default function NeighborhoodPage({ params }: { params: Params }) {
           >
             &larr; Neighborhoods
           </Link>
+          <nav
+            aria-label="Breadcrumb"
+            className="mt-3 flex flex-wrap items-center gap-x-2 text-xs uppercase tracking-editorial text-ink/50"
+          >
+            <Link href="/" className="transition-colors hover:text-gold">Home</Link>
+            <span aria-hidden>/</span>
+            <Link href="/neighborhoods" className="transition-colors hover:text-gold">Neighborhoods</Link>
+            <span aria-hidden>/</span>
+            <span>{page.name}</span>
+          </nav>
           <p className="eyebrow mt-10">Neighborhood Guide</p>
           <span className="gold-rule mt-4" />
           <h1 className="mt-6 font-serif text-4xl leading-[1.05] text-ink md:text-5xl lg:text-6xl">

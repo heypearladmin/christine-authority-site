@@ -38,6 +38,7 @@ export function ServicesDesktopDropdown() {
     <div className="group relative">
       <Link
         href="/services"
+        aria-haspopup="true"
         className="editorial-link flex items-center gap-1.5 text-sm tracking-wide text-ink/80 hover:text-ink"
       >
         Services

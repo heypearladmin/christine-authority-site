@@ -731,6 +731,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "eastside-vs-seattle-real-estate",
+    pillar: "buying",
     title: "Eastside vs. Seattle: Which Side of Lake Washington Is Right for You in 2026?",
     category: "Buyer Decision",
     date: "2026-07-27",
@@ -1135,6 +1136,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "capital-gains-selling-seattle-home",
+    pillar: "selling",
     title: "Capital Gains and Tax Strategy When Selling Your Seattle Home",
     category: "Financial Strategy",
     date: "2026-07-09",
@@ -1690,6 +1692,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "seattle-condo-vs-single-family",
+    pillar: "buying",
     title: "Seattle Condos vs. Single-Family Homes: How to Decide in 2026",
     category: "Buyer Education",
     date: "2026-06-15",
@@ -1763,6 +1766,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "downsizing-in-seattle",
+    pillar: "selling",
     title: "Downsizing in Seattle Without Downsizing Your Life",
     category: "Life Stage",
     date: "2026-06-11",
@@ -1910,6 +1914,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "relocating-to-seattle-guide",
+    pillar: "buying",
     title: "Relocating to Seattle: What Out-of-State Buyers Need to Know in 2026",
     category: "Relocation",
     date: "2026-06-04",

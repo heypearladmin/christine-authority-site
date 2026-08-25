@@ -238,6 +238,7 @@ export function webPageSchema(params: {
   name: string;
   url: string;
   description: string;
+  speakableSelectors?: string[];
 }): SchemaObject {
   return withContext({
     "@type": "WebPage",
@@ -248,6 +249,14 @@ export function webPageSchema(params: {
     inLanguage: "en-US",
     isPartOf: { "@id": `${SITE.url}/#website` },
     about: { "@id": `${SITE.url}/#agent` },
+    ...(params.speakableSelectors
+      ? {
+          speakable: {
+            "@type": "SpeakableSpecification",
+            cssSelector: params.speakableSelectors,
+          },
+        }
+      : {}),
   });
 }
 

@@ -87,6 +87,7 @@ export default function FaqPage({ params }: { params: Params }) {
             name: faq.question,
             url: pageUrl,
             description: faq.answer.slice(0, 160),
+            speakableSelectors: ["h1", ".border-l-2.border-gold p"],
           }),
         ]}
       />
