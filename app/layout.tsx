@@ -3,6 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import StickyCTA from "@/components/StickyCTA";
 import { realEstateAgentSchema, webSiteSchema, personSchema, organizationSchema, travisPersonSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
@@ -68,8 +69,9 @@ export default function RootLayout({
       </head>
       <body className="bg-cream text-ink antialiased">
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <main className="min-h-screen pb-16">{children}</main>
         <Footer />
+        <StickyCTA />
         <Script
           id="meta-pixel"
           strategy="afterInteractive"

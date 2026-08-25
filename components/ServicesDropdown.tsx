@@ -21,7 +21,7 @@ export const BUYING_LINKS: ServiceLink[] = [
 export const SELLING_LINKS: ServiceLink[] = [
   { label: "Selling a Home", href: "/services/selling" },
   { label: "Home Selling Guide", href: "/blog/seattle-home-seller-roadmap-2026" },
-  { label: "What's My Home Worth?", href: "/blog/ai-vs-appraisals-seattle" },
+  { label: "What's My Home Worth?", href: "/valuation" },
   { label: "Preparing Your Home for Sale", href: "/blog/prepare-home-to-sell-seattle" },
   { label: "Home Staging", href: "/blog/luxury-staging-seattle-tips" },
   { label: "Pricing Your Home", href: "/blog/how-to-price-seattle-home" },

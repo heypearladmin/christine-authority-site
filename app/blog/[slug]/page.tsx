@@ -6,6 +6,7 @@ import React from "react";
 import BlogCard from "@/components/BlogCard";
 import TableOfContents from "@/components/blog/TableOfContents";
 import FAQSection from "@/components/blog/FAQSection";
+import GatedGuideCTA from "@/components/leadmagnet/GatedGuideCTA";
 import { blogPosts, getAllSlugs, getPostBySlug } from "@/lib/blogs";
 import { getFaqsByBlogSlug } from "@/lib/faqs";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -105,6 +106,13 @@ export default function BlogPostPage({ params }: { params: Params }) {
 
   // For schema: extract faqs in old format
   const schemaFaqs = faqItems.map((f) => ({ question: f.question, answer: f.answer }));
+
+  const endCta =
+    post.pillar === "selling"
+      ? { eyebrow: "Curious what it's worth?", heading: "Wondering what your Seattle home could sell for?", href: "/valuation", label: "Get My Home Value" }
+      : post.pillar === "buying"
+      ? { eyebrow: "Ready to look?", heading: "Ready to find your next home in Seattle?", href: "/schedule", label: "Talk to Christine" }
+      : { eyebrow: "Ready to talk?", heading: "Considering a move? Let's have the early conversation.", href: "/schedule", label: "Schedule a Consultation" };
 
   return (
     <>
@@ -211,6 +219,15 @@ export default function BlogPostPage({ params }: { params: Params }) {
         </div>
       </section>
 
+      {/* Lead magnet (top placement) */}
+      {post.pillar && (
+        <section className="bg-cream">
+          <div className="mx-auto max-w-3xl px-6 pt-10 md:px-10">
+            <GatedGuideCTA resource={post.pillar === "buying" ? "buyer-roadmap" : "seller-roadmap"} />
+          </div>
+        </section>
+      )}
+
       {/* Body + TOC */}
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-6 py-16 md:px-10 md:py-20">
@@ -277,17 +294,17 @@ export default function BlogPostPage({ params }: { params: Params }) {
         <div className="mx-auto max-w-7xl px-6 py-16 md:px-10 md:py-20">
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div>
-              <p className="eyebrow text-gold">Ready to talk?</p>
+              <p className="eyebrow text-gold">{endCta.eyebrow}</p>
               <span className="mt-4 inline-block h-px w-14 bg-gold" />
               <h3 className="mt-5 max-w-2xl font-serif text-3xl leading-tight md:text-4xl">
-                Considering a move? Let&apos;s have the early conversation.
+                {endCta.heading}
               </h3>
             </div>
             <Link
-              href="/schedule"
+              href={endCta.href}
               className="inline-flex items-center bg-gold px-6 py-3 text-xs uppercase tracking-editorial text-ink transition-colors duration-300 hover:bg-cream"
             >
-              Schedule a Consultation
+              {endCta.label}
             </Link>
           </div>
         </div>

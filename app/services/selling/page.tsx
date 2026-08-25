@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { JsonLd } from "@/components/seo/JsonLd";
+import GatedGuideCTA from "@/components/leadmagnet/GatedGuideCTA";
 import {
   webPageSchema,
   breadcrumbSchema,
@@ -144,6 +145,16 @@ export default function SellingPillarPage() {
               </Link>
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Lead magnet */}
+      <section className="bg-cream">
+        <div className="mx-auto max-w-3xl px-6 pt-10 md:px-10">
+          <GatedGuideCTA
+            resource="seller-roadmap"
+            description="Take the roadmap with you — a printable, step-by-step guide to selling with confidence in Seattle."
+          />
         </div>
       </section>
 
