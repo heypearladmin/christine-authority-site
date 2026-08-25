@@ -138,6 +138,11 @@ export default function SellingPillarPage() {
               outcome more than market conditions do. This guide walks through each stage — with
               links to the detailed resources that matter most at each step.
             </p>
+            <p className="mt-4 text-sm leading-relaxed text-ink/70">
+              <Link href="/blog/seattle-home-seller-roadmap-2026" className="text-gold hover:text-ink underline underline-offset-2 transition-colors">
+                Read the complete Seattle Home Seller&rsquo;s Roadmap for a full walkthrough of every step →
+              </Link>
+            </p>
           </div>
         </div>
       </section>

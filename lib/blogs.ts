@@ -25,6 +25,88 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "seattle-home-seller-roadmap-2026",
+    pillar: "selling",
+    title: "The Seattle Home Seller's Roadmap: A Complete 2026 Guide",
+    category: "Selling Guide",
+    date: "2026-08-31",
+    readingTime: "8 min read",
+    image: "/website-blog-seller-roadmap.webp",
+    imageAlt: "Beautifully staged Seattle living room with natural light, ready for showing",
+    isNew: true,
+    excerpt:
+      "Selling a home in Seattle involves more strategy — and more sequencing — than most sellers expect. This complete guide walks through every stage of the process, from pricing to closing, so you can move forward with a plan instead of guesswork.",
+    quickAnswer:
+      "The Seattle home selling process begins with an honest pricing strategy and pre-listing preparation, moves through marketing and offer negotiation, and closes at escrow — typically 45 to 75 days from the decision to sell through closing, depending on preparation timelines. Sellers who do best in Seattle's market are the ones who treat the weeks before listing as seriously as the listing itself: repairs handled in advance, staging done properly, and pricing set from real comparable data rather than a hoped-for number. Preparation, not luck, is what produces a clean sale.",
+    sections: [
+      {
+        heading: "Step One: Get an Honest Valuation — Not an Automated Estimate",
+        body: [
+          "Automated home value tools are convenient, but they are frequently wrong by a meaningful margin, especially in Seattle where views, lot orientation, renovation quality, and micro-neighborhood dynamics can shift value significantly within a few blocks. An honest valuation starts with a comparative market analysis built from recent, truly comparable sales — not a algorithm's best guess.",
+          "Work with an advisor who will tell you the number the market will actually support, even when it's not the number you hoped to hear. Overpricing is the single most common reason a well-located home sits unsold — buyers assume something is wrong with a home that lingers, even after a price reduction corrects it.",
+        ],
+      },
+      {
+        heading: "Step Two: Decide What to Fix — and What to Leave Alone",
+        body: [
+          "Not every repair pays for itself at resale. Cosmetic issues that create a negative first impression — dated paint colors, worn carpet, cluttered rooms — are almost always worth addressing before listing. Structural or systems issues uncovered by a pre-listing inspection are worth fixing or disclosing clearly, since buyers will find them during their own inspection regardless.",
+          "The mistake sellers make most often is either doing too little, leaving obvious flaws for buyers to negotiate against, or over-improving with renovations that won't be recouped in the sale price. A pre-listing consultation should give you a clear, prioritized list based on what actually moves value in your specific price tier and neighborhood.",
+        ],
+      },
+      {
+        heading: "Step Three: Stage and Photograph the Home Properly",
+        body: [
+          "In a market where most buyers begin their search online, photography is not a formality — it is the first showing. Professional photography, and in most cases professional staging, materially changes how many buyers request a tour and how they perceive the home's value before they ever walk through the door.",
+          "Staging does not mean erasing all personality from a home; it means presenting rooms so their function and scale are obvious at a glance. Empty or over-personalized rooms both underperform. The goal is a buyer's ability to imagine themselves in the space within the first few seconds of a photo or a walkthrough.",
+        ],
+      },
+      {
+        heading: "Step Four: Price and Launch Strategically",
+        body: [
+          "Pricing strategy is not just about the number — it's about timing and positioning. A property that launches with strong initial marketing and a price grounded in real data tends to generate the most attention and, often, competing offers in its first days on market. A property that launches quietly or overpriced tends to fade, and price reductions rarely recapture the initial wave of buyer interest that a fresh listing generates.",
+          "Your advisor should walk you through how comparable homes have performed recently, what the current buyer pool looks like for your price tier, and how to structure the listing so it draws serious, qualified interest from the start rather than lingering.",
+        ],
+      },
+      {
+        heading: "Step Five: Evaluate and Negotiate Offers",
+        body: [
+          "The highest offer is not always the best offer. Financing strength, contingencies, proposed timeline, and the buyer's flexibility around your own move-out schedule all factor into which offer actually serves your interests. A cash offer with a fast close may be worth more to you than a slightly higher financed offer with a longer contingency period, depending on your circumstances.",
+          "Multiple-offer situations are common for well-priced homes in desirable Seattle neighborhoods. Your advisor should present a clear comparison of all material terms — not just price — so you can negotiate from a position of full information rather than reacting to the top-line number alone.",
+        ],
+      },
+      {
+        heading: "Step Six: Navigate Inspection, Appraisal, and Closing",
+        body: [
+          "Once under contract, the buyer will typically conduct their own inspection and may request repairs or a price adjustment based on findings. How you respond depends on the strength of your position, the buyer's alternatives, and how much of the initial negotiation is worth protecting versus reopening.",
+          "If the buyer is financing, the transaction will also move through appraisal. If the appraisal comes in below the contract price, seller and buyer must negotiate how to close the gap. Washington is a non-attorney closing state — a title and escrow company manages document signing, transfer of funds, and recording, typically 30 to 45 days after mutual acceptance depending on financing.",
+        ],
+      },
+      {
+        heading: "Common Mistakes Seattle Sellers Make",
+        body: [
+          "Pricing based on what you need rather than what the market supports: The market does not know or care what you paid, what you owe, or what you need to net. Pricing that ignores current comparable sales in favor of a target number almost always leads to a longer time on market and a lower eventual sale price than accurate pricing from the start.",
+          "Skipping pre-listing preparation to save time: Rushing a home to market without addressing obvious cosmetic issues or completing a pre-listing inspection frequently costs sellers more in negotiated repairs and price concessions than the preparation would have cost upfront.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions for Seattle Home Sellers",
+        body: [
+          "How long does it take to sell a home in Seattle? Well-prepared, well-priced homes in desirable Seattle neighborhoods often go under contract within days to a few weeks. From accepted offer to closing typically takes an additional 30 to 45 days depending on the buyer's financing. Homes that are overpriced or under-prepared can take substantially longer.",
+          "Do I need to make repairs before selling my Seattle home? Not always, but a pre-listing inspection helps you decide which repairs matter for resale value and which can be disclosed and left to the buyer. Addressing obvious cosmetic issues almost always pays off; major system or structural repairs should be evaluated case by case with your advisor.",
+          "What are typical seller closing costs in Seattle? Sellers in Washington typically pay real estate excise tax, title and escrow fees, and any agreed buyer concessions, in addition to any agent compensation negotiated as part of the transaction. Total seller-side costs commonly range from 7% to 10% of the sale price depending on the specific terms negotiated.",
+        ],
+      },
+    ],
+    closing:
+      "The sellers who have the smoothest experience in Seattle's market are not always the ones with the biggest home or the highest asking price — they are the ones who prepared thoroughly, priced honestly, and worked with an advisor who told them the truth from the very first conversation.",
+    relatedServiceCta: {
+      label: "Seattle Home Selling Guidance",
+      href: "/services/luxury-home-selling",
+      text: "Ready to move from planning to listing? Christine works with sellers across every price tier in Seattle — from first sale to luxury.",
+    },
+  },
+
+  {
     slug: "divorce-real-estate-seattle",
     title: "Selling or Buying a Home During a Divorce in Seattle: What You Need to Know in 2026",
     category: "Life Stage",
@@ -32,7 +114,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-divorce-real-estate-seattle.webp",
     imageAlt: "Empty modern Seattle home interior near a window with soft neutral daylight, moving boxes in the background",
-    isNew: true,
     pillar: "selling",
     excerpt:
       "Divorce forces real estate decisions on a timeline no one would choose — and Washington's community property laws shape those decisions in ways that surprise most people. Here's what actually happens to the house, the options beyond simply selling, and how to protect your interests.",

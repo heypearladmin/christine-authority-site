@@ -138,6 +138,11 @@ export default function BuyingPillarPage() {
               anticipate. This guide walks through each stage of the process, with links to the
               detailed resources that matter most at each step.
             </p>
+            <p className="mt-4 text-sm leading-relaxed text-ink/70">
+              <Link href="/blog/seattle-home-buyer-guide-2026" className="text-gold hover:text-ink underline underline-offset-2 transition-colors">
+                Read the complete Seattle Home Buyer&rsquo;s Roadmap for a full walkthrough of every step →
+              </Link>
+            </p>
           </div>
         </div>
       </section>
