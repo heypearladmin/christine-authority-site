@@ -25,6 +25,169 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "moving-to-seattle-from-california-guide",
+    pillar: "buying",
+    title: "Moving to Seattle from California: A 2026 Relocation Guide",
+    category: "Relocation",
+    date: "2026-09-07",
+    readingTime: "8 min read",
+    image: "/website-blog-california-relocation.webp",
+    imageAlt: "Moving truck parked in front of a Seattle craftsman home with boxes on the porch",
+    isNew: true,
+    excerpt:
+      "California is consistently one of the largest sources of buyers relocating to Seattle. The tax picture, the property tax system, and the buying process are different enough that a general relocation guide isn't specific enough — here's what actually changes when you move from California to Washington.",
+    quickAnswer:
+      "Moving from California to Seattle means trading California's income tax — among the highest in the country — for Washington's complete absence of a state income tax, while landing in a property tax system that works differently than California's Prop 13. Most California buyers underestimate how much their California home's Prop 13-protected tax basis has shielded them, and are surprised that a new Seattle purchase is taxed on its full current assessed value from day one. The buyers who transition most smoothly are the ones who run the full tax and cost-of-living math before they sell in California, not after they've already bought in Seattle.",
+    sections: [
+      {
+        heading: "Why So Many Californians Are Choosing Seattle",
+        body: [
+          "California has consistently been one of the largest sources of buyers relocating to the Seattle area, driven by remote and hybrid work flexibility, the concentration of tech employers with a Seattle-area presence, and a cost-of-living gap that, for many California homeowners, means substantial home equity translates into significant Seattle-area purchasing power.",
+          "The trade-offs are real in both directions. Seattle offers no state income tax and a lower overall cost of living than most of coastal California, but a smaller luxury inventory and a different day-to-day climate — gray and mild rather than sunny and dry. Buyers who make the move successfully go in with clear eyes about both sides of that trade.",
+        ],
+      },
+      {
+        heading: "The Tax Math: Washington vs. California",
+        body: [
+          "The single biggest financial difference is income tax. California has one of the highest top marginal state income tax rates in the country, applied to wages, bonuses, and investment income. Washington State has no state income tax at all — a meaningful difference for high earners, and one that shows up immediately in take-home pay after a move.",
+          "Washington does have a capital gains excise tax on certain long-term capital gains above a high annual threshold, which is worth discussing with a tax advisor if you're planning a significant asset sale around the time of your move. For most buyers relocating primarily on W-2 income, though, the absence of a state income tax is the dominant factor.",
+        ],
+      },
+      {
+        heading: "Property Tax: Trading Prop 13 for a Different System",
+        body: [
+          "California's Prop 13 caps how much a home's assessed value can increase each year while it's owned by the same person, which means long-time California homeowners are often paying property tax on an assessed value far below their home's current market value. Washington does not have an equivalent cap — property is generally assessed closer to current market value, and taxes are set annually based on local levies.",
+          "This creates a common surprise: a California seller who has owned their home for fifteen or twenty years may have been paying a very low effective property tax rate relative to their home's real value. Buying in Seattle resets that clock — the new purchase is taxed on its actual purchase-time value from the start. Run the real numbers on your specific target neighborhood before you assume your property tax bill will feel similar to what you left behind.",
+        ],
+      },
+      {
+        heading: "Timing Your Sale and Purchase Across State Lines",
+        body: [
+          "Selling in California and buying in Seattle rarely lines up perfectly. Buyers who need their California sale proceeds to fund their Seattle purchase should start the conversation with a lender early about bridge financing, HELOC options against the California property, or a rent-back arrangement with their California buyer that gives them breathing room to close in Seattle without rushing.",
+          "It is also worth aligning your move with your children's school year where possible, and building in time for a Seattle-area preview trip focused specifically on [neighborhoods](/neighborhoods) rather than open houses — the goal on that trip is narrowing down where you want to live, not touring homes you aren't ready to make an offer on yet.",
+        ],
+      },
+      {
+        heading: "Culture Shock: What's Different About Buying in Seattle",
+        body: [
+          "Washington is a non-attorney closing state — escrow and title companies manage the closing process, which differs from some California transactions. Home inspections work similarly, but Seattle-specific issues — buried oil tanks under older homes, sewer scope inspections, and seismic considerations — are worth asking about specifically, since they are less commonly discussed in much of California.",
+          "Competitive-offer dynamics can also feel different. Seattle's desirable neighborhoods can move quickly and with multiple offers, similar to many California markets, but the specific tools used — escalation clauses, pre-offer inspections — are worth [understanding in advance](/blog/how-to-win-multiple-offers-seattle) rather than learning under pressure during your first offer.",
+        ],
+      },
+      {
+        heading: "Choosing a Neighborhood When You're Starting From Scratch",
+        body: [
+          "California buyers relocating without deep local knowledge benefit enormously from narrowing their search by lifestyle priority first — commute pattern if returning to an office some days, walkability, school catchment, and climate microclimates that vary meaningfully across the Seattle area. [The Eastside and Seattle proper offer genuinely different day-to-day experiences](/blog/eastside-vs-seattle-real-estate), not just different price points.",
+          "Work with an advisor who can give you an honest comparison based on your specific priorities rather than a generic list of popular neighborhoods. What works for one relocating family — proximity to a specific tech campus, a particular school district, single-level living — may not match another's priorities at all.",
+        ],
+      },
+      {
+        heading: "Common Mistakes California Buyers Make",
+        body: [
+          "Assuming property tax will feel similar to what they were paying in California: Long-time California owners protected by Prop 13 are often paying a fraction of what a new Seattle purchase will cost in annual property tax. Run the numbers before you commit to a price range.",
+          "Underestimating how the housing stock differs: Newer, larger homes are less common in some of Seattle's most desirable in-city neighborhoods compared to many California suburbs. Buyers set on a specific size or age of home sometimes need to expand their search radius or adjust expectations on lot size.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Moving to Seattle from California",
+        body: [
+          "Is Washington State really cheaper than California overall? For most household budgets, yes — primarily because of the absence of state income tax, though this varies by specific city and lifestyle. Housing costs in Seattle's most desirable neighborhoods can still be substantial, so the savings show up more in take-home income than in a dramatically lower home price in every case.",
+          "How long does it typically take to relocate and close on a home in Seattle from out of state? Most relocating buyers spend one to three months narrowing down neighborhoods (often including a dedicated preview trip) before actively searching, with a typical 30- to 45-day closing timeline once an offer is accepted. Buyers who start the lender and neighborhood research process early move faster once they're ready to write an offer.",
+          "Should I sell my California home before or after buying in Seattle? It depends on your financial position. Buyers who need their California equity to fund the Seattle purchase often use a bridge loan, HELOC, or rent-back agreement to sequence the two transactions without a stressful gap. An advisor who works with relocating buyers regularly can walk you through which approach fits your specific situation.",
+        ],
+      },
+    ],
+    closing:
+      "The California buyers who transition most smoothly to Seattle are not the ones who move the fastest — they are the ones who ran the real tax and cost-of-living math early, worked with a local advisor who understood their starting point, and gave themselves room to make a clear-eyed decision instead of a rushed one.",
+    relatedServiceCta: {
+      label: "Seattle Relocation Guidance",
+      href: "/services/seattle-relocation",
+      text: "Relocating from California? Christine has guided buyers through this exact transition and can walk you through the local specifics that matter most.",
+    },
+  },
+
+  {
+    slug: "seattle-duplex-house-hacking-first-home",
+    pillar: "buying",
+    title: "Buying a Duplex as Your First Home in Seattle: The House-Hacking Strategy",
+    category: "Buying Strategy",
+    date: "2026-09-03",
+    readingTime: "7 min read",
+    image: "/website-blog-house-hacking-duplex.webp",
+    imageAlt: "Seattle duplex with two front entrances and craftsman-style architecture on a tree-lined street",
+    isNew: true,
+    excerpt:
+      "Buying a duplex or triplex and living in one unit while renting the others — commonly called house-hacking — is one of the most underused strategies for a first home purchase in Seattle. Washington's 2023 middle housing law has made it more possible in more neighborhoods than ever.",
+    quickAnswer:
+      "House-hacking means buying a small multi-unit property — typically a duplex, triplex, or fourplex — living in one unit as your primary residence, and renting the others to offset your mortgage. Buyers can often use owner-occupant financing, including FHA loans, on properties with up to four units, which usually requires a lower down payment than a straight investment-property purchase would. Washington's 2023 middle housing legislation (House Bill 1110) now requires most cities, including Seattle, to allow duplexes, triplexes, and fourplexes on lots that were previously zoned for single-family homes only, meaningfully expanding where this strategy works.",
+    sections: [
+      {
+        heading: "What Is House-Hacking, and Why It Works in Seattle",
+        body: [
+          "House-hacking means buying a property with more than one unit, living in one of them, and renting the others. The rental income offsets some or all of your mortgage payment, which can make homeownership more affordable than renting a comparable single unit — while you build equity in an asset instead of paying a landlord.",
+          "Seattle's rental demand, driven by a large renter population near major employment centers, makes this strategy particularly viable here. A well-located duplex or triplex in a desirable neighborhood often rents readily, and the strategy works best in areas with strong, consistent rental demand rather than markets where vacancy risk is high — the same fundamentals that make [ADUs work as an investment strategy](/blog/adus-and-investment-properties-seattle-2026) elsewhere in the city.",
+        ],
+      },
+      {
+        heading: "Financing a Duplex or Triplex as Your Primary Residence",
+        body: [
+          "Because you'll be living in the property, you may qualify for owner-occupant financing on buildings with up to four units — including FHA loans, which typically require a significantly lower down payment than conventional investment-property financing would. Lenders will generally count a portion of the property's rental income toward your qualifying income, though the exact percentage varies by loan program.",
+          "Work with a lender experienced in multi-unit owner-occupant financing specifically — not every loan officer regularly handles these transactions, and the underwriting details (reserve requirements, rental income documentation, appraisal type) differ meaningfully from [a standard single-family purchase](/blog/how-much-to-buy-home-seattle-2026).",
+        ],
+      },
+      {
+        heading: "Zoning: Where Multi-Unit Owner-Occupant Purchases Make Sense in Seattle",
+        body: [
+          "Washington's 2023 middle housing legislation (House Bill 1110) requires most cities, including Seattle, to allow duplexes, triplexes, and fourplexes on lots that were previously zoned exclusively for single-family homes, with even greater density allowed near frequent transit service. This has meaningfully expanded the map of where a legal multi-unit purchase — or future multi-unit redevelopment — is possible.",
+          "Existing legal duplexes and triplexes remain concentrated in specific pockets of the city built before stricter single-family zoning took hold decades ago. An advisor or a zoning-savvy inspector can confirm a specific property's legal unit count and any permitting history before you write an offer — this is not a detail to assume from a listing description alone.",
+        ],
+      },
+      {
+        heading: "Running the Numbers: Rent Offset vs. Total Housing Cost",
+        body: [
+          "The core math is simple to state and worth running carefully: total mortgage payment, property tax, insurance, and maintenance reserve, minus realistic (not optimistic) rental income from the other units, equals your true net housing cost. Use conservative rent estimates and include a vacancy allowance — assuming 100% occupancy year-round is the most common modeling mistake first-time house-hackers make.",
+          "Also budget for landlord-specific costs that a typical single-family buyer wouldn't: separate unit maintenance, potential tenant turnover costs, and — if the building is older — the likelihood of deferred maintenance across multiple units rather than just one.",
+        ],
+      },
+      {
+        heading: "Being a Landlord in Your Own Building",
+        body: [
+          "Living in the same building as your tenants is a genuinely different experience than owning a rental property elsewhere in the city. It can mean faster response to maintenance issues and closer oversight, but it also means less separation between your home life and your role as a landlord. Some owners prefer this closeness; others find it wears on them over time.",
+          "Understand Seattle's landlord-tenant regulations before you close, including notice requirements and tenant protections that apply regardless of whether you live on-site. These rules are not optional based on the size of the building or your personal relationship with tenants.",
+        ],
+      },
+      {
+        heading: "Exit Strategy: What Happens When You're Ready to Move On",
+        body: [
+          "House-hacked properties are flexible on exit. You can sell the building outright, move out and convert your former unit into an additional rental (turning the whole property into a straight investment), or use the equity you've built to help finance your next home purchase. Buyers who think through this exit question before they buy tend to make better property-selection decisions from the start — a building with strong rental fundamentals is a better long-term asset regardless of which exit you eventually choose.",
+        ],
+      },
+      {
+        heading: "Common Mistakes First-Time House-Hackers Make",
+        body: [
+          "Overestimating rental income: First-time house-hackers commonly use best-case rent figures rather than conservative, verified comparables, which can make a property look more affordable on paper than it will actually be to own.",
+          "Skipping a landlord-specific inspection focus: Beyond a standard home inspection, multi-unit buildings benefit from close attention to shared systems — roof, foundation, plumbing, and electrical serving multiple units — since a shared-system repair affects your entire rental income, not just your own living space.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About House-Hacking in Seattle",
+        body: [
+          "Can I really buy a duplex with the same down payment as a single-family home? In many cases, yes — owner-occupant financing, including FHA loans, generally applies to properties with up to four units when you live in one of them, often with a lower down payment requirement than investment-property financing would carry. Confirm current program specifics with a lender experienced in multi-unit purchases.",
+          "Do I need landlord experience to house-hack successfully? No, but you should go in prepared. Understanding Seattle's landlord-tenant rules, budgeting conservatively for vacancy and maintenance, and having a plan for tenant communication will matter more than prior experience.",
+          "Does Washington's middle housing law mean I can add units to any single-family lot? Not automatically everywhere, and not without following the specific zoning and permitting requirements that apply to your lot and jurisdiction. It does mean significantly more properties are eligible for this kind of multi-unit use than before 2023 — but each property's specific status should be confirmed before you rely on it.",
+        ],
+      },
+    ],
+    closing:
+      "House-hacking isn't the right strategy for every buyer, but for the right buyer — someone comfortable being a hands-on landlord, willing to run the numbers conservatively, and looking for a genuinely different way into Seattle homeownership — it can turn a first home purchase into an income-generating asset from day one.",
+    relatedServiceCta: {
+      label: "Seattle Investment Property Guidance",
+      href: "/services/investment-properties",
+      text: "Considering a duplex, triplex, or fourplex as your first home? Christine can walk you through the numbers, the zoning, and the financing before you write an offer.",
+    },
+  },
+
+  {
     slug: "seattle-home-seller-roadmap-2026",
     pillar: "selling",
     title: "The Seattle Home Seller's Roadmap: A Complete 2026 Guide",
@@ -33,7 +196,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-seller-roadmap.webp",
     imageAlt: "Beautifully staged Seattle living room with natural light, ready for showing",
-    isNew: true,
     excerpt:
       "Selling a home in Seattle involves more strategy — and more sequencing — than most sellers expect. This complete guide walks through every stage of the process, from pricing to closing, so you can move forward with a plan instead of guesswork.",
     quickAnswer:
@@ -194,7 +356,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-escrow-process-seattle.webp",
     imageAlt: "Seattle title and escrow office desk with closing documents and house keys in warm natural light",
-    isNew: true,
     excerpt:
       "Escrow is the most misunderstood part of a real estate transaction — most buyers and sellers know the term but not what actually happens inside it. Here's what the escrow company does, in what order, and how long it actually takes in Washington State.",
     quickAnswer:
@@ -281,7 +442,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What Changed: Washington's Statewide ADU and Middle Housing Reform",
         body: [
           "Washington's 2023 middle-housing legislation (House Bill 1110) required cities statewide to allow at least two housing units on most residential lots, with additional density near frequent transit. Seattle had already permitted up to two ADUs per lot since a 2019 ordinance update, but the statewide reform — combined with Seattle's own subsequent adjustments — further eased restrictions that previously limited ADU development.",
-          "The most consequential changes for owners: the owner-occupancy requirement that once forced property owners to live on-site was removed, off-street parking minimums for ADUs were eliminated in most cases, and maximum unit sizes were increased. Together, these changes have made ADU construction meaningfully more accessible than it was even three or four years ago — both for owners planning to live elsewhere and for those building a purely investment-oriented unit.",
+          "The most consequential changes for owners: the owner-occupancy requirement that once forced property owners to live on-site was removed, off-street parking minimums for ADUs were eliminated in most cases, and maximum unit sizes were increased. Together, these changes have made ADU construction meaningfully more accessible than it was even three or four years ago — both for owners planning to live elsewhere and for those building a purely investment-oriented unit. The same legislation also expanded [where a duplex or triplex purchase is possible citywide](/blog/seattle-duplex-house-hacking-first-home), which is worth understanding if you're evaluating a multi-unit purchase rather than an ADU addition.",
         ],
       },
       {
@@ -2047,7 +2208,7 @@ export const blogPosts: BlogPost[] = [
         body: [
           "The most common relocating buyers come from the Bay Area, New York City, and increasingly, Texas. Each group finds a different Seattle. Bay Area transplants are often surprised by how much further their housing budget goes — a $2.5 million home in Seattle competes favorably with $4 to $5 million in the South Bay or Marin. New York buyers find Seattle's pace slower and its outdoor access transformative. Texas buyers arriving for tech jobs frequently gravitate toward Bellevue, where the suburban scale and newer construction feel more familiar.",
           "What doesn't change: the intensity of the top-tier market. The $3–7 million segment in Seattle is as competitive as anything in comparable coastal markets. What does change: in Seattle, that money buys a lakefront property with mountain views and a dock, not a 2,000-square-foot Tudor on a 4,000-square-foot lot.",
-          "Washington State's income tax advantage is real and significant. A household earning $400,000 annually saves approximately $25,000–$38,000 per year versus California's top marginal rate. Over a decade, that number funds a material portion of a home purchase — a calculation worth running explicitly before making a final decision.",
+          "Washington State's income tax advantage is real and significant. A household earning $400,000 annually saves approximately $25,000–$38,000 per year versus California's top marginal rate. Over a decade, that number funds a material portion of a home purchase — a calculation worth running explicitly before making a final decision. [Read our full breakdown of the tax and property-tax math for California buyers specifically](/blog/moving-to-seattle-from-california-guide).",
         ],
       },
       {

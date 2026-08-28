@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SITE } from "@/lib/seo/schema";
+import { blogPosts } from "@/lib/blogs";
 
 type Intent = "buying" | "selling" | "neighborhood" | "general";
 
@@ -16,6 +17,12 @@ function getIntent(pathname: string): Intent {
   }
   if (pathname.startsWith("/neighborhoods")) {
     return "neighborhood";
+  }
+  if (pathname.startsWith("/blog/")) {
+    const slug = pathname.split("/")[2];
+    const post = blogPosts.find((p) => p.slug === slug);
+    if (post?.pillar === "selling") return "selling";
+    if (post?.pillar === "buying") return "buying";
   }
   return "general";
 }
