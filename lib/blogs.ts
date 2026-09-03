@@ -25,6 +25,170 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "seattle-property-tax-carrying-costs-guide",
+    pillar: "buying",
+    title: "How Much Is Property Tax in Seattle? A Neighborhood-by-Neighborhood Carrying Cost Guide for 2026",
+    category: "Financial Guide",
+    date: "2026-09-14",
+    readingTime: "7 min read",
+    image: "/website-blog-property-tax-seattle.webp",
+    imageAlt: "Seattle residential street with a mix of craftsman and modern homes under a soft afternoon sky",
+    isNew: true,
+    excerpt:
+      "Most buyers budget for a mortgage payment and stop there. Property tax is often the single largest ongoing cost after the mortgage itself — and it varies meaningfully by neighborhood, taxing district, and school levy. Here's how to actually budget for it before you buy.",
+    quickAnswer:
+      "Property tax in the Seattle area is generally assessed close to a home's current market value each year, and the total rate you pay is the sum of several overlapping taxing districts — state, county, city, school district, and sometimes fire or port districts — which is why the effective rate can vary meaningfully between two homes just a few miles apart. Washington law generally limits how much a taxing district's total regular levy can grow year over year, but new voter-approved levies and new construction can still shift what an individual home owes. Buyers who run the real carrying-cost math by neighborhood before they buy avoid the most common budgeting surprise in Seattle real estate.",
+    sections: [
+      {
+        heading: "Why Property Tax Deserves a Line Item of Its Own Before You Buy",
+        body: [
+          "Most first-time buyers build their budget around a target mortgage payment and treat property tax as an afterthought folded into the lender's estimate. That's a mistake in the Seattle area specifically, because property tax can add several hundred to well over a thousand dollars to your monthly cost of ownership depending on the home's assessed value and which taxing districts overlap it — and that number is not the same from one neighborhood to the next.",
+          "Unlike a mortgage payment, property tax is not fixed for the life of your loan. It changes as your home's assessed value changes and as local taxing districts approve new levies. Buyers who understand this before they buy are far less likely to be surprised by their tax bill a few years in.",
+        ],
+      },
+      {
+        heading: "How Washington's Property Tax System Actually Works",
+        body: [
+          "Washington generally assesses property closer to current market value than states with caps tied to purchase price — there is no equivalent to California's Prop 13 here, [as buyers relocating from California often discover](/blog/moving-to-seattle-from-california-guide). County assessors periodically revalue properties, and your tax bill is calculated by applying the combined rate of every overlapping taxing district to your home's assessed value.",
+          "Washington law generally limits how much a taxing district's total regular levy collections can grow year over year — commonly described as roughly a one percent annual limit on the district's total collections, separate from any cap on an individual home's assessed value — though voter-approved levy lid lifts and new construction can affect the actual number a district collects. This is a limit on total district revenue, not a guarantee about what any single home will owe from year to year.",
+        ],
+      },
+      {
+        heading: "What Drives the Rate: County, City, School District, and Special Levies",
+        body: [
+          "Your property tax bill is the sum of several overlapping taxing districts: the state, King County (or your specific county), your city, your school district, and in some areas, additional districts like fire protection or port districts. Each sets its own rate, and the combined total is what actually shows up on your bill.",
+          "School district levies are one of the biggest sources of variation between neighborhoods. Voters in different districts approve different local maintenance-and-operations and capital levies, which means two homes of similar value in different school districts can carry meaningfully different tax bills — a detail worth checking specifically rather than assuming districts are interchangeable on this point.",
+        ],
+      },
+      {
+        heading: "Comparing Carrying Costs Across Seattle-Area Neighborhoods",
+        body: [
+          "Effective property tax rates across the greater Seattle area commonly fall in a range of roughly 0.8% to 1.1% of assessed value annually, though the exact figure for any specific property depends on which taxing districts overlap it. At the luxury tier, this adds up quickly — a home assessed in the $2 million range can carry an annual property tax bill in the five figures, a detail worth [modeling into your full monthly cost of ownership](/blog/how-much-to-buy-home-seattle-2026) rather than assuming it will feel like a rounding error next to the mortgage.",
+          "Rather than relying on a citywide average, ask your advisor for the actual current levy rate applicable to a specific property you're considering. Two otherwise comparable homes on opposite sides of a school or fire district boundary can carry a genuinely different tax bill.",
+        ],
+      },
+      {
+        heading: "Exemptions and Relief Programs Worth Knowing About",
+        body: [
+          "Washington offers a Senior Citizen and Disabled Persons property tax exemption program for income-qualified homeowners, which can reduce or freeze the taxable value of a primary residence for those who qualify. Eligibility and income thresholds are set by the state and adjusted periodically, so confirm current requirements with your county assessor's office rather than relying on a figure you've seen elsewhere.",
+          "A property tax deferral program is also available in some cases for qualifying homeowners, allowing eligible taxes to be paid later rather than in the current year. These programs are narrow in eligibility but worth a conversation with your assessor's office if you or a family member may qualify.",
+        ],
+      },
+      {
+        heading: "Budgeting Total Carrying Cost, Not Just the Mortgage Payment",
+        body: [
+          "A complete monthly cost-of-ownership estimate includes principal and interest, property tax, homeowner's insurance, and — for many Seattle-area buyers — a maintenance reserve for an older home's systems. Property tax alone can represent a meaningful percentage of your total monthly housing cost, particularly at higher price points, so it deserves its own line in your budget rather than a rough estimate.",
+          "Ask your lender to show you the actual escrow breakdown for a specific property you're seriously considering, not just a generic estimate based on purchase price. The real number, tied to the actual assessed value and taxing districts, is what you'll be paying.",
+        ],
+      },
+      {
+        heading: "Common Mistakes Buyers Make With Property Tax Assumptions",
+        body: [
+          "Assuming a citywide average applies to every neighborhood: The combined rate depends on the specific taxing districts overlapping a property, which varies block by block in some areas — particularly near school or fire district boundaries.",
+          "Not accounting for reassessment after a major renovation: Significant improvements can trigger a reassessment that increases your taxable value, which is worth factoring in if you're planning substantial work after closing.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Seattle Property Tax",
+        body: [
+          "Does Seattle have a property tax cap like California's Prop 13? No. Washington generally assesses property closer to current market value on an ongoing basis rather than capping increases tied to how long you've owned the home. There is a statutory limit on how much a taxing district's total levy collections can grow year over year, but this is different from a cap on any individual home's taxable value.",
+          "Why do two similar homes in different Seattle neighborhoods have different property tax bills? Because property tax is the sum of overlapping taxing districts — state, county, city, school district, and sometimes fire or port districts — and each sets its own rate. Homes on opposite sides of a district boundary can carry a different total rate even if their assessed values are similar.",
+          "Can I appeal my property tax assessment in Washington? Yes. Homeowners who believe their assessed value is inaccurate can file an appeal with their county's Board of Equalization within a specific window after receiving their valuation notice. Your county assessor's office can provide the current deadline and process.",
+        ],
+      },
+    ],
+    closing:
+      "Property tax is not a rounding error in a Seattle-area home purchase — it is one of the largest ongoing costs after the mortgage itself, and it varies enough by neighborhood and taxing district that it deserves real research, not an assumption borrowed from a friend's tax bill in a different part of town.",
+    relatedServiceCta: {
+      label: "Seattle Home Buying Guidance",
+      href: "/services/luxury-home-buying",
+      text: "Trying to budget your total cost of ownership before you make an offer? Christine can walk you through the real numbers for the specific neighborhoods you're considering.",
+    },
+  },
+
+  {
+    slug: "selling-home-with-tenant-seattle",
+    pillar: "selling",
+    title: "Selling a Home With a Tenant in Place in Seattle: What Landlords Need to Know",
+    category: "Selling Strategy",
+    date: "2026-09-10",
+    readingTime: "7 min read",
+    image: "/website-blog-tenant-occupied-sale.webp",
+    imageAlt: "Seattle rental duplex exterior with for-sale sign visible near the front walkway",
+    isNew: true,
+    excerpt:
+      "Selling a rental property with a tenant currently living in it is a genuinely different process than selling a vacant home — different buyer pool, different legal notice requirements, and different timing considerations. Here's how to navigate it without disrupting your tenant or your sale.",
+    quickAnswer:
+      "Selling a tenant-occupied home in Seattle generally means choosing between two paths: selling with the tenant and lease in place (marketing to investor buyers who want the rental income) or working through a lawful process to reach vacant possession before closing. Washington's statewide just-cause protections and Seattle's own just-cause eviction ordinance limit the reasons and process for ending a tenancy, so the vacant-possession path takes real advance planning. Sellers who decide early which path fits their timeline and buyer pool avoid the most common friction points in this type of sale.",
+    sections: [
+      {
+        heading: "Why Selling With a Tenant in Place Is a Different Process",
+        body: [
+          "A tenant-occupied property changes the buyer pool, the showing process, and the closing timeline compared to a vacant listing. Owner-occupant buyers generally need vacant possession at closing, which narrows your pool to investor buyers if you decide to sell with the lease in place — or requires a lawful transition to vacancy if you want to reach the broader owner-occupant market.",
+          "Neither path is inherently better; the right one depends on your timeline, your relationship with your current tenant, and how strong the investor demand is for the specific type of property you own.",
+        ],
+      },
+      {
+        heading: "Your Two Paths: Vacant Possession or Assumed Tenancy",
+        body: [
+          "Selling with the tenant and lease in place means marketing to investor buyers who want the existing rental income — this can mean a faster, simpler transaction with no vacancy gap, but it narrows your buyer pool to those specifically shopping for an income property, [a pool that overlaps meaningfully with buyers considering a house-hacking purchase](/blog/seattle-duplex-house-hacking-first-home) or a straightforward rental acquisition.",
+          "Reaching vacant possession before listing opens the door to owner-occupant buyers, who often make up the largest share of demand for a typical single-family home, but requires lawfully ending the tenancy first — which takes real lead time and must be planned into your listing timeline, not treated as a formality.",
+        ],
+      },
+      {
+        heading: "Washington's Just Cause Protections and What They Mean for a Sale",
+        body: [
+          "Washington State and the City of Seattle both have just-cause eviction protections that limit the specific, legally enumerated reasons a landlord can end a tenancy, along with required notice periods that vary by circumstance. Selling the property is treated differently than, for example, a lease violation, and the specific process and timeline depend on your lease type and current local ordinance requirements.",
+          "Because these rules can be nuanced and are subject to change, confirm the current notice requirements and lawful process with an attorney or an experienced property manager before you initiate any tenant transition tied to a sale — this is not an area where general guidance is a substitute for confirming current specifics on your exact situation.",
+        ],
+      },
+      {
+        heading: "Coordinating Showings Without Disrupting Your Tenant",
+        body: [
+          "Washington law generally requires advance notice before a landlord or their representative enters an occupied unit, including for showings. Build this into your listing strategy from the start — a cooperative tenant who receives proper notice and reasonable scheduling flexibility makes for a smoother sale than one who feels ambushed by last-minute showing requests.",
+          "Some sellers offer a rent credit or a small incentive in exchange for the tenant's cooperation with showings, particularly if the home will be actively shown over several weeks. This is optional, but it can meaningfully improve the tenant's willingness to keep the property presentable and accommodate reasonable notice.",
+        ],
+      },
+      {
+        heading: "Pricing and Marketing to the Right Buyer Pool",
+        body: [
+          "A tenant-occupied property marketed correctly to investor buyers should be priced and presented around the existing rental income and lease terms, not staged and priced as if it were a vacant owner-occupant listing. Provide potential buyers with clear documentation: current rent, lease expiration, tenant payment history, and any maintenance records.",
+          "If you're unsure which path — vacant or occupied — will net you a better outcome, ask your advisor to model both scenarios with real numbers: the carrying cost and time required to reach vacant possession versus the price difference an occupied sale to an investor is likely to command.",
+        ],
+      },
+      {
+        heading: "Timing the Sale Around Lease Terms",
+        body: [
+          "A fixed-term lease generally survives a change of ownership — the new owner typically steps into the existing lease rather than being able to end it early simply because the property sold. If your goal is vacant possession at closing, timing your listing around your lease's natural expiration is usually far simpler than trying to end a tenancy mid-term.",
+          "If you're selling well before your lease naturally expires and vacant possession is important to your buyer pool, build the realistic timeline for a lawful tenancy transition into your overall sale plan rather than assuming it can be resolved quickly right before closing.",
+        ],
+      },
+      {
+        heading: "Common Mistakes Landlords Make When Selling an Occupied Property",
+        body: [
+          "Assuming a sale automatically ends the tenancy: In most cases it does not — the new owner generally inherits the existing lease and tenant, and Washington's just-cause protections continue to apply regardless of who owns the property.",
+          "Waiting until the property is already listed to address tenant relations: Sellers who involve their tenant early, communicate clearly about the process, and confirm notice requirements before listing avoid the friction that comes from surprising a tenant mid-transaction.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Selling a Tenant-Occupied Home in Seattle",
+        body: [
+          "Can I sell my rental property while a tenant is still living there? Yes — selling with the lease and tenant in place is a common and often simpler path, particularly if you market the property to investor buyers rather than owner-occupants. It generally does not require ending the tenancy first.",
+          "Does selling my rental automatically end my tenant's lease? No. A fixed-term lease generally survives a change of ownership, and Washington's and Seattle's just-cause protections continue to apply to the new owner. Ending a tenancy requires a lawful process regardless of a pending sale.",
+          "How much notice do I need to give my tenant to show the property? Washington law generally requires advance notice before entering an occupied unit, including for showings, though the exact requirement can depend on your specific lease and circumstances. Confirm current requirements with an attorney or property manager before scheduling showings.",
+        ],
+      },
+    ],
+    closing:
+      "Selling an occupied rental property well is less about finding a loophole around your tenant and more about choosing the right path — occupied or vacant — early, communicating clearly, and giving yourself the lead time that a lawful process actually requires.",
+    relatedServiceCta: {
+      label: "Seattle Investment Property Guidance",
+      href: "/services/investment-properties",
+      text: "Weighing whether to sell occupied or work toward vacant possession? Christine can walk you through both scenarios and help you choose the path that fits your timeline.",
+    },
+  },
+
+  {
     slug: "moving-to-seattle-from-california-guide",
     pillar: "buying",
     title: "Moving to Seattle from California: A 2026 Relocation Guide",
@@ -33,7 +197,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-california-relocation.webp",
     imageAlt: "Moving truck parked in front of a Seattle craftsman home with boxes on the porch",
-    isNew: true,
     excerpt:
       "California is consistently one of the largest sources of buyers relocating to Seattle. The tax picture, the property tax system, and the buying process are different enough that a general relocation guide isn't specific enough — here's what actually changes when you move from California to Washington.",
     quickAnswer:
@@ -115,7 +278,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-house-hacking-duplex.webp",
     imageAlt: "Seattle duplex with two front entrances and craftsman-style architecture on a tree-lined street",
-    isNew: true,
     excerpt:
       "Buying a duplex or triplex and living in one unit while renting the others — commonly called house-hacking — is one of the most underused strategies for a first home purchase in Seattle. Washington's 2023 middle housing law has made it more possible in more neighborhoods than ever.",
     quickAnswer:
@@ -479,7 +641,7 @@ export const blogPosts: BlogPost[] = [
         body: [
           "For owners already thinking in investment terms, an ADU is one of several tools — alongside buying a separate rental property, a duplex, or a small multifamily building — for building real estate-based income. Its specific advantage is capital efficiency: building on land you already own avoids acquisition costs, financing a second property, and the search process itself.",
           "An ADU can also serve a dual purpose many buyers value: housing a family member (aging parents, adult children) in the near term, with the flexibility to convert to a rental once that need changes. This flexibility — impossible with a separate, standalone rental property — is a genuine and underappreciated advantage of the ADU structure specifically.",
-          "When it comes time to sell, a property with a permitted, income-producing ADU is a different asset than a comparable property without one — it appeals to both owner-occupant buyers who want the flexibility and buyers evaluating the property with investment criteria in mind. Documentation of permits, rental history, and construction costs should be maintained carefully, since this materially affects how the ADU is valued at resale.",
+          "When it comes time to sell, a property with a permitted, income-producing ADU is a different asset than a comparable property without one — it appeals to both owner-occupant buyers who want the flexibility and buyers evaluating the property with investment criteria in mind. Documentation of permits, rental history, and construction costs should be maintained carefully, since this materially affects how the ADU is valued at resale. If your ADU is occupied at the time you decide to sell, [selling with a tenant in place involves its own specific process](/blog/selling-home-with-tenant-seattle) worth planning for ahead of listing.",
         ],
       },
       {
@@ -619,7 +781,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Renting It Out Instead: What Changes",
         body: [
-          "Some heirs consider keeping the inherited home as a rental rather than selling. This is a legitimate option, but it changes the financial picture in several ways. The home stops being eligible for any owner-occupant tax treatment and becomes a straightforward investment property — subject to landlord-tenant law, ongoing maintenance responsibility, and the practical demands of managing a rental, whether personally or through a property manager.",
+          "Some heirs consider keeping the inherited home as a rental rather than selling. This is a legitimate option, but it changes the financial picture in several ways. The home stops being eligible for any owner-occupant tax treatment and becomes a straightforward investment property — subject to landlord-tenant law, ongoing maintenance responsibility, and the practical demands of managing a rental, whether personally or through a property manager. If you later decide to sell after renting it out for a period, [selling a tenant-occupied property involves its own specific process](/blog/selling-home-with-tenant-seattle) worth understanding in advance.",
           "The stepped-up basis still applies and still matters — it becomes the depreciable basis for tax purposes going forward, and it's still the reference point for calculating gain whenever you eventually do sell. But every year you hold and rent the property, additional appreciation accumulates on top of that stepped-up basis, gradually increasing the taxable gain a future sale would trigger.",
           "Renting to a family member introduces its own complications — below-market rent to a sibling or relative can affect how the IRS treats the property for deduction purposes, and it can create friction among co-heirs who may prefer to sell and receive their share in cash rather than wait on rental income distributions.",
         ],
@@ -628,7 +790,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Keeping It: Moving In or Buying Out Co-Heirs",
         body: [
           "If you want to keep the home for yourself — whether to live in it or simply hold onto a family property — and there are other heirs with a legal interest, you'll typically need to buy out their shares. This usually involves an independent appraisal to establish fair market value, followed by a refinance or cash payment to compensate co-heirs for their portion of the equity.",
-          "Washington does not reassess a home's property tax based on inheritance or change of ownership the way some other states do — property tax assessments here are tied to periodic county valuations rather than triggered by a transfer. That said, confirming the current assessed value and any exemptions with King County (or the relevant county assessor) early in the process avoids surprises.",
+          "Washington does not reassess a home's property tax based on inheritance or change of ownership the way some other states do — property tax assessments here are tied to periodic county valuations rather than triggered by a transfer. That said, confirming the current assessed value and any exemptions with King County (or the relevant county assessor) early in the process avoids surprises — [our full property tax and carrying cost guide](/blog/seattle-property-tax-carrying-costs-guide) walks through how those assessments actually work.",
           "Moving into an inherited family home is often as much an emotional decision as a financial one. It's worth having a candid conversation with a real estate advisor about the home's actual condition, what it would take to make it truly yours, and how that compares to the alternative of selling and purchasing something suited to your own life.",
         ],
       },
