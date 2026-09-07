@@ -9,7 +9,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { serviceSchema, breadcrumbSchema, webPageSchema, localBusinessSchema, SITE } from "@/lib/seo/schema";
 
 export const metadata: Metadata = {
-  title: "Seattle Luxury Real Estate Advisor",
+  title: "Christine Andreasen | Seattle Luxury Real Estate Advisor",
   description:
     "Seattle luxury real estate advisor with 30+ years of experience. Strategic guidance for buyers and sellers across Seattle, Mercer Island, and Bellevue. Christine Andreasen | eXp Realty.",
   alternates: { canonical: "https://www.christineandreasen.com/" },

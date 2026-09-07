@@ -823,6 +823,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "buy-before-you-sell-seattle",
+    pillar: "buying",
     title: "How to Buy a Home Before Selling Your Current One in Seattle: Bridge Loans, Contingencies, and Timing Strategies for 2026",
     category: "Buying Strategy",
     date: "2026-08-10",
@@ -903,6 +904,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "seattle-waterfront-for-sale-2026",
+    pillar: "buying",
     title: "Seattle Waterfront Homes for Sale in 2026: Lake Washington, Puget Sound, and What the Market Looks Like Right Now",
     category: "Property Guide",
     date: "2026-08-06",
@@ -975,6 +977,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "luxury-homes-for-sale-seattle-2026",
+    pillar: "buying",
     title: "Luxury Homes for Sale in Seattle: Price Tiers, Neighborhoods, and What the Market Looks Like in 2026",
     category: "Market Guide",
     date: "2026-08-03",
@@ -1046,6 +1049,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "bellevue-real-estate-neighborhood-guide",
+    pillar: "buying",
     title: "Bellevue Real Estate: The Complete Neighborhood Guide for 2026",
     category: "Neighborhood Guide",
     date: "2026-07-30",
@@ -1222,6 +1226,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "magnolia-seattle-neighborhood-guide",
+    pillar: "buying",
     title: "Magnolia, Seattle: The Complete Neighborhood Guide for 2026",
     category: "Neighborhood Guide",
     date: "2026-07-23",
@@ -1399,6 +1404,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "how-much-to-buy-home-seattle-2026",
+    pillar: "buying",
     title: "How Much Do You Need to Buy a Home in Seattle in 2026?",
     category: "Financial Guide",
     date: "2026-07-16",
@@ -1703,6 +1709,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "queen-anne-seattle-neighborhood-guide",
+    pillar: "buying",
     title: "Queen Anne Real Estate: The Complete Neighborhood Guide for 2026",
     category: "Neighborhood Guide",
     date: "2026-07-02",
@@ -2006,6 +2013,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "seattle-school-districts-home-values",
+    pillar: "buying",
     title: "How Seattle's School Districts Shape Property Values",
     category: "Buyer Education",
     date: "2026-06-18",
@@ -2244,6 +2252,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "seattle-waterfront-homes-guide",
+    pillar: "buying",
     title: "Seattle Waterfront Homes: Lake Washington, Lake Union & Puget Sound (2026 Buyer's Guide)",
     category: "Property Guide",
     date: "2026-06-08",
@@ -2482,6 +2491,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "mercer-island-real-estate-guide",
+    pillar: "buying",
     title: "Mercer Island Real Estate: A Complete Neighborhood Guide for 2026",
     category: "Neighborhood Guide",
     date: "2026-05-28",
@@ -2851,6 +2861,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "where-to-live-seattle",
+    pillar: "buying",
     title: "Where to Live in Seattle: Best Neighborhoods by Lifestyle",
     category: "Neighborhood Guide",
     date: "2026-05-11",
@@ -3038,6 +3049,7 @@ export const blogPosts: BlogPost[] = [
 
   {
     slug: "staging-matters-seattle",
+    pillar: "selling",
     title: "Why Staging Matters in Seattle Real Estate",
     category: "Selling Strategy",
     date: "2026-04-30",
