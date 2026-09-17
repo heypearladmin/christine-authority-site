@@ -7,6 +7,9 @@ export default function ValuationForm() {
   const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  // Captured once, when the form mounts, so the server can measure how
+  // quickly the submission followed — sent as a plain form field below.
+  const [formLoadedAt] = useState(() => Date.now());
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -34,6 +37,25 @@ export default function ValuationForm() {
 
   return (
     <form onSubmit={handleSubmit} className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+      <input type="hidden" name="formLoadedAt" value={formLoadedAt} />
+
+      {/* Honeypot — off-screen, not display:none, so form-filling bots that
+          check computed visibility still populate it. Real visitors never
+          see or reach it (aria-hidden, tabIndex -1, not part of tab order). */}
+      <div
+        style={{ position: "absolute", left: "-9999px", top: "auto", width: "1px", height: "1px", overflow: "hidden" }}
+        aria-hidden="true"
+      >
+        <label htmlFor="website">Website</label>
+        <input
+          id="website"
+          name="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
+
       <div>
         <label htmlFor="firstName" className="block text-xs uppercase tracking-editorial text-ink/60">
           First name

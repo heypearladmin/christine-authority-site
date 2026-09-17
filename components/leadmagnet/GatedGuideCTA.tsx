@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { leadMagnets, type LeadMagnetKey } from "@/lib/lead-magnets";
 
@@ -16,6 +16,15 @@ export default function GatedGuideCTA({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
+  // Captured when the actual form fields appear (not when this CTA card
+  // first mounts, since the form is revealed on click) — sent as a plain
+  // form field so the server can measure how quickly the submission
+  // followed.
+  const [formLoadedAt, setFormLoadedAt] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (open && formLoadedAt === null) setFormLoadedAt(Date.now());
+  }, [open, formLoadedAt]);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -88,6 +97,26 @@ export default function GatedGuideCTA({
       </p>
       <form onSubmit={handleSubmit} className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
         <input type="hidden" name="resource" value={resource} />
+        <input type="hidden" name="formLoadedAt" value={formLoadedAt ?? ""} />
+
+        {/* Honeypot — off-screen, not display:none, so form-filling bots
+            that check computed visibility still populate it. Real visitors
+            never see or reach it (aria-hidden, tabIndex -1, not part of the
+            tab order). */}
+        <div
+          style={{ position: "absolute", left: "-9999px", top: "auto", width: "1px", height: "1px", overflow: "hidden" }}
+          aria-hidden="true"
+        >
+          <label htmlFor={`website-${resource}`}>Website</label>
+          <input
+            id={`website-${resource}`}
+            name="website"
+            type="text"
+            tabIndex={-1}
+            autoComplete="off"
+          />
+        </div>
+
         <div>
           <label htmlFor={`fn-${resource}`} className="block text-xs uppercase tracking-editorial text-ink/60">
             First name
