@@ -25,6 +25,162 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "best-seattle-neighborhoods-remote-hybrid-workers",
+    pillar: "buying",
+    title: "Best Seattle-Area Neighborhoods for Hybrid and Remote Workers in 2026",
+    category: "Local Lifestyle",
+    date: "2026-09-21",
+    readingTime: "8 min read",
+    image: "/website-blog-hybrid-remote-neighborhoods.webp",
+    imageAlt: "Home office with natural light overlooking a quiet Seattle residential street",
+    isNew: true,
+    excerpt:
+      "When you're only commuting two or three days a week, the calculus for choosing a neighborhood changes entirely. Here's how to build a framework around your actual work pattern instead of a daily-commute assumption that no longer applies.",
+    quickAnswer:
+      "The best Seattle-area neighborhood for a hybrid or remote worker depends less on absolute commute time and more on how tolerable your worst-case commute day feels, since you're only making that trip two or three times a week rather than five. Neighborhoods that were previously ruled out for being 'too far' from downtown Seattle or a specific Eastside tech campus are often genuinely viable once you're only weighing that distance against two commute days instead of daily rush hour. The right framework starts with your actual in-office schedule, not a generic 'shortest commute' ranking.",
+    sections: [
+      {
+        heading: "Why 'Best Neighborhood' Depends on Your Actual Commute Pattern",
+        body: [
+          "Most neighborhood rankings and buyer guides are built around a five-day commute assumption that no longer reflects how a large share of Seattle-area buyers actually work. If you're in the office two or three days a week, a 45-minute door-to-door commute is a very different proposition than it was when you made that trip ten times a week — it's now two or three tolerable trips rather than a daily grind.",
+          "This changes which neighborhoods are actually competitive. A neighborhood you ruled out for being too far from your office becomes genuinely viable once the real cost is two annoying mornings a week instead of every morning. The right starting point isn't 'what's the shortest commute' — it's 'how many days a week do I actually need to make this trip, and how much does that change what I'm willing to tolerate.'",
+        ],
+      },
+      {
+        heading: "The Two-Day and Three-Day Hybrid Buyer",
+        body: [
+          "Buyers in office two days a week have the most flexibility of anyone in the market — they can prioritize home, yard, school access, and lifestyle fit almost as freely as a fully remote buyer, while still keeping a realistic outer boundary on commute distance for the days they do go in. This group is often the one most likely to overpay for a shorter commute out of habit, when their actual weekly cost of a longer one is genuinely small.",
+          "Buyers in office three or more days a week should weigh commute more heavily, since it's closer to being a majority-of-the-week reality rather than an occasional trip. The useful exercise is mapping out an actual typical week — which specific days, to which specific office — rather than reasoning from a vague 'sometimes I go in' assumption.",
+        ],
+      },
+      {
+        heading: "Neighborhoods That Work Well for Seattle-Based Hybrid Workers",
+        body: [
+          "For hybrid workers whose office is in Seattle proper — South Lake Union, downtown, or SoDo — [Queen Anne](/blog/queen-anne-seattle-neighborhood-guide) and Magnolia offer a genuinely different day-to-day experience than downtown living while still keeping the commute short enough to not matter on office days. Both trade some walkability for quiet, established residential character, which tends to matter more to hybrid workers who are home most days than to someone commuting daily.",
+          "West Seattle and North Beach are worth a second look for hybrid buyers specifically, since their historically longer commute (bridge and traffic-dependent) is a much smaller cost when it's only two or three days a week rather than a daily variable weighing on every workday.",
+        ],
+      },
+      {
+        heading: "Neighborhoods That Work Well for Eastside Tech Campuses",
+        body: [
+          "For hybrid workers whose office is on the Eastside — Bellevue, Redmond, or Kirkland — [Mercer Island](/blog/mercer-island-real-estate-guide) offers a genuine middle position: closer to Seattle's lifestyle amenities than most Eastside suburbs, while still keeping I-90 access reasonable for two or three office days a week. Kirkland itself remains strong for anyone whose office is specifically in Redmond, with waterfront lifestyle appeal that's easy to justify when you're not fighting daily traffic to get there.",
+          "Bellevue and Medina continue to make the most sense for buyers whose in-office days are non-negotiable and frequent, or who want to minimize commute variability entirely regardless of hybrid schedule.",
+        ],
+      },
+      {
+        heading: "Light Rail and the New Commute Calculus",
+        body: [
+          "The Link light rail expansion has meaningfully changed the math for hybrid buyers specifically, since it removes traffic variability from the equation for anyone within reasonable walking or park-and-ride distance of a station. The [East Link extension connects Bellevue and Redmond to downtown Seattle in roughly 30 minutes](/blog/relocating-to-seattle-guide), which is a fixed, predictable trip regardless of what day it is — a meaningfully different proposition than a car commute that can vary by 20 minutes or more depending on traffic.",
+          "For hybrid workers specifically, a fixed-time transit commute is often worth more than a shorter but unpredictable driving commute, since the two or three days a week you're actually traveling are exactly the days you can least afford an unpredictable delay.",
+        ],
+      },
+      {
+        heading: "What to Actually Test Before You Buy",
+        body: [
+          "Do the actual commute, on an actual in-office day, before you write an offer — not a Sunday-afternoon drive-by. Traffic, transit schedules, and parking availability all behave differently on a real Tuesday morning than they do at any other time, and this is the single most common mistake hybrid buyers make: assuming a commute will be fine based on a test drive that didn't reflect real conditions.",
+          "Also confirm your employer's actual in-office expectation is stable before anchoring a major purchase decision to it. Hybrid policies have shifted more than once in recent years, and a neighborhood chosen around a two-day expectation becomes a much harder trade-off if that expectation moves to four.",
+        ],
+      },
+      {
+        heading: "Common Mistakes Remote and Hybrid Buyers Make",
+        body: [
+          "Optimizing entirely for commute despite rarely commuting: buyers who are in office once or twice a month sometimes still prioritize commute distance out of old habit, sacrificing home size, yard space, or neighborhood fit for a trip they make a handful of times a year.",
+          "Underweighting home office needs: a dedicated, quiet workspace matters enormously to a buyer who's home most days, and it's frequently treated as a minor preference rather than the daily-use priority it actually is for a remote or mostly-remote buyer.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Buying for a Hybrid or Remote Work Lifestyle",
+        body: [
+          "Should I still prioritize commute if I only go into the office once a week? Only lightly. At that frequency, a longer but otherwise better-fitting neighborhood is usually the right trade — the total annual cost of a longer commute is small when it happens roughly 50 times a year instead of 250.",
+          "Does light rail access add value to a home in 2026? Yes, particularly for hybrid buyers. Neighborhoods within a reasonable distance of a Link station offer a fixed-time commute option that removes traffic unpredictability, which is valuable specifically because hybrid workers can least afford delays on the limited days they do commute.",
+          "How do I evaluate a neighborhood if my in-office schedule might change? Build in a margin. If there's real uncertainty about whether your hybrid schedule stays at two days or moves toward four, weigh commute somewhat more heavily than you would for a locked-in two-day schedule, since the cost of being wrong compounds with frequency.",
+        ],
+      },
+    ],
+    closing:
+      "The buyers who get this decision right aren't the ones who find the objectively shortest commute — they're the ones who honestly map out their actual weekly pattern and choose a neighborhood that fits the life they're actually living, not the five-day commute their parents' generation planned around.",
+    relatedServiceCta: {
+      label: "Seattle Home Buying Guidance",
+      href: "/services/luxury-home-buying",
+      text: "Weighing neighborhoods against a hybrid work schedule? Christine advises buyers across both Seattle and the Eastside and can help you think through the real trade-offs.",
+    },
+  },
+
+  {
+    slug: "first-90-days-after-buying-a-home-seattle",
+    pillar: "buying",
+    title: "The First 90 Days After Closing: A Seattle Homeowner's Settling-In Guide",
+    category: "Buyer Education",
+    date: "2026-09-17",
+    readingTime: "7 min read",
+    image: "/website-blog-first-90-days-seattle.webp",
+    imageAlt: "New homeowner unpacking boxes in a bright Seattle living room with moving boxes and natural light",
+    isNew: true,
+    excerpt:
+      "Every buyer's guide stops at closing day. Almost nothing addresses the weeks right after — the utility setup, the homeowner tasks you didn't know you had, and the small decisions that are easiest to get right in the first 90 days and hardest to fix later.",
+    quickAnswer:
+      "The first 90 days after closing on a Seattle home should focus on three things: getting utilities and essential services transferred without a gap, understanding your home's specific systems (especially in older homes — oil tank history, sewer scope follow-up, and any inspection items deferred at closing), and completing the paperwork that's easy to forget once the excitement of moving in takes over, like filing for any property tax exemptions you qualify for and updating your address across financial and government accounts. Buyers who treat this window as seriously as they treated the search itself tend to avoid the small, avoidable problems that otherwise surface six months in.",
+    sections: [
+      {
+        heading: "Week One: Utilities and Essential Services",
+        body: [
+          "Confirm electricity, water, and gas were actually transferred into your name effective closing day — a gap here is more common than buyers expect, particularly when a seller's shutoff request and your transfer request aren't perfectly coordinated. Seattle City Light and Seattle Public Utilities both allow online account transfers, but doing this before closing rather than after avoids a service interruption in your first days in the home.",
+          "Internet and cable providers in Seattle can have installation lead times of a week or more in some neighborhoods, so schedule this as early as your closing date is confirmed rather than waiting until move-in day. If you're relocating from out of state, this is also the moment to research providers specific to your new neighborhood, since availability varies block by block more than buyers expect.",
+        ],
+      },
+      {
+        heading: "Understanding Your Home's Specific Systems",
+        body: [
+          "If any [inspection items were deferred](/blog/seattle-home-buyer-guide-2026) rather than resolved at closing — a sewer scope follow-up, an oil tank decommissioning, a seismic retrofit recommendation — the first 90 days is the right window to schedule these, while the inspection report and any seller disclosures are still fresh and easy to reference. Waiting longer makes it harder to distinguish a pre-existing condition from new wear.",
+          "Locate your main water shutoff, electrical panel, and — for older Seattle homes — any evidence of a decommissioned oil tank before you need this information in an emergency. A weekend spent walking the home with the inspection report in hand is one of the highest-value uses of your first month.",
+        ],
+      },
+      {
+        heading: "Paperwork That's Easy to Forget",
+        body: [
+          "Update your address with the Washington Department of Licensing (driver's license and vehicle registration for new residents specifically have a required timeline after moving), the USPS, your bank and credit cards, and any subscriptions or memberships. This is tedious but far easier to do in one focused pass during your first month than piecemeal over the following year.",
+          "If you qualify for a property tax exemption — the senior/disabled persons exemption being the most common — confirm the filing deadline and required documentation with the county assessor early, since these programs are not applied automatically and missing a filing window can mean waiting a full additional year.",
+        ],
+      },
+      {
+        heading: "Getting to Know the Neighborhood as a Resident, Not a Buyer",
+        body: [
+          "Touring a neighborhood as a buyer and living in it are different experiences — the first 90 days is when you actually learn the garbage and recycling pickup schedule, which grocery route makes sense, and how the neighborhood feels on an ordinary Tuesday rather than during a weekend open house. This is also the natural window to introduce yourself to immediate neighbors, which matters more in Seattle's more established residential neighborhoods than buyers sometimes expect.",
+          "If you [relocated from out of state](/blog/relocating-to-seattle-guide), this period is worth being deliberate about rather than assuming it will happen naturally — join a neighborhood association or local group, and give yourself permission for the adjustment to take a few months rather than expecting it to feel like home immediately.",
+        ],
+      },
+      {
+        heading: "Budgeting for Year-One Homeowner Costs",
+        body: [
+          "First-year owners are frequently surprised by costs that don't show up on a typical closing cost worksheet: window coverings, appliances the seller didn't leave behind, minor repairs identified only after living in the home day to day, and landscaping or yard equipment if you're coming from a condo or apartment. Budgeting a reserve for these in your first year, separate from your ongoing mortgage and carrying costs, avoids the specific stress of feeling financially stretched right after what was already a major purchase.",
+        ],
+      },
+      {
+        heading: "Common Mistakes New Seattle Homeowners Make",
+        body: [
+          "Letting deferred inspection items become permanently deferred: an item that felt manageable to schedule 'later' at closing is easy to forget entirely once you're settled — put a specific date on it during your first 90 days rather than an open-ended intention.",
+          "Missing exemption or filing deadlines because they weren't top of mind during the move: property tax exemptions, HOA new-owner paperwork, and similar administrative items have real deadlines that don't extend themselves for a busy move-in period.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Settling Into a New Seattle Home",
+        body: [
+          "How soon after closing should I schedule follow-up on deferred inspection items? Within the first 90 days if possible, while the inspection report and seller disclosures are still fresh and any warranties on recent work are still active. Waiting longer makes it harder to sort out what's pre-existing versus new.",
+          "Do I need to do anything special as an out-of-state buyer moving to Washington? Yes — Washington requires new residents to obtain a Washington driver's license and register vehicles within a specific window after establishing residency. This is easy to overlook amid a move and is worth handling early rather than as an afterthought.",
+          "What's the most common thing new Seattle homeowners forget in their first few months? Property tax exemption filings and HOA new-owner paperwork are the two most commonly missed items, since neither happens automatically and both carry real deadlines that a busy move-in period makes easy to lose track of.",
+        ],
+      },
+    ],
+    closing:
+      "The best buyer's guide doesn't end at the closing table — it's the one that helps you get the first few months right, so the home that took so much work to find doesn't come with avoidable surprises in year one.",
+    relatedServiceCta: {
+      label: "Seattle Home Buying Guidance",
+      href: "/services/luxury-home-buying",
+      text: "Just closed on a home, or about to? Christine's guidance doesn't stop at closing day — reach out anytime with questions as you settle in.",
+    },
+  },
+
+  {
     slug: "seattle-property-tax-carrying-costs-guide",
     pillar: "buying",
     title: "How Much Is Property Tax in Seattle? A Neighborhood-by-Neighborhood Carrying Cost Guide for 2026",
@@ -33,7 +189,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-property-tax-seattle.webp",
     imageAlt: "Seattle residential street with a mix of craftsman and modern homes under a soft afternoon sky",
-    isNew: true,
     excerpt:
       "Most buyers budget for a mortgage payment and stop there. Property tax is often the single largest ongoing cost after the mortgage itself — and it varies meaningfully by neighborhood, taxing district, and school levy. Here's how to actually budget for it before you buy.",
     quickAnswer:
@@ -115,7 +270,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-tenant-occupied-sale.webp",
     imageAlt: "Seattle rental duplex exterior with for-sale sign visible near the front walkway",
-    isNew: true,
     excerpt:
       "Selling a rental property with a tenant currently living in it is a genuinely different process than selling a vacant home — different buyer pool, different legal notice requirements, and different timing considerations. Here's how to navigate it without disrupting your tenant or your sale.",
     quickAnswer:
@@ -2690,7 +2844,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Step Six: Financing and Closing",
         body: [
           "Once inspection is complete and any repair negotiations are resolved, the financing process moves to appraisal and underwriting. The appraisal establishes the lender's opinion of value — if the appraisal comes in below the purchase price, buyer and seller must negotiate how to handle the gap. Typical timelines from accepted offer to closing are 30 to 45 days for conventional financing.",
-          "The final step is closing — conducted by an escrow company in Washington State. You will review and sign the closing documents, transfer the down payment and closing costs via wire transfer, and receive the keys. Washington is a non-attorney state for real estate closings — title and escrow companies handle the closing process without requiring a closing attorney.",
+          "The final step is closing — conducted by an escrow company in Washington State. You will review and sign the closing documents, transfer the down payment and closing costs via wire transfer, and receive the keys. Washington is a non-attorney state for real estate closings — title and escrow companies handle the closing process without requiring a closing attorney. Closing day isn't the end of the process, either — [the first 90 days in the home](/blog/first-90-days-after-buying-a-home-seattle) come with their own checklist worth planning for in advance.",
         ],
       },
       {
