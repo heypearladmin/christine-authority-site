@@ -25,6 +25,168 @@ export const blogPosts: BlogPost[] = [
   // ─── NEW BLOGS (newest first) ───────────────────────────────────────────────
 
   {
+    slug: "seattle-renovation-roi-before-you-sell",
+    pillar: "selling",
+    title: "Which Renovations Actually Pay Off Before You Sell in Seattle?",
+    category: "Selling Strategy",
+    date: "2026-09-28",
+    readingTime: "7 min read",
+    image: "/blog-staging-luxury.webp",
+    imageAlt: "Luxury Seattle living room with skyline view",
+    isNew: true,
+    excerpt:
+      "Every seller wants to know which upgrades are worth doing before listing. The honest answer is that most renovations don't return their full cost at resale — but a handful of specific, moderate changes reliably move buyer perception and offers more than anything else you could spend on.",
+    quickAnswer:
+      "Cosmetic, move-in-ready improvements — fresh paint, updated lighting, refinished floors, and decluttering-adjacent fixes — tend to influence buyer perception and offers far more than their cost would suggest, while major structural renovations rarely return their full cost at resale and are usually only worth doing if they're needed for function, safety, or to avoid a much larger price concession during negotiation. Kitchens and bathrooms are the two rooms where moderate, tasteful updates most reliably move buyer perception, but a full gut renovation right before listing is rarely the right call — the returns diminish sharply past a certain point, and a buyer often would have paid nearly as much for a well-priced, well-presented home with an older but clean kitchen.",
+    sections: [
+      {
+        heading: "Why 'Fix Everything' Is the Wrong Instinct",
+        body: [
+          "Sellers preparing to list often default to fixing every visible flaw, reasoning that a more finished home will command a higher price. The reality is more specific: some fixes move the needle substantially, many barely register with buyers, and a few can actually work against you by triggering questions about what else might have been touched without a permit.",
+          "The right framework isn't 'what would I want if I were staying' — it's 'what will a buyer notice in the first ninety seconds of a showing, and what will an inspector flag regardless of how the home looks.' Those two categories deserve almost all of your pre-listing budget.",
+        ],
+      },
+      {
+        heading: "Kitchen Updates: Where the Money Actually Goes",
+        body: [
+          "A full kitchen gut-and-remodel is rarely worth doing immediately before a sale — the cost is high, the timeline is long, and buyers rarely pay a premium that fully matches what a high-end remodel actually costs. What consistently does move perception: updated cabinet hardware, a fresh coat of paint on dated cabinetry rather than full replacement, updated lighting fixtures, and removing any visible wear on countertops or appliances.",
+          "If the kitchen is genuinely outdated rather than simply tired, a partial refresh — new hardware, paint, and lighting — often closes most of the perception gap at a fraction of a full remodel's cost, and is the better move for most sellers weighing a listing timeline.",
+        ],
+      },
+      {
+        heading: "Bathrooms: Small Changes, Real Impact",
+        body: [
+          "Bathrooms respond disproportionately well to modest updates: re-grouting or re-caulking, updating an outdated vanity or mirror, fresh paint, and new fixtures read as meaningfully more updated than their actual cost. A full bathroom remodel, similar to kitchens, is rarely worth the investment immediately before listing unless the existing bathroom has real functional problems.",
+          "Buyers tend to forgive a dated bathroom far more readily than a dirty or poorly maintained one — cleanliness and obvious care read as more valuable than an actual renovation in most cases.",
+        ],
+      },
+      {
+        heading: "Roof, Systems, and the Repairs Buyers Notice Anyway",
+        body: [
+          "Unlike cosmetic updates, deferred maintenance on the roof, furnace, water heater, or electrical panel tends to surface during a buyer's own inspection regardless of how the home shows — and it's almost always better to address these before listing than to negotiate them after an accepted offer, when buyers have more leverage and less trust in the transaction.",
+          "These repairs rarely add value beyond what a home should already have — they're closer to removing a future negotiation point than adding a premium, but that's exactly why they belong at the top of a pre-listing priority list rather than the bottom.",
+        ],
+      },
+      {
+        heading: "What Almost Never Pays Back at Resale",
+        body: [
+          "Highly personalized upgrades — unusual paint colors, elaborate built-ins matched to a specific taste, luxury finishes far above the neighborhood's price ceiling — rarely return their cost, since they narrow rather than widen your buyer pool. Swimming pools in Seattle's climate are a similarly weak resale investment relative to their cost, appealing to a smaller share of buyers than in warmer markets.",
+          "Full basement or attic conversions done purely to add square footage right before a sale are also a weak bet on a compressed timeline — the return depends heavily on execution quality and permitting, and a rushed version often reads as exactly that to a buyer's inspector.",
+        ],
+      },
+      {
+        heading: "ADUs and Additions: A Different Calculation",
+        body: [
+          "An ADU is a genuinely different category from cosmetic pre-listing work — [it's a long-term investment decision](/blog/adus-and-investment-properties-seattle-2026) rather than a quick pre-sale fix, and it rarely makes sense to build one solely to sell shortly after. If you already have one, it's a real selling point worth marketing clearly rather than an afterthought in the listing description.",
+        ],
+      },
+      {
+        heading: "Common Mistakes Sellers Make With Renovation Decisions",
+        body: [
+          "Over-improving right before listing: a full remodel undertaken purely to sell rarely returns its full cost, and the timeline risk of a botched or rushed renovation can cost you more in a delayed listing than the upgrade would have added.",
+          "Ignoring function in favor of appearance: a beautifully staged home with a leaking roof or an aging furnace will still lose the negotiation once an inspector finds it — cosmetic work should never substitute for addressing known functional issues.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Pre-Listing Renovations in Seattle",
+        body: [
+          "Should I remodel my kitchen before selling? Usually not fully. A partial refresh — paint, hardware, lighting — closes most of the perception gap at a fraction of the cost and timeline of a full remodel, and is the better move for most sellers.",
+          "Is it worth fixing everything an inspector might find before I list? For safety and major-systems items, generally yes — these surface anyway and are better addressed on your own timeline than negotiated after an accepted offer. For minor cosmetic items, focus only on what a buyer will actually notice during a showing.",
+          "Does a fresh coat of paint really make a measurable difference? Yes — it's consistently one of the highest-return, lowest-cost changes a seller can make, since it affects a buyer's very first impression of how well-maintained the entire home feels.",
+        ],
+      },
+    ],
+    closing:
+      "The sellers who get the most out of their pre-listing budget aren't the ones who fix everything — they're the ones who fix what buyers actually notice and what inspectors will find regardless, and leave the rest to a fair, well-supported asking price.",
+    relatedServiceCta: {
+      label: "Seattle Home Selling Guidance",
+      href: "/services/luxury-home-selling",
+      text: "Not sure which pre-listing improvements are worth your budget? Christine can walk your specific home and tell you exactly where to focus before you spend a dollar.",
+    },
+  },
+
+  {
+    slug: "mortgage-rate-buydowns-seattle-buyers",
+    pillar: "buying",
+    title: "Mortgage Rate Buydowns and Rate Locks: What Seattle Buyers Should Actually Understand",
+    category: "Financial Guide",
+    date: "2026-09-24",
+    readingTime: "7 min read",
+    image: "/website-blog-buy-budget-seattle.webp",
+    imageAlt: "Seattle neighborhood street with luxury homes and tree-lined sidewalk in late afternoon light",
+    isNew: true,
+    excerpt:
+      "In a market where sellers are more willing to offer concessions, mortgage rate buydowns have become a real negotiating lever — but most buyers don't understand the difference between a temporary buydown, a permanent one, and a rate lock until they're already deep in a transaction.",
+    quickAnswer:
+      "A temporary mortgage rate buydown — commonly structured as a 2-1, reducing your rate by two percentage points in year one and one point in year two before reverting to the note rate — is often offered as a seller or builder concession, while a permanent buydown means paying points upfront to lower your rate for the entire loan term, which only pays off if you hold the loan long enough to recoup that upfront cost. A rate lock protects your quoted rate for a defined window before closing, and a float-down option, where available, lets you capture a lower rate if the market improves before you close — both worth understanding and asking about before you're already under contract and negotiating from a weaker position.",
+    sections: [
+      {
+        heading: "What a Mortgage Rate Buydown Actually Does",
+        body: [
+          "A rate buydown lowers your effective interest rate, either temporarily or permanently, by paying money upfront — either as points paid by you, or as a concession funded by the seller or builder. The mechanics differ meaningfully depending on which type you're offered, and the two are frequently confused in casual conversation despite serving very different purposes.",
+        ],
+      },
+      {
+        heading: "Temporary Buydowns: 2-1 and 3-2-1 Structures",
+        body: [
+          "A 2-1 buydown reduces your rate by two percentage points in the first year and one percentage point in the second year, before reverting to the original note rate for the remainder of the loan. A 3-2-1 structure extends this over three years with a larger initial reduction. These are typically funded by a lump sum placed in an escrow account at closing, which is drawn down each month to subsidize your lower payment.",
+          "This structure makes the most sense for buyers who expect their income to grow, or who are betting on refinancing before the reduced-rate period ends — if neither is true, you're simply deferring your true payment rather than reducing it.",
+        ],
+      },
+      {
+        heading: "Permanent Buydowns: Paying Points for the Life of the Loan",
+        body: [
+          "A permanent buydown means paying discount points upfront to lower your interest rate for the entire term of the loan, rather than just the first year or two. The math here depends entirely on your break-even point — how long it takes the monthly savings to recoup the upfront cost — measured against how long you actually expect to hold the loan.",
+          "Buyers who plan to stay in a home for a long time benefit more from a permanent buydown than buyers who expect to move or refinance within a few years, since the upfront cost needs time to pay for itself.",
+        ],
+      },
+      {
+        heading: "Who Typically Pays for a Buydown — And When Sellers Offer One",
+        body: [
+          "In a market where sellers are more willing to negotiate, a temporary rate buydown has become a common concession — sellers fund it in lieu of a price reduction, which can be more valuable to a buyer than the equivalent cash off the purchase price, since it directly reduces monthly payments during the years they may be most budget-sensitive.",
+          "This is worth raising specifically in your own offer negotiation rather than assuming it's off the table — a seller-funded buydown is often easier for a seller to agree to than an outright price cut, since it doesn't affect the recorded sale price.",
+        ],
+      },
+      {
+        heading: "Rate Locks and Float-Down Options",
+        body: [
+          "A rate lock guarantees your quoted interest rate for a defined window — commonly 30 to 60 days — protecting you from rate movement while your loan moves through underwriting to closing. Locking too early risks the lock expiring before closing; locking too late risks rate movement working against you during a critical window.",
+          "Some lenders offer a float-down option, allowing you to capture a lower rate if the market improves after you lock but before you close, typically for an additional fee or built into specific loan products. Ask your lender directly whether this is available — it is not automatic or universal, and it's easy to assume you have this protection when you don't.",
+        ],
+      },
+      {
+        heading: "Running the Real Math Before You Choose a Buydown",
+        body: [
+          "Before accepting any buydown structure — whether self-funded or offered as a concession — ask your lender for the actual break-even calculation: how much the buydown costs, how much it saves monthly, and at what point those savings exceed the upfront cost. This calculation should factor in your realistic plans to stay in the home, not just the most optimistic scenario.",
+          "For a seller-funded temporary buydown specifically, also compare it directly against an equivalent price reduction — in some cases the price reduction is actually the better deal once you account for how the buydown funds are structured, and a good lender should be willing to run both scenarios for you.",
+        ],
+      },
+      {
+        heading: "Common Mistakes Buyers Make With Buydowns and Locks",
+        body: [
+          "Assuming a temporary buydown solves an affordability problem rather than defers it: if your income won't realistically grow enough to absorb the reverted rate, a 2-1 buydown is postponing a payment shock rather than preventing one.",
+          "Not asking about float-down availability before locking: buyers who lock without asking sometimes assume they're protected against a rate drop when their specific loan product doesn't include that option.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About Rate Buydowns and Locks",
+        body: [
+          "Is a seller-paid rate buydown better than a price reduction? It depends on your specific numbers — a buydown reduces your payment during the early years of the loan, while a price reduction lowers your overall loan amount permanently. Ask your lender to model both against the same seller concession amount before deciding which to request.",
+          "How long can I lock my mortgage rate? Typical rate locks run 30 to 60 days, though longer options exist for a fee, particularly useful for new construction with a longer closing timeline. Confirm your specific lock window aligns with your realistic closing date with margin to spare.",
+          "Do all lenders offer a float-down option? No — this varies by lender and loan product and is not automatic. Ask specifically whether it's available and what it costs before assuming you have this protection.",
+        ],
+      },
+    ],
+    closing:
+      "The buyers who navigate financing well aren't the ones who take whatever structure is offered — they're the ones who ask their lender to run the real numbers on every option, and who negotiate a rate buydown into their offer the same way they'd negotiate anything else.",
+    relatedServiceCta: {
+      label: "Seattle Home Buying Guidance",
+      href: "/services/luxury-home-buying",
+      text: "Working through financing strategy alongside your home search? Christine works closely with trusted local lenders and can help you think through every option before you're under contract.",
+    },
+  },
+
+  {
     slug: "best-seattle-neighborhoods-remote-hybrid-workers",
     pillar: "buying",
     title: "Best Seattle-Area Neighborhoods for Hybrid and Remote Workers in 2026",
@@ -33,7 +195,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "8 min read",
     image: "/website-blog-hybrid-remote-neighborhoods.webp",
     imageAlt: "Home office with natural light overlooking a quiet Seattle residential street",
-    isNew: true,
     excerpt:
       "When you're only commuting two or three days a week, the calculus for choosing a neighborhood changes entirely. Here's how to build a framework around your actual work pattern instead of a daily-commute assumption that no longer applies.",
     quickAnswer:
@@ -115,7 +276,6 @@ export const blogPosts: BlogPost[] = [
     readingTime: "7 min read",
     image: "/website-blog-first-90-days-seattle.webp",
     imageAlt: "New homeowner unpacking boxes in a bright Seattle living room with moving boxes and natural light",
-    isNew: true,
     excerpt:
       "Every buyer's guide stops at closing day. Almost nothing addresses the weeks right after — the utility setup, the homeowner tasks you didn't know you had, and the small decisions that are easiest to get right in the first 90 days and hardest to fix later.",
     quickAnswer:
@@ -528,7 +688,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Step Two: Decide What to Fix — and What to Leave Alone",
         body: [
           "Not every repair pays for itself at resale. Cosmetic issues that create a negative first impression — dated paint colors, worn carpet, cluttered rooms — are almost always worth addressing before listing. Structural or systems issues uncovered by a pre-listing inspection are worth fixing or disclosing clearly, since buyers will find them during their own inspection regardless.",
-          "The mistake sellers make most often is either doing too little, leaving obvious flaws for buyers to negotiate against, or over-improving with renovations that won't be recouped in the sale price. A pre-listing consultation should give you a clear, prioritized list based on what actually moves value in your specific price tier and neighborhood.",
+          "The mistake sellers make most often is either doing too little, leaving obvious flaws for buyers to negotiate against, or [over-improving with renovations that won't be recouped](/blog/seattle-renovation-roi-before-you-sell) in the sale price. A pre-listing consultation should give you a clear, prioritized list based on what actually moves value in your specific price tier and neighborhood.",
         ],
       },
       {
@@ -2809,7 +2969,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Step One: Get Pre-Approved — Not Pre-Qualified",
         body: [
           "Pre-approval and pre-qualification are different. Pre-qualification is a self-reported estimate of what you might be able to borrow. Pre-approval is a verified assessment — the lender has reviewed your income documents, tax returns, credit report, and assets — and commits to lending up to a specific amount. In Seattle's market, sellers will not take an offer seriously without a full pre-approval letter.",
-          "Use a local lender who is familiar with Washington State's specific requirements and who has a track record with Seattle-area transactions. National lenders and online platforms can be slower to respond and less able to offer the relationship-based flexibility that occasionally matters in competitive offer situations.",
+          "Use a local lender who is familiar with Washington State's specific requirements and who has a track record with Seattle-area transactions. National lenders and online platforms can be slower to respond and less able to offer the relationship-based flexibility that occasionally matters in competitive offer situations — including [structuring a rate buydown](/blog/mortgage-rate-buydowns-seattle-buyers) if the opportunity comes up during negotiation.",
         ],
       },
       {
